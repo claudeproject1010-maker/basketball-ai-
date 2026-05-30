@@ -29,7 +29,10 @@ jobs:
           python scripts/collect_fixtures.py
         env:
           API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
-
+      - name: Generate predictions
+        run: |
+         python scripts/generate_predictions.py
+    
       - name: Upload generated file
         run: |
           git config user.name github-actions
