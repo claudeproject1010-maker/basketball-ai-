@@ -5468,9 +5468,9 @@
       "week": "LNB - Quarter-finals",
       "venue": "LDLC Arena",
       "status": {
-        "long": "Over Time ",
-        "short": "OT",
-        "timer": "10"
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
       },
       "league": {
         "id": 2,
@@ -5512,7 +5512,7 @@
           "quarter_3": 16,
           "quarter_4": 19,
           "over_time": null,
-          "total": 78
+          "total": 80
         }
       }
     },
