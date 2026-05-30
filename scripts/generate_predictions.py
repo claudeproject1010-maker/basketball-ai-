@@ -4,89 +4,108 @@ with open(
     "data/fixtures.json",
     "r"
 ) as f:
-
     fixtures = json.load(f)
 
 predictions = []
 
-for game in fixtures.get(
-    "response",
-    []
-):
+for game in fixtures.get("response", []):
 
-    try:
-
-        home = game["teams"]["home"]["name"]
-        away = game["teams"]["away"]["name"]
-
-        home_score = (
-    game.get("scores", {})
+    home = (
+        game.get("teams", {})
         .get("home", {})
-        .get("total", 0)
-)
+        .get("name", "Unknown")
+    )
 
-away_score = (
-    game.get("scores", {})
+    away = (
+        game.get("teams", {})
         .get("away", {})
-        .get("total", 0)
-)
+        .get("name", "Unknown")
+    )
 
-actual_total = (
-    home_score +
-    away_score
-)
+    home_score = (
+        game.get("scores", {})
+        .get("home", {})
+        .get("total")
+    )
 
-predicted_total = max(
-    140,
-    actual_total
-)
+    away_score = (
+        game.get("scores", {})
+        .get("away", {})
+        .get("total")
+    )
 
-market_total = (
-    predicted_total - 4
-)
+    if home_score is None:
+        home_score = 75
 
-over_probability = min(
-    0.80,
-    predicted_total / 300
-)
+    if away_score is None:
+        away_score = 75
 
-predictions.append({
+    actual_total = (
+        home_score +
+        away_score
+    )
 
-    "league":
-    game["league"]["name"],
+    predicted_total = max(
+        140,
+        actual_total
+    )
 
-    "game":
-    away + " vs " + home,
+    market_total = (
+        predicted_total - 4
+    )
 
-    "predicted_total":
-    round(
-        predicted_total,
-        1
-    ),
+    over_probability = min(
+        0.80,
+        predicted_total / 300
+    )
 
-    "market_total":
-    round(
-        market_total,
-        1
-    ),
-
-    "over_probability":
-    round(
-        over_probability,
-        2
-    ),
-
-    "confidence":
-    (
+    confidence = (
         "HIGH"
-        if over_probability > 0.65
+        if over_probability >= 0.65
         else "MEDIUM"
     )
 
-})
+    predictions.append({
 
-    except:
-        continue
+        "league":
+        game.get(
+            "league",
+            {}
+        ).get(
+            "name",
+            "Unknown"
+        ),
+
+        "game":
+        f"{away} vs {home}",
+
+        "predicted_total":
+        round(
+            predicted_total,
+            1
+        ),
+
+        "market_total":
+        round(
+            market_total,
+            1
+        ),
+
+        "over_probability":
+        round(
+            over_probability,
+            2
+        ),
+
+        "confidence":
+        confidence
+
+    })
+
+output = {
+    "predictions":
+    predictions
+}
 
 with open(
     "data/predictions.json",
@@ -94,14 +113,11 @@ with open(
 ) as f:
 
     json.dump(
-        {
-            "predictions":
-            predictions
-        },
+        output,
         f,
         indent=2
     )
 
 print(
-    "predictions generated"
+    f"generated {len(predictions)} predictions"
 )
