@@ -1,4 +1,5 @@
 import json
+from collections import defaultdict
 
 LEAGUE_BASELINES = {
 
@@ -6,8 +7,7 @@ LEAGUE_BASELINES = {
     "WNBA": 164,
     "Euroleague": 164,
     "NBL": 184,
-    "BSN": 178,
-    "Liga A": 170
+    "BSN": 178
 
 }
 
@@ -20,217 +20,245 @@ with open(
 
     fixtures = json.load(f)
 
-predictions = []
-
-for game in fixtures.get(
+games = fixtures.get(
     "response",
     []
-):
+)
 
-    league = (
-        game.get(
-            "league",
-            {}
+team_history = defaultdict(list)
+
+for game in games:
+
+    try:
+
+        home = (
+            game["teams"]["home"]["name"]
         )
-        .get(
-            "name",
-            "Unknown"
+
+        away = (
+            game["teams"]["away"]["name"]
         )
-    )
 
-    baseline = (
-        LEAGUE_BASELINES
-        .get(
-            league,
-            DEFAULT_BASELINE
+        hs = (
+            game["scores"]["home"]["total"]
+            or 80
         )
-    )
 
-    home = (
-        game.get(
-            "teams",
-            {}
+        aw = (
+            game["scores"]["away"]["total"]
+            or 80
         )
-        .get(
-            "home",
-            {}
+
+        total = hs + aw
+
+        team_history[
+            home
+        ].append(
+            total
         )
-        .get(
-            "name",
-            "Unknown"
+
+        team_history[
+            away
+        ].append(
+            total
         )
-    )
 
-    away = (
-        game.get(
-            "teams",
-            {}
+    except:
+        pass
+
+predictions = []
+
+for game in games:
+
+    try:
+
+        league = (
+            game["league"]["name"]
         )
-        .get(
-            "away",
-            {}
+
+        baseline = (
+            LEAGUE_BASELINES
+            .get(
+                league,
+                DEFAULT_BASELINE
+            )
         )
-        .get(
-            "name",
-            "Unknown"
+
+        home = (
+            game["teams"]["home"]["name"]
         )
-    )
 
-    home_score = (
-        game.get(
-            "scores",
-            {}
+        away = (
+            game["teams"]["away"]["name"]
         )
-        .get(
-            "home",
-            {}
-        )
-        .get(
-            "total"
-        )
-        or 80
-    )
 
-    away_score = (
-        game.get(
-            "scores",
-            {}
-        )
-        .get(
-            "away",
-            {}
-        )
-        .get(
-            "total"
-        )
-        or 80
-    )
+        home_avg = (
 
-    recent_total = (
-        home_score +
-        away_score
-    )
+            sum(
+                team_history[home][-5:]
+            )
 
-    predicted_total = (
-
-        0.70
-        *
-        recent_total
-
-        +
-
-        0.30
-        *
-        baseline
-
-    )
-
-    market_total = (
-        baseline - 3
-    )
-
-    edge = (
-        predicted_total
-        -
-        market_total
-    )
-
-    over_probability = min(
-
-        0.92,
-
-        max(
-
-            0.40,
-
-            0.50 +
-
-            edge
             /
-            40
+
+            max(
+                1,
+                len(
+                    team_history[
+                        home
+                    ][-5:]
+                )
+            )
 
         )
 
-    )
+        away_avg = (
 
-    if over_probability >= 0.75:
-        confidence = "HIGH"
+            sum(
+                team_history[away][-5:]
+            )
 
-    elif over_probability >= 0.60:
-        confidence = "MEDIUM"
+            /
 
-    else:
-        confidence = "LOW"
+            max(
+                1,
+                len(
+                    team_history[
+                        away
+                    ][-5:]
+                )
+            )
 
-    predictions.append({
+        )
 
-        "league": league,
+        recent_total = (
 
-        "game":
-        f"{away} vs {home}",
+            home_avg
+            +
+            away_avg
 
-        "baseline":
-        baseline,
+        ) / 2
 
-        "recent_total":
-        recent_total,
+        predicted_total = (
 
-        "predicted_total":
-        round(
-            predicted_total,
-            1
-        ),
+            0.50
+            *
+            recent_total
 
-        "market_total":
-        round(
-            market_total,
-            1
-        ),
+            +
 
-        "edge":
-        round(
-            edge,
-            1
-        ),
+            0.50
+            *
+            baseline
 
-        "over_probability":
-        round(
-            over_probability,
-            2
-        ),
+        )
 
-        "confidence":
-        confidence
+        market_total = (
+            baseline
+            -
+            3
+        )
 
-    })
+        edge = (
+            predicted_total
+            -
+            market_total
+        )
+
+        probability = min(
+
+            0.92,
+
+            max(
+
+                0.40,
+
+                0.50
+                +
+                edge
+                /
+                50
+
+            )
+
+        )
+
+        predictions.append({
+
+            "league":
+            league,
+
+            "game":
+            f"{away} vs {home}",
+
+            "baseline":
+            baseline,
+
+            "recent_form":
+            round(
+                recent_total,
+                1
+            ),
+
+            "predicted_total":
+            round(
+                predicted_total,
+                1
+            ),
+
+            "market_total":
+            round(
+                market_total,
+                1
+            ),
+
+            "edge":
+            round(
+                edge,
+                1
+            ),
+
+            "over_probability":
+            round(
+                probability,
+                2
+            ),
+
+            "confidence":
+
+            (
+                "HIGH"
+
+                if probability
+                >= 0.75
+
+                else
+
+                "MEDIUM"
+
+            )
+
+        })
+
+    except:
+        pass
 
 predictions = sorted(
 
     predictions,
 
     key=lambda x:
-
     (
-        x["over_probability"],
-        x["edge"]
-
+        x[
+            "over_probability"
+        ],
+        x[
+            "edge"
+        ]
     ),
 
     reverse=True
 
 )
-
-output = {
-
-    "generated":
-    len(
-        predictions
-    ),
-
-    "top_predictions":
-    predictions[:30]
-
-}
 
 with open(
     "data/predictions.json",
@@ -238,11 +266,27 @@ with open(
 ) as f:
 
     json.dump(
-        output,
+
+        {
+
+            "generated":
+            len(
+                predictions
+            ),
+
+            "top_predictions":
+            predictions[
+                :30
+            ]
+
+        },
+
         f,
+
         indent=2
+
     )
 
 print(
-    "league model complete"
+    "recent-form model complete"
 )
