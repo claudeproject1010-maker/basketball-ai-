@@ -1,273 +1,160 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <title>Basketball AI</title>
 
 <style>
-
 body{
-background:#080808;
+background:#050505;
 color:white;
-font-family:Arial,sans-serif;
-max-width:1400px;
-margin:auto;
-padding:30px;
+font-family:Arial;
+padding:40px;
 }
 
 h1{
-margin-bottom:8px;
+font-size:60px;
+margin-bottom:10px;
 }
 
 .subtitle{
-opacity:.7;
-margin-bottom:30px;
-}
-
-.grid{
-display:grid;
-grid-template-columns:
-repeat(
-auto-fit,
-minmax(360px,1fr)
-);
-gap:18px;
+color:#aaa;
+margin-bottom:40px;
 }
 
 .card{
-background:#171717;
-padding:20px;
-border-radius:14px;
+background:#111;
+padding:25px;
+margin-bottom:20px;
+border-radius:18px;
 }
 
-.game{
-font-size:26px;
+.match{
+font-size:36px;
 font-weight:bold;
-margin-bottom:14px;
+margin-bottom:20px;
 }
 
-.line{
-margin-bottom:6px;
+.value{
+margin:8px 0;
+font-size:24px;
 }
 
 .high{
 color:#00ff88;
+font-weight:bold;
 }
 
 .medium{
-color:#ffb300;
+color:#ffaa00;
+font-weight:bold;
 }
 
 .low{
-color:#ff5555;
+color:#ff4444;
+font-weight:bold;
 }
-
 </style>
-
 </head>
 
 <body>
 
-<h1>
-🏀 Basketball AI
-</h1>
+<h1>🏀 Basketball AI</h1>
+<div class="subtitle">Top 30 OVER predictions</div>
 
-<div class="subtitle">
-Top 30 OVER predictions
-</div>
-
-<div
-id="results"
-class="grid"
->
-
-Loading predictions…
-
-</div>
+<div id="app"></div>
 
 <script>
 
-fetch(
-"./data/predictions.json"
-)
+async function load(){
 
-.then(
-r=>r.json()
-)
+const res=
+await fetch("./data/predictions.json")
 
-.then(
+const data=
+await res.json()
 
-data=>{
+const predictions =
+data.top_predictions || []
 
-const predictions=
+const app =
+document.getElementById("app")
 
-data.top_predictions
+app.innerHTML=""
 
-||
-
-data.predictions
-
-||
-
-[];
-
-const root=
-
-document.getElementById(
-"results"
-);
-
-root.innerHTML="";
-
-if(
-predictions.length===0
-){
-
-root.innerHTML=
-
-"<h3>No predictions available</h3>";
-
-return;
-
-}
-
-predictions.forEach(
-
-p=>{
-
-const card=
-
-document.createElement(
-"div"
-);
-
-card.className=
-"card";
-
-let confidenceClass=
-"low";
-
-if(
-p.confidence==="HIGH"
-)
-
-confidenceClass=
-"high";
-
-if(
-p.confidence==="MEDIUM"
-)
-
-confidenceClass=
-"medium";
+predictions.forEach(p=>{
 
 const probability=
+Math.round(
+(p.over_probability || 0)*100
+)
 
-typeof p.over_probability
-==="number"
+const edge=
+(
+p.predicted_total-
+p.market_total
+).toFixed(1)
 
-?
+app.innerHTML+=`
 
-(p.over_probability*100)
-.toFixed(0)
+<div class="card">
 
-:
-
-"--";
-
-card.innerHTML=
-
-`
-
-<div class="game">
-
-${p.game||"Unknown Match"}
-
+<div class="match">
+${p.game}
 </div>
 
-<div class="line">
-
+<div class="value">
 League:
-${p.league||"--"}
-
+${p.league}
 </div>
 
-<div class="line">
-
+<div class="value">
 Expected:
-${p.predicted_total??"--"}
-
+${p.predicted_total}
 </div>
 
-<div class="line">
-
+<div class="value">
 Market:
-${p.market_total??"--"}
-
+${p.market_total}
 </div>
 
-<div class="line">
-
+<div class="value">
 Edge:
-${p.edge??"--"}
-
+${edge}
 </div>
 
-<div class="line">
-
+<div class="value">
 Probability:
 ${probability}%
-
 </div>
 
-<div
-class="${confidenceClass}"
->
+<div class="value">
 
 Confidence:
 
-${p.confidence||"--"}
+<span class="
+${p.confidence.toLowerCase()}
+">
+
+${p.confidence}
+
+</span>
 
 </div>
 
-`;
+</div>
 
-root.appendChild(
-card
-);
+`
 
-}
-
-)
+})
 
 }
 
-)
-
-.catch(
-
-e=>{
-
-document
-.getElementById(
-"results"
-)
-
-.innerHTML=
-
-"Error loading predictions";
-
-console.log(e);
-
-}
-
-)
+load()
 
 </script>
 
 </body>
-
 </html>
