@@ -1,296 +1,117 @@
 import json
-from collections import defaultdict
 
-LEAGUE_BASELINES = {
 
-    "NBA": 228,
-    "WNBA": 164,
-    "Euroleague": 164,
-    "NBL": 184,
-    "BSN": 178
+def confidence(prob):
+    if prob >= 0.70:
+        return "HIGH"
+    elif prob >= 0.60:
+        return "MEDIUM"
+    return "LOW"
 
-}
 
-DEFAULT_BASELINE = 170
-
-with open(
-    "data/fixtures.json",
-    "r"
-) as f:
-
+with open("data/fixtures.json", "r", encoding="utf-8") as f:
     fixtures = json.load(f)
 
-games = fixtures.get(
-    "response",
-    []
-)
-
-team_history = defaultdict(list)
-
-for game in games:
-
-    try:
-
-        home = (
-            game["teams"]["home"]["name"]
-        )
-
-        away = (
-            game["teams"]["away"]["name"]
-        )
-
-        hs = (
-            game["scores"]["home"]["total"]
-            or 80
-        )
-
-        aw = (
-            game["scores"]["away"]["total"]
-            or 80
-        )
-
-        total = hs + aw
-
-        team_history[
-            home
-        ].append(
-            total
-        )
-
-        team_history[
-            away
-        ].append(
-            total
-        )
-
-    except:
-        pass
+games = fixtures.get("response", [])
 
 predictions = []
 
-for game in games:
+for game in games[:300]:
 
     try:
+        home = game["scores"]["home"]["total"]
+        away = game["scores"]["away"]["total"]
 
-        league = (
-            game["league"]["name"]
+        if home is None:
+            home = 95
+
+        if away is None:
+            away = 95
+
+        market_total = home + away
+
+        expected_total = round(
+            market_total * 1.05
         )
 
-        baseline = (
-            LEAGUE_BASELINES
-            .get(
-                league,
-                DEFAULT_BASELINE
-            )
-        )
+        edge = expected_total - market_total
 
-        home = (
-            game["teams"]["home"]["name"]
-        )
-
-        away = (
-            game["teams"]["away"]["name"]
-        )
-
-        home_avg = (
-
-            sum(
-                team_history[home][-5:]
-            )
-
-            /
-
-            max(
-                1,
-                len(
-                    team_history[
-                        home
-                    ][-5:]
-                )
-            )
-
-        )
-
-        away_avg = (
-
-            sum(
-                team_history[away][-5:]
-            )
-
-            /
-
-            max(
-                1,
-                len(
-                    team_history[
-                        away
-                    ][-5:]
-                )
-            )
-
-        )
-
-        recent_total = (
-
-            home_avg
-            +
-            away_avg
-
-        ) / 2
-
-        predicted_total = (
-
-            0.50
-            *
-            recent_total
-
-            +
-
-            0.50
-            *
-            baseline
-
-        )
-
-        market_total = (
-            baseline
-            -
-            3
-        )
-
-        edge = (
-            predicted_total
-            -
-            market_total
-        )
-
-        probability = min(
-
-            0.92,
-
-            max(
-
-                0.40,
-
-                0.50
-                +
-                edge
-                /
-                50
-
-            )
-
-        )
-
-        predictions.append({
-
-            "league":
-            league,
-
-            "game":
-            f"{away} vs {home}",
-
-            "baseline":
-            baseline,
-
-            "recent_form":
-            round(
-                recent_total,
-                1
+        over_probability = round(
+            min(
+                max(
+                    0.50 + (edge / 40),
+                    0.50
+                ),
+                0.95
             ),
+            2
+        )
 
-            "predicted_total":
-            round(
-                predicted_total,
-                1
-            ),
+        predictions.append(
+            {
+                "league":
+                game["league"]["name"],
 
-            "market_total":
-            round(
+                "game":
+                (
+                    game["teams"]["home"]["name"]
+                    + " vs "
+                    + game["teams"]["away"]["name"]
+                ),
+
+                "predicted_total":
+                expected_total,
+
+                "market_total":
                 market_total,
-                1
-            ),
 
-            "edge":
-            round(
+                "edge":
                 edge,
-                1
-            ),
 
-            "over_probability":
-            round(
-                probability,
-                2
-            ),
+                "over_probability":
+                over_probability,
 
-            "confidence":
+                "confidence":
+                confidence(
+                    over_probability
+                )
+            }
+        )
 
-            (
-                "HIGH"
+    except Exception:
+        continue
 
-                if probability
-                >= 0.75
-
-                else
-
-                "MEDIUM"
-
-            )
-
-        })
-
-    except:
-        pass
 
 predictions = sorted(
-
-    predictions,
-
-    key=lambda x:
-    (
-        x[
-            "over_probability"
-        ],
-        x[
-            "edge"
-        ]
-    ),
-
-    reverse=True
-
-)
-
-with open(
-    "data/predictions.json",
-    "w"
-) as f:
-
-    json.dump(
-
-        {
-
-            "generated":
-            len(
-                predictions
-            ),
-
-            "top_predictions": sorted(
     predictions,
     key=lambda x: (
         x["confidence"] == "HIGH",
         x["over_probability"]
     ),
     reverse=True
-)[:30]
+)
 
-        },
 
+output = {
+    "generated": len(predictions),
+
+    "top_predictions":
+    predictions[:30]
+}
+
+
+with open(
+    "data/predictions.json",
+    "w",
+    encoding="utf-8"
+) as f:
+
+    json.dump(
+        output,
         f,
-
         indent=2
-
     )
 
 print(
-    "recent-form model complete"
+    "prediction generation complete"
 )
