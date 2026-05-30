@@ -1,0 +1,7 @@
+<!DOCTYPE html><html><head><title>Basketball AI</title></head>
+<body><h1>Basketball AI Predictions</h1><pre id="out">Loading...</pre>
+<script>
+fetch('./data/predictions.json').then(r=>r.json()).then(d=>{
+document.getElementById('out').textContent=JSON.stringify(d,null,2);
+});
+</script></body></html>
