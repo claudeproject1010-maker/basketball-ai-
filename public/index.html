@@ -1,92 +1,68 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 
-<meta
-name="viewport"
-content="width=device-width,initial-scale=1">
-
-<title>
-Basketball AI
-</title>
+<title>Basketball AI</title>
 
 <style>
 
 body{
-
-font-family:
-Arial;
-
-max-width:
-1400px;
-
-margin:
-auto;
-
-padding:
-20px;
-
-background:
-#111;
-
-color:
-white;
-
+background:#080808;
+color:white;
+font-family:Arial,sans-serif;
+max-width:1400px;
+margin:auto;
+padding:30px;
 }
 
 h1{
+margin-bottom:8px;
+}
 
-margin-bottom:
-10px;
+.subtitle{
+opacity:.7;
+margin-bottom:30px;
+}
 
+.grid{
+display:grid;
+grid-template-columns:
+repeat(
+auto-fit,
+minmax(360px,1fr)
+);
+gap:18px;
 }
 
 .card{
+background:#171717;
+padding:20px;
+border-radius:14px;
+}
 
-background:
-#1c1c1c;
+.game{
+font-size:26px;
+font-weight:bold;
+margin-bottom:14px;
+}
 
-padding:
-16px;
-
-margin-bottom:
-12px;
-
-border-radius:
-10px;
-
+.line{
+margin-bottom:6px;
 }
 
 .high{
-
-color:
-#00ff99;
-
+color:#00ff88;
 }
 
 .medium{
-
-color:
-orange;
-
+color:#ffb300;
 }
 
 .low{
-
-color:
-red;
-
-}
-
-.small{
-
-opacity:
-0.7;
-
+color:#ff5555;
 }
 
 </style>
@@ -99,19 +75,16 @@ opacity:
 🏀 Basketball AI
 </h1>
 
-<div
-class="small">
-
+<div class="subtitle">
 Top 30 OVER predictions
-
 </div>
 
-<br>
-
 <div
-id="results">
+id="results"
+class="grid"
+>
 
-Loading…
+Loading predictions…
 
 </div>
 
@@ -132,6 +105,7 @@ data=>{
 const predictions=
 
 data.top_predictions
+
 ||
 
 data.predictions
@@ -142,107 +116,127 @@ data.predictions
 
 const root=
 
-document
-.getElementById(
+document.getElementById(
 "results"
 );
 
 root.innerHTML="";
 
+if(
+predictions.length===0
+){
+
+root.innerHTML=
+
+"<h3>No predictions available</h3>";
+
+return;
+
+}
+
 predictions.forEach(
 
 p=>{
 
-const div=
+const card=
 
-document
-.createElement(
+document.createElement(
 "div"
 );
 
-let cls="low";
-
-if(
-p.confidence
-==="HIGH"
-)
-
-cls="high";
-
-else if(
-p.confidence
-==="MEDIUM"
-)
-
-cls="medium";
-
-div.className=
+card.className=
 "card";
 
-div.innerHTML=
+let confidenceClass=
+"low";
+
+if(
+p.confidence==="HIGH"
+)
+
+confidenceClass=
+"high";
+
+if(
+p.confidence==="MEDIUM"
+)
+
+confidenceClass=
+"medium";
+
+const probability=
+
+typeof p.over_probability
+==="number"
+
+?
+
+(p.over_probability*100)
+.toFixed(0)
+
+:
+
+"--";
+
+card.innerHTML=
 
 `
 
-<h2>
+<div class="game">
 
-${p.game}
+${p.game||"Unknown Match"}
 
-</h2>
+</div>
 
-<div>
+<div class="line">
 
 League:
-${p.league}
+${p.league||"--"}
 
 </div>
 
-<div>
+<div class="line">
 
 Expected:
-${p.predicted_total}
+${p.predicted_total??"--"}
 
 </div>
 
-<div>
+<div class="line">
 
 Market:
-${p.market_total}
+${p.market_total??"--"}
 
 </div>
 
-<div>
+<div class="line">
 
 Edge:
-${p.edge}
+${p.edge??"--"}
 
 </div>
 
-<div>
+<div class="line">
 
 Probability:
-
-${(
-p.over_probability
-*
-100
-).toFixed(0)}%
+${probability}%
 
 </div>
 
 <div
-class="${cls}">
+class="${confidenceClass}"
+>
 
 Confidence:
 
-${p.confidence}
+${p.confidence||"--"}
 
 </div>
 
 `;
 
-root
-.appendChild(
-div
+root.appendChild(
+card
 );
 
 }
@@ -255,7 +249,7 @@ div
 
 .catch(
 
-()=>{
+e=>{
 
 document
 .getElementById(
@@ -264,7 +258,9 @@ document
 
 .innerHTML=
 
-"Could not load predictions";
+"Error loading predictions";
+
+console.log(e);
 
 }
 
