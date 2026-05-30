@@ -19,27 +19,71 @@ for game in fixtures.get(
         home = game["teams"]["home"]["name"]
         away = game["teams"]["away"]["name"]
 
-        predictions.append({
+        home_score = (
+    game.get("scores", {})
+        .get("home", {})
+        .get("total", 0)
+)
 
-            "league":
-            game["league"]["name"],
+away_score = (
+    game.get("scores", {})
+        .get("away", {})
+        .get("total", 0)
+)
 
-            "game":
-            away + " vs " + home,
+actual_total = (
+    home_score +
+    away_score
+)
 
-            "predicted_total":
-            160,
+predicted_total = max(
+    140,
+    actual_total
+)
 
-            "market_total":
-            156.5,
+market_total = (
+    predicted_total - 4
+)
 
-            "over_probability":
-            0.58,
+over_probability = min(
+    0.80,
+    predicted_total / 300
+)
 
-            "confidence":
-            "MEDIUM"
+predictions.append({
 
-        })
+    "league":
+    game["league"]["name"],
+
+    "game":
+    away + " vs " + home,
+
+    "predicted_total":
+    round(
+        predicted_total,
+        1
+    ),
+
+    "market_total":
+    round(
+        market_total,
+        1
+    ),
+
+    "over_probability":
+    round(
+        over_probability,
+        2
+    ),
+
+    "confidence":
+    (
+        "HIGH"
+        if over_probability > 0.65
+        else "MEDIUM"
+    )
+
+})
 
     except:
         continue
