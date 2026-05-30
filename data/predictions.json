@@ -2,242 +2,302 @@
   "generated": 102,
   "top_predictions": [
     {
-      "league": "NBL1 Central",
-      "game": "Eastern Mavericks vs Southern Tigers",
-      "predicted_total": 237,
-      "market_total": 233,
-      "over_probability": 0.79,
-      "confidence": "HIGH"
-    },
-    {
-      "league": "CIBACOPA",
-      "game": "Angeles CDMX vs Zonkeys de Tijuana",
-      "predicted_total": 219,
-      "market_total": 215,
-      "over_probability": 0.73,
-      "confidence": "HIGH"
-    },
-    {
-      "league": "NBL1 South",
-      "game": "Dandenong vs Nunawading",
-      "predicted_total": 217,
-      "market_total": 213,
-      "over_probability": 0.72,
-      "confidence": "HIGH"
-    },
-    {
-      "league": "NBL1 East",
-      "game": "Illawarra Hawks 2 vs Albury-Wodonga Bandits",
-      "predicted_total": 213,
-      "market_total": 209,
-      "over_probability": 0.71,
-      "confidence": "HIGH"
-    },
-    {
-      "league": "CIBACOPA",
-      "game": "Astros vs Caballeros de Culiacan",
-      "predicted_total": 208,
-      "market_total": 204,
-      "over_probability": 0.69,
-      "confidence": "HIGH"
-    },
-    {
-      "league": "NBL1 North",
-      "game": "Northside Wizards vs Rockhampton Rockets",
-      "predicted_total": 207,
-      "market_total": 203,
-      "over_probability": 0.69,
-      "confidence": "HIGH"
-    },
-    {
-      "league": "NBL1 North",
-      "game": "Logan Thunder vs Sunshine Coast Phoenix",
-      "predicted_total": 205,
-      "market_total": 201,
-      "over_probability": 0.68,
-      "confidence": "HIGH"
-    },
-    {
-      "league": "NBL1 North",
-      "game": "Gold Coast Rollers vs Cairns Marlins",
-      "predicted_total": 201,
-      "market_total": 197,
-      "over_probability": 0.67,
-      "confidence": "HIGH"
-    },
-    {
-      "league": "CEBL",
-      "game": "Winnipeg Sea Bears vs Saskatoon Mamba",
-      "predicted_total": 198,
-      "market_total": 194,
-      "over_probability": 0.66,
-      "confidence": "HIGH"
-    },
-    {
-      "league": "CIBACOPA",
-      "game": "Frayles de Guasave vs Pioneros de Los Mochis",
-      "predicted_total": 194,
-      "market_total": 190,
-      "over_probability": 0.65,
-      "confidence": "MEDIUM"
-    },
-    {
-      "league": "Basket League",
-      "game": "Panathinaikos vs PAOK",
-      "predicted_total": 196,
-      "market_total": 192,
-      "over_probability": 0.65,
-      "confidence": "HIGH"
-    },
-    {
-      "league": "NBL1 West",
-      "game": "Rockingham Flames vs Lakeside Lightning",
-      "predicted_total": 195,
-      "market_total": 191,
-      "over_probability": 0.65,
-      "confidence": "HIGH"
-    },
-    {
-      "league": "Liga A",
-      "game": "Quimsa vs Boca Juniors",
-      "predicted_total": 191,
-      "market_total": 187,
-      "over_probability": 0.64,
-      "confidence": "MEDIUM"
-    },
-    {
-      "league": "NBL1 Central Women",
-      "game": "Woodville Warriors W vs Central Districts Lions W",
-      "predicted_total": 192,
-      "market_total": 188,
-      "over_probability": 0.64,
-      "confidence": "MEDIUM"
-    },
-    {
-      "league": "NBL1 North",
-      "game": "South West Metro Pirates vs Brisbane Capitals",
-      "predicted_total": 192,
-      "market_total": 188,
-      "over_probability": 0.64,
-      "confidence": "MEDIUM"
-    },
-    {
-      "league": "NBL1 South",
-      "game": "Hobart Chargers vs Northern Tasmania",
-      "predicted_total": 193,
-      "market_total": 189,
-      "over_probability": 0.64,
-      "confidence": "MEDIUM"
-    },
-    {
-      "league": "MPBL",
-      "game": "Rizal Golden Coolers vs Bataan Risers",
-      "predicted_total": 193,
-      "market_total": 189,
-      "over_probability": 0.64,
-      "confidence": "MEDIUM"
-    },
-    {
-      "league": "BBL",
-      "game": "Bamberg vs Alba Berlin",
-      "predicted_total": 191,
-      "market_total": 187,
-      "over_probability": 0.64,
-      "confidence": "MEDIUM"
-    },
-    {
-      "league": "NBL1 South",
-      "game": "Knox vs Kilsyth",
-      "predicted_total": 189,
-      "market_total": 185,
-      "over_probability": 0.63,
-      "confidence": "MEDIUM"
-    },
-    {
-      "league": "NBL1 South",
-      "game": "Diamond Valley vs Eltham",
-      "predicted_total": 188,
-      "market_total": 184,
-      "over_probability": 0.63,
-      "confidence": "MEDIUM"
-    },
-    {
-      "league": "NBL1 East",
-      "game": "Maitland M. vs Norths Bears",
-      "predicted_total": 185,
-      "market_total": 181,
-      "over_probability": 0.62,
-      "confidence": "MEDIUM"
-    },
-    {
-      "league": "NBL1 West",
-      "game": "Perry Lakes Hawks vs Kalamunda Eastern Suns",
-      "predicted_total": 185,
-      "market_total": 181,
-      "over_probability": 0.62,
-      "confidence": "MEDIUM"
-    },
-    {
-      "league": "NBL1 West",
-      "game": "South West Slammers vs Mandurah Magic",
-      "predicted_total": 187,
-      "market_total": 183,
-      "over_probability": 0.62,
+      "league": "BSN",
+      "game": "Mets de Guaynabo vs Gigantes de Carolina",
+      "recent_total": 184,
+      "predicted_total": 174.4,
+      "market_total": 169.4,
+      "edge": 5.0,
+      "over_probability": 0.6,
       "confidence": "MEDIUM"
     },
     {
       "league": "BSN",
-      "game": "Mets de Guaynabo vs Gigantes de Carolina",
-      "predicted_total": 184,
-      "market_total": 180,
-      "over_probability": 0.61,
+      "game": "Piratas de Quebradillas vs Leones De Ponce",
+      "recent_total": 173,
+      "predicted_total": 167.8,
+      "market_total": 162.8,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "LNB",
+      "game": "Titanes Del Licey vs Heroes de Moca",
+      "recent_total": 151,
+      "predicted_total": 154.6,
+      "market_total": 149.6,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "LNB",
+      "game": "Reales de la Vega vs Metros de Santiago",
+      "recent_total": 177,
+      "predicted_total": 170.2,
+      "market_total": 165.2,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "LNB",
+      "game": "CD Puerto Varas vs Espanol Osorno",
+      "recent_total": 123,
+      "predicted_total": 137.8,
+      "market_total": 132.8,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "Liga A",
+      "game": "Quimsa vs Boca Juniors",
+      "recent_total": 191,
+      "predicted_total": 178.6,
+      "market_total": 173.6,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "CEBL",
+      "game": "Winnipeg Sea Bears vs Saskatoon Mamba",
+      "recent_total": 198,
+      "predicted_total": 182.8,
+      "market_total": 177.8,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "NBA W",
+      "game": "Atlanta Dream W vs Portland Fire W",
+      "recent_total": 152,
+      "predicted_total": 155.2,
+      "market_total": 150.2,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "CIBACOPA",
+      "game": "Halcones de Obregon vs Toros Laguna",
+      "recent_total": 173,
+      "predicted_total": 167.8,
+      "market_total": 162.8,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "CIBACOPA",
+      "game": "Angeles CDMX vs Zonkeys de Tijuana",
+      "recent_total": 219,
+      "predicted_total": 195.4,
+      "market_total": 190.4,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "CIBACOPA",
+      "game": "Astros vs Caballeros de Culiacan",
+      "recent_total": 208,
+      "predicted_total": 188.8,
+      "market_total": 183.8,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "CIBACOPA",
+      "game": "Frayles de Guasave vs Pioneros de Los Mochis",
+      "recent_total": 194,
+      "predicted_total": 180.4,
+      "market_total": 175.4,
+      "edge": 5.0,
+      "over_probability": 0.6,
       "confidence": "MEDIUM"
     },
     {
       "league": "NBL",
       "game": "Bay Hawks vs Tauranga Whai",
-      "predicted_total": 182,
-      "market_total": 178,
-      "over_probability": 0.61,
-      "confidence": "MEDIUM"
-    },
-    {
-      "league": "NBL1 South",
-      "game": "Geelong vs Ballarat",
-      "predicted_total": 183,
-      "market_total": 179,
-      "over_probability": 0.61,
-      "confidence": "MEDIUM"
-    },
-    {
-      "league": "NBL1 Central",
-      "game": "South Adelaide Panthers vs West Adelaide Bearcats",
-      "predicted_total": 184,
-      "market_total": 180,
-      "over_probability": 0.61,
-      "confidence": "MEDIUM"
-    },
-    {
-      "league": "IBL",
-      "game": "Kesatria Bengawan Solo vs Borneo Hornbills",
-      "predicted_total": 184,
-      "market_total": 180,
-      "over_probability": 0.61,
-      "confidence": "MEDIUM"
-    },
-    {
-      "league": "NBL1 West Women",
-      "game": "Perth Redbacks W vs East Perth Eagles W",
-      "predicted_total": 179,
-      "market_total": 175,
+      "recent_total": 182,
+      "predicted_total": 173.2,
+      "market_total": 168.2,
+      "edge": 5.0,
       "over_probability": 0.6,
       "confidence": "MEDIUM"
     },
     {
-      "league": "NBL1 West Women",
-      "game": "South West Slammers W vs Mandurah Magic W",
-      "predicted_total": 179,
-      "market_total": 175,
+      "league": "NBL1 East Women",
+      "game": "Hills Hornets W vs Manly W. W",
+      "recent_total": 125,
+      "predicted_total": 139.0,
+      "market_total": 134.0,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "NBL1 East Women",
+      "game": "Newcastle Falcons W vs BA CoE W",
+      "recent_total": 145,
+      "predicted_total": 151.0,
+      "market_total": 146.0,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "NBL1 South Women",
+      "game": "Keilor Thunder W vs Melbourne Tigers W",
+      "recent_total": 162,
+      "predicted_total": 161.2,
+      "market_total": 156.2,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "NBL1 North Women",
+      "game": "South West Metro Pirates W vs Brisbane Capitals W",
+      "recent_total": 145,
+      "predicted_total": 151.0,
+      "market_total": 146.0,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "NBL1 East",
+      "game": "Hills Hornets vs Manly W.",
+      "recent_total": 134,
+      "predicted_total": 144.4,
+      "market_total": 139.4,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "NBL1 East Women",
+      "game": "Canberra W vs Central Coast W",
+      "recent_total": 141,
+      "predicted_total": 148.6,
+      "market_total": 143.6,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "NBL1 East Women",
+      "game": "Maitland Mustangs W vs Norths Bears W",
+      "recent_total": 148,
+      "predicted_total": 152.8,
+      "market_total": 147.8,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "NBL",
+      "game": "Nelson Giants vs Canterbury Rams",
+      "recent_total": 167,
+      "predicted_total": 164.2,
+      "market_total": 159.2,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "NBL1 South Women",
+      "game": "Knox W vs Kilsyth W",
+      "recent_total": 151,
+      "predicted_total": 154.6,
+      "market_total": 149.6,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "NBL1 South Women",
+      "game": "Geelong W vs Ballarat W",
+      "recent_total": 168,
+      "predicted_total": 164.8,
+      "market_total": 159.8,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "NBL1 South Women",
+      "game": "Waverley W vs Bendigo Braves W",
+      "recent_total": 161,
+      "predicted_total": 160.6,
+      "market_total": 155.6,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "NBL1 South Women",
+      "game": "Hobart Chargers W vs Northern Tasmania W",
+      "recent_total": 138,
+      "predicted_total": 146.8,
+      "market_total": 141.8,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "NBL1 South Women",
+      "game": "Dandenong Rangers W vs Nunawading W",
+      "recent_total": 127,
+      "predicted_total": 140.2,
+      "market_total": 135.2,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "NBL1 East Women",
+      "game": "Sutherland Sharks W vs Sydney Comets W",
+      "recent_total": 133,
+      "predicted_total": 143.8,
+      "market_total": 138.8,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "NBL1 East Women",
+      "game": "Illawarra Hawks W vs Albury W",
+      "recent_total": 136,
+      "predicted_total": 145.6,
+      "market_total": 140.6,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "NBL1 South Women",
+      "game": "Diamond Valley W vs Eltham W",
+      "recent_total": 163,
+      "predicted_total": 161.8,
+      "market_total": 156.8,
+      "edge": 5.0,
+      "over_probability": 0.6,
+      "confidence": "MEDIUM"
+    },
+    {
+      "league": "NBL1 North Women",
+      "game": "Gold Coast Rollers W vs Cairns W",
+      "recent_total": 165,
+      "predicted_total": 163.0,
+      "market_total": 158.0,
+      "edge": 5.0,
       "over_probability": 0.6,
       "confidence": "MEDIUM"
     }

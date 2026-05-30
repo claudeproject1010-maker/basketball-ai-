@@ -5410,9 +5410,9 @@
       "week": "Segunda FEB - Final",
       "venue": null,
       "status": {
-        "long": "Quarter 4",
-        "short": "Q4",
-        "timer": "10"
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
       },
       "league": {
         "id": 96,
@@ -5452,9 +5452,9 @@
           "quarter_1": 15,
           "quarter_2": 20,
           "quarter_3": 5,
-          "quarter_4": 14,
+          "quarter_4": 16,
           "over_time": null,
-          "total": 54
+          "total": 56
         }
       }
     },
@@ -5468,9 +5468,9 @@
       "week": "LNB - Quarter-finals",
       "venue": "LDLC Arena",
       "status": {
-        "long": "Quarter 3",
-        "short": "Q3",
-        "timer": "5"
+        "long": "Over Time ",
+        "short": "OT",
+        "timer": "10"
       },
       "league": {
         "id": 2,
@@ -5501,76 +5501,18 @@
         "home": {
           "quarter_1": 17,
           "quarter_2": 18,
-          "quarter_3": 8,
-          "quarter_4": null,
+          "quarter_3": 15,
+          "quarter_4": 16,
           "over_time": null,
-          "total": 43
+          "total": 75
         },
         "away": {
           "quarter_1": 12,
           "quarter_2": 19,
-          "quarter_3": 8,
-          "quarter_4": null,
+          "quarter_3": 16,
+          "quarter_4": 19,
           "over_time": null,
-          "total": 39
-        }
-      }
-    },
-    {
-      "id": 495988,
-      "date": "2026-05-30T21:00:00+00:00",
-      "time": "21:00",
-      "timestamp": 1780174800,
-      "timezone": "UTC",
-      "stage": null,
-      "week": null,
-      "venue": "Estadio Municipal Techado de San Fernando",
-      "status": {
-        "long": "Not Started",
-        "short": "NS",
-        "timer": null
-      },
-      "league": {
-        "id": 224,
-        "name": "LNB 2",
-        "type": "League",
-        "season": "2026-2027",
-        "logo": "https://media.api-sports.io/basketball/leagues/224.png"
-      },
-      "country": {
-        "id": 53,
-        "name": "Chile",
-        "code": "CL",
-        "flag": "https://media.api-sports.io/flags/cl.svg"
-      },
-      "teams": {
-        "home": {
-          "id": 7328,
-          "name": "CDSB Constitucion",
-          "logo": "https://media.api-sports.io/basketball/teams/7328.png"
-        },
-        "away": {
-          "id": 7868,
-          "name": "Vila Alemana",
-          "logo": "https://media.api-sports.io/basketball/teams/7868.png"
-        }
-      },
-      "scores": {
-        "home": {
-          "quarter_1": null,
-          "quarter_2": null,
-          "quarter_3": null,
-          "quarter_4": null,
-          "over_time": null,
-          "total": null
-        },
-        "away": {
-          "quarter_1": null,
-          "quarter_2": null,
-          "quarter_3": null,
-          "quarter_4": null,
-          "over_time": null,
-          "total": null
+          "total": 78
         }
       }
     },
@@ -5785,6 +5727,64 @@
           "id": 3571,
           "name": "Vancouver Bandits",
           "logo": "https://media.api-sports.io/basketball/teams/3571.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    },
+    {
+      "id": 495988,
+      "date": "2026-05-30T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1780182000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Estadio Municipal Techado de San Fernando",
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "timer": null
+      },
+      "league": {
+        "id": 224,
+        "name": "LNB 2",
+        "type": "League",
+        "season": "2026-2027",
+        "logo": "https://media.api-sports.io/basketball/leagues/224.png"
+      },
+      "country": {
+        "id": 53,
+        "name": "Chile",
+        "code": "CL",
+        "flag": "https://media.api-sports.io/flags/cl.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7328,
+          "name": "CDSB Constitucion",
+          "logo": "https://media.api-sports.io/basketball/teams/7328.png"
+        },
+        "away": {
+          "id": 7868,
+          "name": "Vila Alemana",
+          "logo": "https://media.api-sports.io/basketball/teams/7868.png"
         }
       },
       "scores": {
