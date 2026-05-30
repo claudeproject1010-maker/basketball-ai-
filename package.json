@@ -1,0 +1,7 @@
+{
+  "name": "basketball-ai",
+  "private": true,
+  "scripts": {
+    "build": "echo build complete"
+  }
+}
