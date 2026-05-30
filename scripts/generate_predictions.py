@@ -102,9 +102,23 @@ for game in fixtures.get("response", []):
 
     })
 
+predictions = sorted(
+    predictions,
+    key=lambda x:
+    x["over_probability"],
+    reverse=True
+)
+
 output = {
-    "predictions":
-    predictions
+
+    "generated":
+    len(
+        predictions
+    ),
+
+    "top_predictions":
+    predictions[:30]
+
 }
 
 with open(
