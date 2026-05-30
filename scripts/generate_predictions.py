@@ -1,5 +1,7 @@
 import json
 
+BASELINE_TOTAL = 160
+
 with open(
     "data/fixtures.json",
     "r"
@@ -8,62 +10,121 @@ with open(
 
 predictions = []
 
-for game in fixtures.get("response", []):
+for game in fixtures.get(
+    "response",
+    []
+):
 
     home = (
-        game.get("teams", {})
-        .get("home", {})
-        .get("name", "Unknown")
+        game.get(
+            "teams",
+            {}
+        )
+        .get(
+            "home",
+            {}
+        )
+        .get(
+            "name",
+            "Unknown"
+        )
     )
 
     away = (
-        game.get("teams", {})
-        .get("away", {})
-        .get("name", "Unknown")
+        game.get(
+            "teams",
+            {}
+        )
+        .get(
+            "away",
+            {}
+        )
+        .get(
+            "name",
+            "Unknown"
+        )
     )
 
     home_score = (
-        game.get("scores", {})
-        .get("home", {})
-        .get("total")
+        game.get(
+            "scores",
+            {}
+        )
+        .get(
+            "home",
+            {}
+        )
+        .get(
+            "total"
+        )
     )
 
     away_score = (
-        game.get("scores", {})
-        .get("away", {})
-        .get("total")
+        game.get(
+            "scores",
+            {}
+        )
+        .get(
+            "away",
+            {}
+        )
+        .get(
+            "total"
+        )
     )
 
     if home_score is None:
-        home_score = 75
+        home_score = 80
 
     if away_score is None:
-        away_score = 75
+        away_score = 80
 
-    actual_total = (
+    recent_total = (
         home_score +
         away_score
     )
 
-    predicted_total = max(
-        140,
-        actual_total
+    predicted_total = (
+
+        0.60
+        *
+        recent_total
+
+        +
+
+        0.40
+        *
+        BASELINE_TOTAL
+
     )
 
     market_total = (
-        predicted_total - 4
+        predicted_total - 5
+    )
+
+    edge = (
+        predicted_total
+        -
+        market_total
     )
 
     over_probability = min(
-        0.80,
-        predicted_total / 300
+        0.90,
+        0.50 +
+        (
+            edge
+            /
+            50
+        )
     )
 
-    confidence = (
-        "HIGH"
-        if over_probability >= 0.65
-        else "MEDIUM"
-    )
+    confidence = "LOW"
+
+    if over_probability >= 0.70:
+        confidence = "HIGH"
+
+    elif over_probability >= 0.60:
+        confidence = "MEDIUM"
 
     predictions.append({
 
@@ -79,6 +140,12 @@ for game in fixtures.get("response", []):
         "game":
         f"{away} vs {home}",
 
+        "recent_total":
+        round(
+            recent_total,
+            1
+        ),
+
         "predicted_total":
         round(
             predicted_total,
@@ -88,6 +155,12 @@ for game in fixtures.get("response", []):
         "market_total":
         round(
             market_total,
+            1
+        ),
+
+        "edge":
+        round(
+            edge,
             1
         ),
 
@@ -103,10 +176,17 @@ for game in fixtures.get("response", []):
     })
 
 predictions = sorted(
+
     predictions,
+
     key=lambda x:
-    x["over_probability"],
+    (
+        x["over_probability"],
+        x["edge"]
+    ),
+
     reverse=True
+
 )
 
 output = {
@@ -133,5 +213,5 @@ with open(
     )
 
 print(
-    f"generated {len(predictions)} predictions"
+    "weighted model complete"
 )
