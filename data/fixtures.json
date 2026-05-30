@@ -5526,9 +5526,9 @@
       "week": null,
       "venue": "Mohegan Sun Arena",
       "status": {
-        "long": "Quarter 1",
-        "short": "Q1",
-        "timer": "6"
+        "long": "Quarter 2",
+        "short": "Q2",
+        "timer": "4"
       },
       "league": {
         "id": 13,
@@ -5557,20 +5557,20 @@
       },
       "scores": {
         "home": {
-          "quarter_1": 8,
-          "quarter_2": null,
+          "quarter_1": 20,
+          "quarter_2": 5,
           "quarter_3": null,
           "quarter_4": null,
           "over_time": null,
-          "total": 8
+          "total": 25
         },
         "away": {
-          "quarter_1": 15,
-          "quarter_2": null,
+          "quarter_1": 18,
+          "quarter_2": 2,
           "quarter_3": null,
           "quarter_4": null,
           "over_time": null,
-          "total": 15
+          "total": 20
         }
       }
     },
