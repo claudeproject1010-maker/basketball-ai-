@@ -281,7 +281,7 @@ with open(
         x["over_probability"]
     ),
     reverse=True
-)[:30]]
+)[:30]
 
         },
 
