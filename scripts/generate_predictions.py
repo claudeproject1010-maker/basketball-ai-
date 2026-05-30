@@ -1,11 +1,23 @@
 import json
 
-BASELINE_TOTAL = 160
+LEAGUE_BASELINES = {
+
+    "NBA": 228,
+    "WNBA": 164,
+    "Euroleague": 164,
+    "NBL": 184,
+    "BSN": 178,
+    "Liga A": 170
+
+}
+
+DEFAULT_BASELINE = 170
 
 with open(
     "data/fixtures.json",
     "r"
 ) as f:
+
     fixtures = json.load(f)
 
 predictions = []
@@ -14,6 +26,25 @@ for game in fixtures.get(
     "response",
     []
 ):
+
+    league = (
+        game.get(
+            "league",
+            {}
+        )
+        .get(
+            "name",
+            "Unknown"
+        )
+    )
+
+    baseline = (
+        LEAGUE_BASELINES
+        .get(
+            league,
+            DEFAULT_BASELINE
+        )
+    )
 
     home = (
         game.get(
@@ -57,6 +88,7 @@ for game in fixtures.get(
         .get(
             "total"
         )
+        or 80
     )
 
     away_score = (
@@ -71,13 +103,8 @@ for game in fixtures.get(
         .get(
             "total"
         )
+        or 80
     )
-
-    if home_score is None:
-        home_score = 80
-
-    if away_score is None:
-        away_score = 80
 
     recent_total = (
         home_score +
@@ -86,20 +113,20 @@ for game in fixtures.get(
 
     predicted_total = (
 
-        0.60
+        0.70
         *
         recent_total
 
         +
 
-        0.40
+        0.30
         *
-        BASELINE_TOTAL
+        baseline
 
     )
 
     market_total = (
-        predicted_total - 5
+        baseline - 3
     )
 
     edge = (
@@ -109,42 +136,44 @@ for game in fixtures.get(
     )
 
     over_probability = min(
-        0.90,
-        0.50 +
-        (
+
+        0.92,
+
+        max(
+
+            0.40,
+
+            0.50 +
+
             edge
             /
-            50
+            40
+
         )
+
     )
 
-    confidence = "LOW"
-
-    if over_probability >= 0.70:
+    if over_probability >= 0.75:
         confidence = "HIGH"
 
     elif over_probability >= 0.60:
         confidence = "MEDIUM"
 
+    else:
+        confidence = "LOW"
+
     predictions.append({
 
-        "league":
-        game.get(
-            "league",
-            {}
-        ).get(
-            "name",
-            "Unknown"
-        ),
+        "league": league,
 
         "game":
         f"{away} vs {home}",
 
+        "baseline":
+        baseline,
+
         "recent_total":
-        round(
-            recent_total,
-            1
-        ),
+        recent_total,
 
         "predicted_total":
         round(
@@ -180,9 +209,11 @@ predictions = sorted(
     predictions,
 
     key=lambda x:
+
     (
         x["over_probability"],
         x["edge"]
+
     ),
 
     reverse=True
@@ -213,5 +244,5 @@ with open(
     )
 
 print(
-    "weighted model complete"
+    "league model complete"
 )
