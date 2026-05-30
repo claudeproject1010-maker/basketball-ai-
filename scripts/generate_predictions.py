@@ -274,10 +274,14 @@ with open(
                 predictions
             ),
 
-            "top_predictions":
-            predictions[
-                :30
-            ]
+            "top_predictions": sorted(
+    predictions,
+    key=lambda x: (
+        x["confidence"] == "HIGH",
+        x["over_probability"]
+    ),
+    reverse=True
+)[:30]]
 
         },
 
