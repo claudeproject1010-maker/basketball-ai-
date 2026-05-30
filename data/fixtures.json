@@ -5062,9 +5062,9 @@
       "week": "Pro A - Semi-finals",
       "venue": "Ischelandhalle",
       "status": {
-        "long": "Break Time",
-        "short": "BT",
-        "timer": "0"
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
       },
       "league": {
         "id": 42,
@@ -5096,17 +5096,17 @@
           "quarter_1": 16,
           "quarter_2": 24,
           "quarter_3": 26,
-          "quarter_4": 0,
+          "quarter_4": 19,
           "over_time": null,
-          "total": 66
+          "total": 85
         },
         "away": {
           "quarter_1": 17,
           "quarter_2": 18,
           "quarter_3": 15,
-          "quarter_4": 0,
+          "quarter_4": 15,
           "over_time": null,
-          "total": 50
+          "total": 65
         }
       }
     },
@@ -5120,9 +5120,9 @@
       "week": "Super Lig - Quarter-finals",
       "venue": "BJK Akatlar Sports Complex",
       "status": {
-        "long": "Quarter 4",
-        "short": "Q4",
-        "timer": "4"
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
       },
       "league": {
         "id": 104,
@@ -5154,17 +5154,17 @@
           "quarter_1": 25,
           "quarter_2": 14,
           "quarter_3": 19,
-          "quarter_4": 4,
+          "quarter_4": 13,
           "over_time": null,
-          "total": 62
+          "total": 71
         },
         "away": {
           "quarter_1": 17,
           "quarter_2": 15,
           "quarter_3": 23,
-          "quarter_4": 3,
+          "quarter_4": 13,
           "over_time": null,
-          "total": 58
+          "total": 68
         }
       }
     },
@@ -5178,9 +5178,9 @@
       "week": null,
       "venue": null,
       "status": {
-        "long": "Half Time",
-        "short": "HT",
-        "timer": null
+        "long": "Quarter 4",
+        "short": "Q4",
+        "timer": "6"
       },
       "league": {
         "id": 409,
@@ -5211,18 +5211,18 @@
         "home": {
           "quarter_1": 19,
           "quarter_2": 21,
-          "quarter_3": null,
-          "quarter_4": null,
+          "quarter_3": 17,
+          "quarter_4": 17,
           "over_time": null,
-          "total": 40
+          "total": 74
         },
         "away": {
           "quarter_1": 25,
           "quarter_2": 21,
-          "quarter_3": null,
-          "quarter_4": null,
+          "quarter_3": 21,
+          "quarter_4": 15,
           "over_time": null,
-          "total": 46
+          "total": 82
         }
       }
     },
@@ -5236,9 +5236,9 @@
       "week": "Liga OTP banka - Final",
       "venue": "Arena Stozice",
       "status": {
-        "long": "Quarter 3",
-        "short": "Q3",
-        "timer": "5"
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
       },
       "league": {
         "id": 89,
@@ -5269,18 +5269,18 @@
         "home": {
           "quarter_1": 22,
           "quarter_2": 29,
-          "quarter_3": 10,
-          "quarter_4": null,
+          "quarter_3": 24,
+          "quarter_4": 16,
           "over_time": null,
-          "total": 61
+          "total": 91
         },
         "away": {
           "quarter_1": 30,
           "quarter_2": 19,
-          "quarter_3": 4,
-          "quarter_4": null,
+          "quarter_3": 11,
+          "quarter_4": 14,
           "over_time": null,
-          "total": 53
+          "total": 74
         }
       }
     },
@@ -5294,9 +5294,9 @@
       "week": "Lega A - Semi-finals",
       "venue": "Segafredo Arena",
       "status": {
-        "long": "Quarter 3",
-        "short": "Q3",
-        "timer": "5"
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
       },
       "league": {
         "id": 52,
@@ -5327,18 +5327,18 @@
         "home": {
           "quarter_1": 23,
           "quarter_2": 23,
-          "quarter_3": 10,
-          "quarter_4": null,
+          "quarter_3": 19,
+          "quarter_4": 18,
           "over_time": null,
-          "total": 56
+          "total": 83
         },
         "away": {
           "quarter_1": 18,
           "quarter_2": 27,
-          "quarter_3": 11,
-          "quarter_4": null,
+          "quarter_3": 19,
+          "quarter_4": 27,
           "over_time": null,
-          "total": 56
+          "total": 91
         }
       }
     },
@@ -5352,9 +5352,9 @@
       "week": "Espoirs U21 - Semi-finals",
       "venue": "La Meilleraie",
       "status": {
-        "long": "Quarter 3",
-        "short": "Q3",
-        "timer": "6"
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
       },
       "league": {
         "id": 233,
@@ -5385,18 +5385,18 @@
         "home": {
           "quarter_1": 19,
           "quarter_2": 17,
-          "quarter_3": 11,
-          "quarter_4": null,
+          "quarter_3": 17,
+          "quarter_4": 13,
           "over_time": null,
-          "total": 47
+          "total": 66
         },
         "away": {
           "quarter_1": 25,
           "quarter_2": 23,
-          "quarter_3": 8,
-          "quarter_4": null,
+          "quarter_3": 15,
+          "quarter_4": 18,
           "over_time": null,
-          "total": 56
+          "total": 81
         }
       }
     },
@@ -5410,9 +5410,9 @@
       "week": "Segunda FEB - Final",
       "venue": null,
       "status": {
-        "long": "Halftime",
-        "short": "HT",
-        "timer": "0"
+        "long": "Quarter 4",
+        "short": "Q4",
+        "timer": "3"
       },
       "league": {
         "id": 96,
@@ -5443,18 +5443,18 @@
         "home": {
           "quarter_1": 27,
           "quarter_2": 13,
-          "quarter_3": null,
-          "quarter_4": null,
+          "quarter_3": 15,
+          "quarter_4": 6,
           "over_time": null,
-          "total": 40
+          "total": 61
         },
         "away": {
           "quarter_1": 15,
           "quarter_2": 20,
-          "quarter_3": null,
-          "quarter_4": null,
+          "quarter_3": 5,
+          "quarter_4": 0,
           "over_time": null,
-          "total": 35
+          "total": 40
         }
       }
     },
@@ -5468,9 +5468,9 @@
       "week": "LNB - Quarter-finals",
       "venue": "LDLC Arena",
       "status": {
-        "long": "Quarter 1",
-        "short": "Q1",
-        "timer": "6"
+        "long": "Halftime",
+        "short": "HT",
+        "timer": "0"
       },
       "league": {
         "id": 2,
@@ -5499,20 +5499,20 @@
       },
       "scores": {
         "home": {
-          "quarter_1": 11,
-          "quarter_2": null,
+          "quarter_1": 17,
+          "quarter_2": 18,
           "quarter_3": null,
           "quarter_4": null,
           "over_time": null,
-          "total": 11
+          "total": 35
         },
         "away": {
-          "quarter_1": 5,
-          "quarter_2": null,
+          "quarter_1": 12,
+          "quarter_2": 19,
           "quarter_3": null,
           "quarter_4": null,
           "over_time": null,
-          "total": 5
+          "total": 31
         }
       }
     },
