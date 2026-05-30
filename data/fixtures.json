@@ -5528,7 +5528,7 @@
       "status": {
         "long": "Quarter 2",
         "short": "Q2",
-        "timer": "4"
+        "timer": "7"
       },
       "league": {
         "id": 13,
@@ -5558,19 +5558,19 @@
       "scores": {
         "home": {
           "quarter_1": 20,
-          "quarter_2": 5,
+          "quarter_2": 7,
           "quarter_3": null,
           "quarter_4": null,
           "over_time": null,
-          "total": 25
+          "total": 27
         },
         "away": {
           "quarter_1": 18,
-          "quarter_2": 2,
+          "quarter_2": 15,
           "quarter_3": null,
           "quarter_4": null,
           "over_time": null,
-          "total": 20
+          "total": 33
         }
       }
     },
