@@ -1,0 +1,5926 @@
+{
+  "get": "games",
+  "parameters": {
+    "date": "2026-05-30"
+  },
+  "errors": [],
+  "results": 102,
+  "response": [
+    {
+      "id": 493733,
+      "date": "2026-05-30T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1780099200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Coliseo Carlos Miguel Mangual",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 76,
+        "name": "BSN",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/76.png"
+      },
+      "country": {
+        "id": 36,
+        "name": "Puerto Rico",
+        "code": "PR",
+        "flag": "https://media.api-sports.io/flags/pr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Gigantes de Carolina",
+          "logo": "https://media.api-sports.io/basketball/teams/3062.png"
+        },
+        "away": {
+          "id": 2239,
+          "name": "Mets de Guaynabo",
+          "logo": "https://media.api-sports.io/basketball/teams/2239.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 24,
+          "quarter_2": 33,
+          "quarter_3": 19,
+          "quarter_4": 14,
+          "over_time": null,
+          "total": 90
+        },
+        "away": {
+          "quarter_1": 20,
+          "quarter_2": 22,
+          "quarter_3": 24,
+          "quarter_4": 28,
+          "over_time": null,
+          "total": 94
+        }
+      }
+    },
+    {
+      "id": 493734,
+      "date": "2026-05-30T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1780099200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Auditorio Juan Pach\u00edn Vic\u00e9ns",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 76,
+        "name": "BSN",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/76.png"
+      },
+      "country": {
+        "id": 36,
+        "name": "Puerto Rico",
+        "code": "PR",
+        "flag": "https://media.api-sports.io/flags/pr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 955,
+          "name": "Leones De Ponce",
+          "logo": "https://media.api-sports.io/basketball/teams/955.png"
+        },
+        "away": {
+          "id": 956,
+          "name": "Piratas de Quebradillas",
+          "logo": "https://media.api-sports.io/basketball/teams/956.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 21,
+          "quarter_2": 18,
+          "quarter_3": 21,
+          "quarter_4": 26,
+          "over_time": null,
+          "total": 86
+        },
+        "away": {
+          "quarter_1": 23,
+          "quarter_2": 17,
+          "quarter_3": 24,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 87
+        }
+      }
+    },
+    {
+      "id": 497604,
+      "date": "2026-05-30T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1780099200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Polideportivo Moca",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 380,
+        "name": "LNB",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/380.png"
+      },
+      "country": {
+        "id": 73,
+        "name": "Dominican-Republic",
+        "code": "DO",
+        "flag": "https://media.api-sports.io/flags/do.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7885,
+          "name": "Heroes de Moca",
+          "logo": "https://media.api-sports.io/basketball/teams/7885.png"
+        },
+        "away": {
+          "id": 4982,
+          "name": "Titanes Del Licey",
+          "logo": "https://media.api-sports.io/basketball/teams/4982.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 13,
+          "quarter_2": 21,
+          "quarter_3": 24,
+          "quarter_4": 17,
+          "over_time": null,
+          "total": 75
+        },
+        "away": {
+          "quarter_1": 22,
+          "quarter_2": 19,
+          "quarter_3": 20,
+          "quarter_4": 15,
+          "over_time": null,
+          "total": 76
+        }
+      }
+    },
+    {
+      "id": 497605,
+      "date": "2026-05-30T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1780101000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Gran Arena del Cibao",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 380,
+        "name": "LNB",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/380.png"
+      },
+      "country": {
+        "id": 73,
+        "name": "Dominican-Republic",
+        "code": "DO",
+        "flag": "https://media.api-sports.io/flags/do.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Metros de Santiago",
+          "logo": "https://media.api-sports.io/basketball/teams/4149.png"
+        },
+        "away": {
+          "id": 4981,
+          "name": "Reales de la Vega",
+          "logo": "https://media.api-sports.io/basketball/teams/4981.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 21,
+          "quarter_2": 30,
+          "quarter_3": 18,
+          "quarter_4": 26,
+          "over_time": null,
+          "total": 95
+        },
+        "away": {
+          "quarter_1": 25,
+          "quarter_2": 14,
+          "quarter_3": 22,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 82
+        }
+      }
+    },
+    {
+      "id": 499889,
+      "date": "2026-05-30T00:30:00+00:00",
+      "time": "00:30",
+      "timestamp": 1780101000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "LNB - Semi-finals",
+      "venue": "Gimnasio Monumental Maria Gallardo",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 114,
+        "name": "LNB",
+        "type": "League",
+        "season": "2026-2027",
+        "logo": "https://media.api-sports.io/basketball/leagues/114.png"
+      },
+      "country": {
+        "id": 53,
+        "name": "Chile",
+        "code": "CL",
+        "flag": "https://media.api-sports.io/flags/cl.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 4921,
+          "name": "Espanol Osorno",
+          "logo": "https://media.api-sports.io/basketball/teams/4921.png"
+        },
+        "away": {
+          "id": 1378,
+          "name": "CD Puerto Varas",
+          "logo": "https://media.api-sports.io/basketball/teams/1378.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 15,
+          "quarter_2": 19,
+          "quarter_3": 9,
+          "quarter_4": 17,
+          "over_time": null,
+          "total": 60
+        },
+        "away": {
+          "quarter_1": 17,
+          "quarter_2": 9,
+          "quarter_3": 17,
+          "quarter_4": 20,
+          "over_time": null,
+          "total": 63
+        }
+      }
+    },
+    {
+      "id": 499747,
+      "date": "2026-05-30T01:10:00+00:00",
+      "time": "01:10",
+      "timestamp": 1780103400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "Liga A - Semi-finals",
+      "venue": "Estadio Luis Conde",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 18,
+        "name": "Liga A",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/18.png"
+      },
+      "country": {
+        "id": 6,
+        "name": "Argentina",
+        "code": "AR",
+        "flag": "https://media.api-sports.io/flags/ar.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 282,
+          "name": "Boca Juniors",
+          "logo": "https://media.api-sports.io/basketball/teams/282.png"
+        },
+        "away": {
+          "id": 295,
+          "name": "Quimsa",
+          "logo": "https://media.api-sports.io/basketball/teams/295.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 30,
+          "quarter_2": 21,
+          "quarter_3": 22,
+          "quarter_4": 26,
+          "over_time": null,
+          "total": 99
+        },
+        "away": {
+          "quarter_1": 17,
+          "quarter_2": 21,
+          "quarter_3": 29,
+          "quarter_4": 25,
+          "over_time": null,
+          "total": 92
+        }
+      }
+    },
+    {
+      "id": 489822,
+      "date": "2026-05-30T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1780104600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "SaskTel Centre",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 222,
+        "name": "CEBL",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/222.png"
+      },
+      "country": {
+        "id": 9,
+        "name": "Canada",
+        "code": "CA",
+        "flag": "https://media.api-sports.io/flags/ca.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3577,
+          "name": "Saskatoon Mamba",
+          "logo": "https://media.api-sports.io/basketball/teams/3577.png"
+        },
+        "away": {
+          "id": 5961,
+          "name": "Winnipeg Sea Bears",
+          "logo": "https://media.api-sports.io/basketball/teams/5961.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 24,
+          "quarter_2": 23,
+          "quarter_3": 25,
+          "quarter_4": 28,
+          "over_time": null,
+          "total": 100
+        },
+        "away": {
+          "quarter_1": 25,
+          "quarter_2": 28,
+          "quarter_3": 16,
+          "quarter_4": 29,
+          "over_time": null,
+          "total": 98
+        }
+      }
+    },
+    {
+      "id": 494833,
+      "date": "2026-05-30T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1780106400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Moda Center",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 13,
+        "name": "NBA W",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/13.png"
+      },
+      "country": {
+        "id": 5,
+        "name": "USA",
+        "code": "US",
+        "flag": "https://media.api-sports.io/flags/us.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7100,
+          "name": "Portland Fire W",
+          "logo": "https://media.api-sports.io/basketball/teams/7100.png"
+        },
+        "away": {
+          "id": 162,
+          "name": "Atlanta Dream W",
+          "logo": "https://media.api-sports.io/basketball/teams/162.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 14,
+          "quarter_2": 17,
+          "quarter_3": 22,
+          "quarter_4": 13,
+          "over_time": null,
+          "total": 66
+        },
+        "away": {
+          "quarter_1": 16,
+          "quarter_2": 22,
+          "quarter_3": 21,
+          "quarter_4": 27,
+          "over_time": null,
+          "total": 86
+        }
+      }
+    },
+    {
+      "id": 499871,
+      "date": "2026-05-30T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1780106400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "CIBACOPA - Quarter-finals",
+      "venue": "Gimnasio Municipal de Torreon",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 251,
+        "name": "CIBACOPA",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/251.png"
+      },
+      "country": {
+        "id": 28,
+        "name": "Mexico",
+        "code": "MX",
+        "flag": "https://media.api-sports.io/flags/mx.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7854,
+          "name": "Toros Laguna",
+          "logo": "https://media.api-sports.io/basketball/teams/7854.png"
+        },
+        "away": {
+          "id": 3844,
+          "name": "Halcones de Obregon",
+          "logo": "https://media.api-sports.io/basketball/teams/3844.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 19,
+          "quarter_2": 12,
+          "quarter_3": 29,
+          "quarter_4": 25,
+          "over_time": null,
+          "total": 85
+        },
+        "away": {
+          "quarter_1": 13,
+          "quarter_2": 30,
+          "quarter_3": 26,
+          "quarter_4": 19,
+          "over_time": null,
+          "total": 88
+        }
+      }
+    },
+    {
+      "id": 499837,
+      "date": "2026-05-30T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1780108200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "CIBACOPA - Quarter-finals",
+      "venue": "Auditorio Zonkeys",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 251,
+        "name": "CIBACOPA",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/251.png"
+      },
+      "country": {
+        "id": 28,
+        "name": "Mexico",
+        "code": "MX",
+        "flag": "https://media.api-sports.io/flags/mx.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3849,
+          "name": "Zonkeys de Tijuana",
+          "logo": "https://media.api-sports.io/basketball/teams/3849.png"
+        },
+        "away": {
+          "id": 6304,
+          "name": "Angeles CDMX",
+          "logo": "https://media.api-sports.io/basketball/teams/6304.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 30,
+          "quarter_2": 26,
+          "quarter_3": 19,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 107
+        },
+        "away": {
+          "quarter_1": 27,
+          "quarter_2": 20,
+          "quarter_3": 21,
+          "quarter_4": 30,
+          "over_time": null,
+          "total": 112
+        }
+      }
+    },
+    {
+      "id": 499872,
+      "date": "2026-05-30T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1780108200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "CIBACOPA - Quarter-finals",
+      "venue": "Polideportivo Juan S Mill\u00e1n",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 251,
+        "name": "CIBACOPA",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/251.png"
+      },
+      "country": {
+        "id": 28,
+        "name": "Mexico",
+        "code": "MX",
+        "flag": "https://media.api-sports.io/flags/mx.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3843,
+          "name": "Caballeros de Culiacan",
+          "logo": "https://media.api-sports.io/basketball/teams/3843.png"
+        },
+        "away": {
+          "id": 819,
+          "name": "Astros",
+          "logo": "https://media.api-sports.io/basketball/teams/819.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 27,
+          "quarter_2": 27,
+          "quarter_3": 26,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 103
+        },
+        "away": {
+          "quarter_1": 25,
+          "quarter_2": 25,
+          "quarter_3": 28,
+          "quarter_4": 27,
+          "over_time": null,
+          "total": 105
+        }
+      }
+    },
+    {
+      "id": 499873,
+      "date": "2026-05-30T02:30:00+00:00",
+      "time": "02:30",
+      "timestamp": 1780108200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "CIBACOPA - Quarter-finals",
+      "venue": "Centro de Usos M\u00faltiples de Los Mochis",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 251,
+        "name": "CIBACOPA",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/251.png"
+      },
+      "country": {
+        "id": 28,
+        "name": "Mexico",
+        "code": "MX",
+        "flag": "https://media.api-sports.io/flags/mx.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3846,
+          "name": "Pioneros de Los Mochis",
+          "logo": "https://media.api-sports.io/basketball/teams/3846.png"
+        },
+        "away": {
+          "id": 6305,
+          "name": "Frayles de Guasave",
+          "logo": "https://media.api-sports.io/basketball/teams/6305.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 26,
+          "quarter_2": 7,
+          "quarter_3": 23,
+          "quarter_4": 27,
+          "over_time": null,
+          "total": 83
+        },
+        "away": {
+          "quarter_1": 27,
+          "quarter_2": 25,
+          "quarter_3": 37,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 111
+        }
+      }
+    },
+    {
+      "id": 485319,
+      "date": "2026-05-30T04:00:00+00:00",
+      "time": "04:00",
+      "timestamp": 1780113600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Unison Arena",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 66,
+        "name": "NBL",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/66.png"
+      },
+      "country": {
+        "id": 31,
+        "name": "New Zealand",
+        "code": "NZ",
+        "flag": "https://media.api-sports.io/flags/nz.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 6301,
+          "name": "Tauranga Whai",
+          "logo": "https://media.api-sports.io/basketball/teams/6301.png"
+        },
+        "away": {
+          "id": 853,
+          "name": "Bay Hawks",
+          "logo": "https://media.api-sports.io/basketball/teams/853.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 23,
+          "quarter_2": 25,
+          "quarter_3": 19,
+          "quarter_4": 27,
+          "over_time": null,
+          "total": 94
+        },
+        "away": {
+          "quarter_1": 16,
+          "quarter_2": 23,
+          "quarter_3": 19,
+          "quarter_4": 30,
+          "over_time": null,
+          "total": 88
+        }
+      }
+    },
+    {
+      "id": 488394,
+      "date": "2026-05-30T05:00:00+00:00",
+      "time": "05:00",
+      "timestamp": 1780117200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 216,
+        "name": "NBL1 East Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/216.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3549,
+          "name": "Manly W. W",
+          "logo": "https://media.api-sports.io/basketball/teams/3549.png"
+        },
+        "away": {
+          "id": 3545,
+          "name": "Hills Hornets W",
+          "logo": "https://media.api-sports.io/basketball/teams/3545.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 24,
+          "quarter_2": 16,
+          "quarter_3": 13,
+          "quarter_4": 18,
+          "over_time": null,
+          "total": 71
+        },
+        "away": {
+          "quarter_1": 11,
+          "quarter_2": 19,
+          "quarter_3": 13,
+          "quarter_4": 11,
+          "over_time": null,
+          "total": 54
+        }
+      }
+    },
+    {
+      "id": 488395,
+      "date": "2026-05-30T06:00:00+00:00",
+      "time": "06:00",
+      "timestamp": 1780120800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 216,
+        "name": "NBL1 East Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/216.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 54,
+          "name": "BA CoE W",
+          "logo": "https://media.api-sports.io/basketball/teams/54.png"
+        },
+        "away": {
+          "id": 3550,
+          "name": "Newcastle Falcons W",
+          "logo": "https://media.api-sports.io/basketball/teams/3550.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 17,
+          "quarter_2": 30,
+          "quarter_3": 16,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 84
+        },
+        "away": {
+          "quarter_1": 17,
+          "quarter_2": 15,
+          "quarter_3": 15,
+          "quarter_4": 14,
+          "over_time": null,
+          "total": 61
+        }
+      }
+    },
+    {
+      "id": 487763,
+      "date": "2026-05-30T07:00:00+00:00",
+      "time": "07:00",
+      "timestamp": 1780124400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 210,
+        "name": "NBL1 South Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/210.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 69,
+          "name": "Melbourne Tigers W",
+          "logo": "https://media.api-sports.io/basketball/teams/69.png"
+        },
+        "away": {
+          "id": 3482,
+          "name": "Keilor Thunder W",
+          "logo": "https://media.api-sports.io/basketball/teams/3482.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 24,
+          "quarter_2": 26,
+          "quarter_3": 14,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 80
+        },
+        "away": {
+          "quarter_1": 20,
+          "quarter_2": 18,
+          "quarter_3": 22,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 82
+        }
+      }
+    },
+    {
+      "id": 487948,
+      "date": "2026-05-30T07:00:00+00:00",
+      "time": "07:00",
+      "timestamp": 1780124400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 208,
+        "name": "NBL1 North Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/208.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3459,
+          "name": "Brisbane Capitals W",
+          "logo": "https://media.api-sports.io/basketball/teams/3459.png"
+        },
+        "away": {
+          "id": 3470,
+          "name": "South West Metro Pirates W",
+          "logo": "https://media.api-sports.io/basketball/teams/3470.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 28,
+          "quarter_2": 20,
+          "quarter_3": 11,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 82
+        },
+        "away": {
+          "quarter_1": 18,
+          "quarter_2": 13,
+          "quarter_3": 19,
+          "quarter_4": 13,
+          "over_time": null,
+          "total": 63
+        }
+      }
+    },
+    {
+      "id": 488236,
+      "date": "2026-05-30T07:00:00+00:00",
+      "time": "07:00",
+      "timestamp": 1780124400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 215,
+        "name": "NBL1 East",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/215.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3538,
+          "name": "Manly W.",
+          "logo": "https://media.api-sports.io/basketball/teams/3538.png"
+        },
+        "away": {
+          "id": 3535,
+          "name": "Hills Hornets",
+          "logo": "https://media.api-sports.io/basketball/teams/3535.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 23,
+          "quarter_2": 21,
+          "quarter_3": 19,
+          "quarter_4": 11,
+          "over_time": null,
+          "total": 74
+        },
+        "away": {
+          "quarter_1": 12,
+          "quarter_2": 16,
+          "quarter_3": 15,
+          "quarter_4": 17,
+          "over_time": null,
+          "total": 60
+        }
+      }
+    },
+    {
+      "id": 488396,
+      "date": "2026-05-30T07:00:00+00:00",
+      "time": "07:00",
+      "timestamp": 1780124400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 216,
+        "name": "NBL1 East Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/216.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3544,
+          "name": "Central Coast W",
+          "logo": "https://media.api-sports.io/basketball/teams/3544.png"
+        },
+        "away": {
+          "id": 3543,
+          "name": "Canberra W",
+          "logo": "https://media.api-sports.io/basketball/teams/3543.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 6,
+          "quarter_2": 10,
+          "quarter_3": 10,
+          "quarter_4": 15,
+          "over_time": null,
+          "total": 41
+        },
+        "away": {
+          "quarter_1": 34,
+          "quarter_2": 19,
+          "quarter_3": 24,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 100
+        }
+      }
+    },
+    {
+      "id": 488397,
+      "date": "2026-05-30T07:00:00+00:00",
+      "time": "07:00",
+      "timestamp": 1780124400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 216,
+        "name": "NBL1 East Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/216.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3551,
+          "name": "Norths Bears W",
+          "logo": "https://media.api-sports.io/basketball/teams/3551.png"
+        },
+        "away": {
+          "id": 3548,
+          "name": "Maitland Mustangs W",
+          "logo": "https://media.api-sports.io/basketball/teams/3548.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 17,
+          "quarter_2": 18,
+          "quarter_3": 26,
+          "quarter_4": 15,
+          "over_time": null,
+          "total": 76
+        },
+        "away": {
+          "quarter_1": 10,
+          "quarter_2": 14,
+          "quarter_3": 20,
+          "quarter_4": 28,
+          "over_time": null,
+          "total": 72
+        }
+      }
+    },
+    {
+      "id": 485320,
+      "date": "2026-05-30T07:30:00+00:00",
+      "time": "07:30",
+      "timestamp": 1780126200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Cowles Stadium",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 66,
+        "name": "NBL",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/66.png"
+      },
+      "country": {
+        "id": 31,
+        "name": "New Zealand",
+        "code": "NZ",
+        "flag": "https://media.api-sports.io/flags/nz.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 854,
+          "name": "Canterbury Rams",
+          "logo": "https://media.api-sports.io/basketball/teams/854.png"
+        },
+        "away": {
+          "id": 856,
+          "name": "Nelson Giants",
+          "logo": "https://media.api-sports.io/basketball/teams/856.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 28,
+          "quarter_2": 24,
+          "quarter_3": 21,
+          "quarter_4": 20,
+          "over_time": null,
+          "total": 93
+        },
+        "away": {
+          "quarter_1": 20,
+          "quarter_2": 13,
+          "quarter_3": 15,
+          "quarter_4": 26,
+          "over_time": null,
+          "total": 74
+        }
+      }
+    },
+    {
+      "id": 487762,
+      "date": "2026-05-30T07:30:00+00:00",
+      "time": "07:30",
+      "timestamp": 1780126200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 210,
+        "name": "NBL1 South Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/210.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 66,
+          "name": "Kilsyth W",
+          "logo": "https://media.api-sports.io/basketball/teams/66.png"
+        },
+        "away": {
+          "id": 65,
+          "name": "Knox W",
+          "logo": "https://media.api-sports.io/basketball/teams/65.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 12,
+          "quarter_2": 14,
+          "quarter_3": 17,
+          "quarter_4": 24,
+          "over_time": null,
+          "total": 67
+        },
+        "away": {
+          "quarter_1": 27,
+          "quarter_2": 25,
+          "quarter_3": 16,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 84
+        }
+      }
+    },
+    {
+      "id": 487764,
+      "date": "2026-05-30T07:30:00+00:00",
+      "time": "07:30",
+      "timestamp": 1780126200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 210,
+        "name": "NBL1 South Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/210.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 59,
+          "name": "Ballarat W",
+          "logo": "https://media.api-sports.io/basketball/teams/59.png"
+        },
+        "away": {
+          "id": 57,
+          "name": "Geelong W",
+          "logo": "https://media.api-sports.io/basketball/teams/57.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 16,
+          "quarter_2": 32,
+          "quarter_3": 24,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 95
+        },
+        "away": {
+          "quarter_1": 21,
+          "quarter_2": 9,
+          "quarter_3": 19,
+          "quarter_4": 24,
+          "over_time": null,
+          "total": 73
+        }
+      }
+    },
+    {
+      "id": 487765,
+      "date": "2026-05-30T07:30:00+00:00",
+      "time": "07:30",
+      "timestamp": 1780126200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 210,
+        "name": "NBL1 South Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/210.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3484,
+          "name": "Bendigo Braves W",
+          "logo": "https://media.api-sports.io/basketball/teams/3484.png"
+        },
+        "away": {
+          "id": 61,
+          "name": "Waverley W",
+          "logo": "https://media.api-sports.io/basketball/teams/61.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 16,
+          "quarter_2": 25,
+          "quarter_3": 18,
+          "quarter_4": 11,
+          "over_time": null,
+          "total": 70
+        },
+        "away": {
+          "quarter_1": 31,
+          "quarter_2": 17,
+          "quarter_3": 20,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 91
+        }
+      }
+    },
+    {
+      "id": 487766,
+      "date": "2026-05-30T07:30:00+00:00",
+      "time": "07:30",
+      "timestamp": 1780126200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 210,
+        "name": "NBL1 South Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/210.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7840,
+          "name": "Northern Tasmania W",
+          "logo": "https://media.api-sports.io/basketball/teams/7840.png"
+        },
+        "away": {
+          "id": 2959,
+          "name": "Hobart Chargers W",
+          "logo": "https://media.api-sports.io/basketball/teams/2959.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 17,
+          "quarter_2": 19,
+          "quarter_3": 17,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 74
+        },
+        "away": {
+          "quarter_1": 23,
+          "quarter_2": 14,
+          "quarter_3": 12,
+          "quarter_4": 15,
+          "over_time": null,
+          "total": 64
+        }
+      }
+    },
+    {
+      "id": 487767,
+      "date": "2026-05-30T07:30:00+00:00",
+      "time": "07:30",
+      "timestamp": 1780126200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 210,
+        "name": "NBL1 South Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/210.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 58,
+          "name": "Nunawading W",
+          "logo": "https://media.api-sports.io/basketball/teams/58.png"
+        },
+        "away": {
+          "id": 3481,
+          "name": "Dandenong Rangers W",
+          "logo": "https://media.api-sports.io/basketball/teams/3481.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 14,
+          "quarter_2": 9,
+          "quarter_3": 19,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 63
+        },
+        "away": {
+          "quarter_1": 11,
+          "quarter_2": 21,
+          "quarter_3": 16,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 64
+        }
+      }
+    },
+    {
+      "id": 488398,
+      "date": "2026-05-30T07:30:00+00:00",
+      "time": "07:30",
+      "timestamp": 1780126200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 216,
+        "name": "NBL1 East Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/216.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 5931,
+          "name": "Sydney Comets W",
+          "logo": "https://media.api-sports.io/basketball/teams/5931.png"
+        },
+        "away": {
+          "id": 3552,
+          "name": "Sutherland Sharks W",
+          "logo": "https://media.api-sports.io/basketball/teams/3552.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 16,
+          "quarter_2": 11,
+          "quarter_3": 21,
+          "quarter_4": 15,
+          "over_time": null,
+          "total": 63
+        },
+        "away": {
+          "quarter_1": 14,
+          "quarter_2": 25,
+          "quarter_3": 16,
+          "quarter_4": 15,
+          "over_time": null,
+          "total": 70
+        }
+      }
+    },
+    {
+      "id": 488399,
+      "date": "2026-05-30T07:30:00+00:00",
+      "time": "07:30",
+      "timestamp": 1780126200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 216,
+        "name": "NBL1 East Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/216.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 68,
+          "name": "Albury W",
+          "logo": "https://media.api-sports.io/basketball/teams/68.png"
+        },
+        "away": {
+          "id": 3546,
+          "name": "Illawarra Hawks W",
+          "logo": "https://media.api-sports.io/basketball/teams/3546.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 20,
+          "quarter_2": 11,
+          "quarter_3": 15,
+          "quarter_4": 20,
+          "over_time": null,
+          "total": 66
+        },
+        "away": {
+          "quarter_1": 11,
+          "quarter_2": 24,
+          "quarter_3": 21,
+          "quarter_4": 14,
+          "over_time": null,
+          "total": 70
+        }
+      }
+    },
+    {
+      "id": 487768,
+      "date": "2026-05-30T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1780128000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "After Over Time",
+        "short": "AOT",
+        "timer": null
+      },
+      "league": {
+        "id": 210,
+        "name": "NBL1 South Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/210.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 63,
+          "name": "Eltham W",
+          "logo": "https://media.api-sports.io/basketball/teams/63.png"
+        },
+        "away": {
+          "id": 62,
+          "name": "Diamond Valley W",
+          "logo": "https://media.api-sports.io/basketball/teams/62.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 12,
+          "quarter_2": 19,
+          "quarter_3": 20,
+          "quarter_4": 17,
+          "over_time": 14,
+          "total": 82
+        },
+        "away": {
+          "quarter_1": 29,
+          "quarter_2": 17,
+          "quarter_3": 10,
+          "quarter_4": 12,
+          "over_time": 13,
+          "total": 81
+        }
+      }
+    },
+    {
+      "id": 487949,
+      "date": "2026-05-30T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1780128000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 208,
+        "name": "NBL1 North Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/208.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3460,
+          "name": "Cairns W",
+          "logo": "https://media.api-sports.io/basketball/teams/3460.png"
+        },
+        "away": {
+          "id": 3462,
+          "name": "Gold Coast Rollers W",
+          "logo": "https://media.api-sports.io/basketball/teams/3462.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 18,
+          "quarter_2": 14,
+          "quarter_3": 32,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 87
+        },
+        "away": {
+          "quarter_1": 21,
+          "quarter_2": 23,
+          "quarter_3": 17,
+          "quarter_4": 17,
+          "over_time": null,
+          "total": 78
+        }
+      }
+    },
+    {
+      "id": 487950,
+      "date": "2026-05-30T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1780128000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 208,
+        "name": "NBL1 North Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/208.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3469,
+          "name": "Rockhampton W",
+          "logo": "https://media.api-sports.io/basketball/teams/3469.png"
+        },
+        "away": {
+          "id": 3467,
+          "name": "Northside Wizards W",
+          "logo": "https://media.api-sports.io/basketball/teams/3467.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 15,
+          "quarter_2": 11,
+          "quarter_3": 17,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 66
+        },
+        "away": {
+          "quarter_1": 18,
+          "quarter_2": 25,
+          "quarter_3": 18,
+          "quarter_4": 13,
+          "over_time": null,
+          "total": 74
+        }
+      }
+    },
+    {
+      "id": 487951,
+      "date": "2026-05-30T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1780128000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 208,
+        "name": "NBL1 North Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/208.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3472,
+          "name": "Sunshine Coast Phoenix W",
+          "logo": "https://media.api-sports.io/basketball/teams/3472.png"
+        },
+        "away": {
+          "id": 3464,
+          "name": "Logan Thunder W",
+          "logo": "https://media.api-sports.io/basketball/teams/3464.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 20,
+          "quarter_2": 21,
+          "quarter_3": 15,
+          "quarter_4": 25,
+          "over_time": null,
+          "total": 81
+        },
+        "away": {
+          "quarter_1": 21,
+          "quarter_2": 27,
+          "quarter_3": 28,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 92
+        }
+      }
+    },
+    {
+      "id": 488237,
+      "date": "2026-05-30T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1780128000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 215,
+        "name": "NBL1 East",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/215.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 41,
+          "name": "BA CoE",
+          "logo": "https://media.api-sports.io/basketball/teams/41.png"
+        },
+        "away": {
+          "id": 3539,
+          "name": "Newcastle Falcons",
+          "logo": "https://media.api-sports.io/basketball/teams/3539.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 27,
+          "quarter_2": 20,
+          "quarter_3": 17,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 87
+        },
+        "away": {
+          "quarter_1": 8,
+          "quarter_2": 18,
+          "quarter_3": 17,
+          "quarter_4": 15,
+          "over_time": null,
+          "total": 58
+        }
+      }
+    },
+    {
+      "id": 498336,
+      "date": "2026-05-30T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1780128000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 426,
+        "name": "MPBL",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/426.png"
+      },
+      "country": {
+        "id": 60,
+        "name": "Philippines",
+        "code": "PH",
+        "flag": "https://media.api-sports.io/flags/ph.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7368,
+          "name": "Pasay Voyagers",
+          "logo": "https://media.api-sports.io/basketball/teams/7368.png"
+        },
+        "away": {
+          "id": 7370,
+          "name": "Quezon City",
+          "logo": "https://media.api-sports.io/basketball/teams/7370.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 16,
+          "quarter_2": 25,
+          "quarter_3": 19,
+          "quarter_4": 18,
+          "over_time": null,
+          "total": 78
+        },
+        "away": {
+          "quarter_1": 18,
+          "quarter_2": 23,
+          "quarter_3": 13,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 76
+        }
+      }
+    },
+    {
+      "id": 487060,
+      "date": "2026-05-30T08:30:00+00:00",
+      "time": "08:30",
+      "timestamp": 1780129800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 214,
+        "name": "NBL1 West",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/214.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3521,
+          "name": "Geraldton Buccaneers",
+          "logo": "https://media.api-sports.io/basketball/teams/3521.png"
+        },
+        "away": {
+          "id": 3522,
+          "name": "Goldfields Giants",
+          "logo": "https://media.api-sports.io/basketball/teams/3522.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 18,
+          "quarter_2": 29,
+          "quarter_3": 0,
+          "quarter_4": 0,
+          "over_time": null,
+          "total": 47
+        },
+        "away": {
+          "quarter_1": 22,
+          "quarter_2": 10,
+          "quarter_3": 0,
+          "quarter_4": 0,
+          "over_time": null,
+          "total": 32
+        }
+      }
+    },
+    {
+      "id": 487606,
+      "date": "2026-05-30T08:45:00+00:00",
+      "time": "08:45",
+      "timestamp": 1780130700,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 211,
+        "name": "NBL1 Central Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/211.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3487,
+          "name": "Forestville Eagles W",
+          "logo": "https://media.api-sports.io/basketball/teams/3487.png"
+        },
+        "away": {
+          "id": 3492,
+          "name": "Sturt Sabres W",
+          "logo": "https://media.api-sports.io/basketball/teams/3492.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 15,
+          "quarter_2": 19,
+          "quarter_3": 17,
+          "quarter_4": 12,
+          "over_time": null,
+          "total": 63
+        },
+        "away": {
+          "quarter_1": 16,
+          "quarter_2": 24,
+          "quarter_3": 22,
+          "quarter_4": 6,
+          "over_time": null,
+          "total": 68
+        }
+      }
+    },
+    {
+      "id": 487202,
+      "date": "2026-05-30T09:00:00+00:00",
+      "time": "09:00",
+      "timestamp": 1780131600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 213,
+        "name": "NBL1 West Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/213.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3507,
+          "name": "East Perth Eagles W",
+          "logo": "https://media.api-sports.io/basketball/teams/3507.png"
+        },
+        "away": {
+          "id": 3514,
+          "name": "Perth Redbacks W",
+          "logo": "https://media.api-sports.io/basketball/teams/3514.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 34,
+          "quarter_2": 22,
+          "quarter_3": 20,
+          "quarter_4": 20,
+          "over_time": null,
+          "total": 96
+        },
+        "away": {
+          "quarter_1": 16,
+          "quarter_2": 24,
+          "quarter_3": 20,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 83
+        }
+      }
+    },
+    {
+      "id": 487203,
+      "date": "2026-05-30T09:00:00+00:00",
+      "time": "09:00",
+      "timestamp": 1780131600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 213,
+        "name": "NBL1 West Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/213.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3510,
+          "name": "Kalamunda Eastern Suns W",
+          "logo": "https://media.api-sports.io/basketball/teams/3510.png"
+        },
+        "away": {
+          "id": 3513,
+          "name": "Perry Lakes Hawks W",
+          "logo": "https://media.api-sports.io/basketball/teams/3513.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 18,
+          "quarter_2": 24,
+          "quarter_3": 13,
+          "quarter_4": 11,
+          "over_time": null,
+          "total": 66
+        },
+        "away": {
+          "quarter_1": 12,
+          "quarter_2": 15,
+          "quarter_3": 24,
+          "quarter_4": 25,
+          "over_time": null,
+          "total": 76
+        }
+      }
+    },
+    {
+      "id": 487204,
+      "date": "2026-05-30T09:00:00+00:00",
+      "time": "09:00",
+      "timestamp": 1780131600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 213,
+        "name": "NBL1 West Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/213.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3512,
+          "name": "Mandurah Magic W",
+          "logo": "https://media.api-sports.io/basketball/teams/3512.png"
+        },
+        "away": {
+          "id": 3516,
+          "name": "South West Slammers W",
+          "logo": "https://media.api-sports.io/basketball/teams/3516.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 31,
+          "quarter_2": 33,
+          "quarter_3": 35,
+          "quarter_4": 12,
+          "over_time": null,
+          "total": 111
+        },
+        "away": {
+          "quarter_1": 23,
+          "quarter_2": 26,
+          "quarter_3": 12,
+          "quarter_4": 7,
+          "over_time": null,
+          "total": 68
+        }
+      }
+    },
+    {
+      "id": 487472,
+      "date": "2026-05-30T09:00:00+00:00",
+      "time": "09:00",
+      "timestamp": 1780131600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 209,
+        "name": "NBL1 South",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/209.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 52,
+          "name": "Melbourne Tigers",
+          "logo": "https://media.api-sports.io/basketball/teams/52.png"
+        },
+        "away": {
+          "id": 3477,
+          "name": "Keilor Thunder",
+          "logo": "https://media.api-sports.io/basketball/teams/3477.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 17,
+          "quarter_2": 27,
+          "quarter_3": 27,
+          "quarter_4": 24,
+          "over_time": null,
+          "total": 95
+        },
+        "away": {
+          "quarter_1": 25,
+          "quarter_2": 24,
+          "quarter_3": 11,
+          "quarter_4": 20,
+          "over_time": null,
+          "total": 80
+        }
+      }
+    },
+    {
+      "id": 487607,
+      "date": "2026-05-30T09:00:00+00:00",
+      "time": "09:00",
+      "timestamp": 1780131600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 211,
+        "name": "NBL1 Central Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/211.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3485,
+          "name": "Central Districts Lions W",
+          "logo": "https://media.api-sports.io/basketball/teams/3485.png"
+        },
+        "away": {
+          "id": 3494,
+          "name": "Woodville Warriors W",
+          "logo": "https://media.api-sports.io/basketball/teams/3494.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 31,
+          "quarter_2": 24,
+          "quarter_3": 21,
+          "quarter_4": 24,
+          "over_time": null,
+          "total": 100
+        },
+        "away": {
+          "quarter_1": 19,
+          "quarter_2": 30,
+          "quarter_3": 26,
+          "quarter_4": 17,
+          "over_time": null,
+          "total": 92
+        }
+      }
+    },
+    {
+      "id": 487608,
+      "date": "2026-05-30T09:00:00+00:00",
+      "time": "09:00",
+      "timestamp": 1780131600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 211,
+        "name": "NBL1 Central Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/211.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3488,
+          "name": "North Adelaide Rockets W",
+          "logo": "https://media.api-sports.io/basketball/teams/3488.png"
+        },
+        "away": {
+          "id": 3489,
+          "name": "Norwood Flames W",
+          "logo": "https://media.api-sports.io/basketball/teams/3489.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 24,
+          "quarter_2": 11,
+          "quarter_3": 19,
+          "quarter_4": 14,
+          "over_time": null,
+          "total": 68
+        },
+        "away": {
+          "quarter_1": 14,
+          "quarter_2": 14,
+          "quarter_3": 28,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 79
+        }
+      }
+    },
+    {
+      "id": 487609,
+      "date": "2026-05-30T09:00:00+00:00",
+      "time": "09:00",
+      "timestamp": 1780131600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 211,
+        "name": "NBL1 Central Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/211.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3491,
+          "name": "Southern Tigers W",
+          "logo": "https://media.api-sports.io/basketball/teams/3491.png"
+        },
+        "away": {
+          "id": 3486,
+          "name": "Eastern Mavericks W",
+          "logo": "https://media.api-sports.io/basketball/teams/3486.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 24,
+          "quarter_2": 15,
+          "quarter_3": 20,
+          "quarter_4": 19,
+          "over_time": null,
+          "total": 78
+        },
+        "away": {
+          "quarter_1": 24,
+          "quarter_2": 16,
+          "quarter_3": 14,
+          "quarter_4": 9,
+          "over_time": null,
+          "total": 63
+        }
+      }
+    },
+    {
+      "id": 487610,
+      "date": "2026-05-30T09:00:00+00:00",
+      "time": "09:00",
+      "timestamp": 1780131600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 211,
+        "name": "NBL1 Central Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/211.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3493,
+          "name": "West Adelaide Bearcats W",
+          "logo": "https://media.api-sports.io/basketball/teams/3493.png"
+        },
+        "away": {
+          "id": 3490,
+          "name": "South Adelaide Panthers W",
+          "logo": "https://media.api-sports.io/basketball/teams/3490.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 30,
+          "quarter_2": 33,
+          "quarter_3": 14,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 99
+        },
+        "away": {
+          "quarter_1": 11,
+          "quarter_2": 12,
+          "quarter_3": 13,
+          "quarter_4": 13,
+          "over_time": null,
+          "total": 49
+        }
+      }
+    },
+    {
+      "id": 488052,
+      "date": "2026-05-30T09:00:00+00:00",
+      "time": "09:00",
+      "timestamp": 1780131600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 207,
+        "name": "NBL1 North",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/207.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3443,
+          "name": "Brisbane Capitals",
+          "logo": "https://media.api-sports.io/basketball/teams/3443.png"
+        },
+        "away": {
+          "id": 3454,
+          "name": "South West Metro Pirates",
+          "logo": "https://media.api-sports.io/basketball/teams/3454.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 28,
+          "quarter_2": 14,
+          "quarter_3": 28,
+          "quarter_4": 34,
+          "over_time": null,
+          "total": 104
+        },
+        "away": {
+          "quarter_1": 17,
+          "quarter_2": 27,
+          "quarter_3": 16,
+          "quarter_4": 28,
+          "over_time": null,
+          "total": 88
+        }
+      }
+    },
+    {
+      "id": 488238,
+      "date": "2026-05-30T09:00:00+00:00",
+      "time": "09:00",
+      "timestamp": 1780131600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 215,
+        "name": "NBL1 East",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/215.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3534,
+          "name": "Central Coast Crusaders",
+          "logo": "https://media.api-sports.io/basketball/teams/3534.png"
+        },
+        "away": {
+          "id": 2955,
+          "name": "Canberra",
+          "logo": "https://media.api-sports.io/basketball/teams/2955.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 15,
+          "quarter_2": 20,
+          "quarter_3": 35,
+          "quarter_4": 18,
+          "over_time": null,
+          "total": 88
+        },
+        "away": {
+          "quarter_1": 15,
+          "quarter_2": 19,
+          "quarter_3": 17,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 73
+        }
+      }
+    },
+    {
+      "id": 488239,
+      "date": "2026-05-30T09:00:00+00:00",
+      "time": "09:00",
+      "timestamp": 1780131600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 215,
+        "name": "NBL1 East",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/215.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3540,
+          "name": "Norths Bears",
+          "logo": "https://media.api-sports.io/basketball/teams/3540.png"
+        },
+        "away": {
+          "id": 3537,
+          "name": "Maitland M.",
+          "logo": "https://media.api-sports.io/basketball/teams/3537.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 31,
+          "quarter_2": 28,
+          "quarter_3": 21,
+          "quarter_4": 19,
+          "over_time": null,
+          "total": 99
+        },
+        "away": {
+          "quarter_1": 15,
+          "quarter_2": 25,
+          "quarter_3": 15,
+          "quarter_4": 31,
+          "over_time": null,
+          "total": 86
+        }
+      }
+    },
+    {
+      "id": 487471,
+      "date": "2026-05-30T09:30:00+00:00",
+      "time": "09:30",
+      "timestamp": 1780133400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 209,
+        "name": "NBL1 South",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/209.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 50,
+          "name": "Kilsyth",
+          "logo": "https://media.api-sports.io/basketball/teams/50.png"
+        },
+        "away": {
+          "id": 49,
+          "name": "Knox",
+          "logo": "https://media.api-sports.io/basketball/teams/49.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 27,
+          "quarter_2": 16,
+          "quarter_3": 20,
+          "quarter_4": 20,
+          "over_time": null,
+          "total": 93
+        },
+        "away": {
+          "quarter_1": 17,
+          "quarter_2": 23,
+          "quarter_3": 26,
+          "quarter_4": 17,
+          "over_time": null,
+          "total": 96
+        }
+      }
+    },
+    {
+      "id": 487473,
+      "date": "2026-05-30T09:30:00+00:00",
+      "time": "09:30",
+      "timestamp": 1780133400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 209,
+        "name": "NBL1 South",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/209.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 43,
+          "name": "Ballarat",
+          "logo": "https://media.api-sports.io/basketball/teams/43.png"
+        },
+        "away": {
+          "id": 38,
+          "name": "Geelong",
+          "logo": "https://media.api-sports.io/basketball/teams/38.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 19,
+          "quarter_2": 33,
+          "quarter_3": 21,
+          "quarter_4": 28,
+          "over_time": null,
+          "total": 101
+        },
+        "away": {
+          "quarter_1": 16,
+          "quarter_2": 20,
+          "quarter_3": 17,
+          "quarter_4": 29,
+          "over_time": null,
+          "total": 82
+        }
+      }
+    },
+    {
+      "id": 487474,
+      "date": "2026-05-30T09:30:00+00:00",
+      "time": "09:30",
+      "timestamp": 1780133400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 209,
+        "name": "NBL1 South",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/209.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3475,
+          "name": "Bendigo Braves",
+          "logo": "https://media.api-sports.io/basketball/teams/3475.png"
+        },
+        "away": {
+          "id": 45,
+          "name": "Waverley",
+          "logo": "https://media.api-sports.io/basketball/teams/45.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 16,
+          "quarter_2": 27,
+          "quarter_3": 27,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 91
+        },
+        "away": {
+          "quarter_1": 18,
+          "quarter_2": 18,
+          "quarter_3": 25,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 84
+        }
+      }
+    },
+    {
+      "id": 487475,
+      "date": "2026-05-30T09:30:00+00:00",
+      "time": "09:30",
+      "timestamp": 1780133400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 209,
+        "name": "NBL1 South",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/209.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7839,
+          "name": "Northern Tasmania",
+          "logo": "https://media.api-sports.io/basketball/teams/7839.png"
+        },
+        "away": {
+          "id": 2956,
+          "name": "Hobart Chargers",
+          "logo": "https://media.api-sports.io/basketball/teams/2956.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 18,
+          "quarter_2": 22,
+          "quarter_3": 30,
+          "quarter_4": 29,
+          "over_time": null,
+          "total": 99
+        },
+        "away": {
+          "quarter_1": 17,
+          "quarter_2": 30,
+          "quarter_3": 25,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 94
+        }
+      }
+    },
+    {
+      "id": 487476,
+      "date": "2026-05-30T09:30:00+00:00",
+      "time": "09:30",
+      "timestamp": 1780133400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 209,
+        "name": "NBL1 South",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/209.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 39,
+          "name": "Nunawading",
+          "logo": "https://media.api-sports.io/basketball/teams/39.png"
+        },
+        "away": {
+          "id": 40,
+          "name": "Dandenong",
+          "logo": "https://media.api-sports.io/basketball/teams/40.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 27,
+          "quarter_2": 29,
+          "quarter_3": 24,
+          "quarter_4": 31,
+          "over_time": null,
+          "total": 111
+        },
+        "away": {
+          "quarter_1": 23,
+          "quarter_2": 20,
+          "quarter_3": 32,
+          "quarter_4": 31,
+          "over_time": null,
+          "total": 106
+        }
+      }
+    },
+    {
+      "id": 488240,
+      "date": "2026-05-30T09:30:00+00:00",
+      "time": "09:30",
+      "timestamp": 1780133400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 215,
+        "name": "NBL1 East",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/215.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3479,
+          "name": "Albury-Wodonga Bandits",
+          "logo": "https://media.api-sports.io/basketball/teams/3479.png"
+        },
+        "away": {
+          "id": 5979,
+          "name": "Illawarra Hawks 2",
+          "logo": "https://media.api-sports.io/basketball/teams/5979.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 24,
+          "quarter_2": 21,
+          "quarter_3": 30,
+          "quarter_4": 27,
+          "over_time": null,
+          "total": 102
+        },
+        "away": {
+          "quarter_1": 32,
+          "quarter_2": 28,
+          "quarter_3": 23,
+          "quarter_4": 28,
+          "over_time": null,
+          "total": 111
+        }
+      }
+    },
+    {
+      "id": 488241,
+      "date": "2026-05-30T09:30:00+00:00",
+      "time": "09:30",
+      "timestamp": 1780133400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 215,
+        "name": "NBL1 East",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/215.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 5980,
+          "name": "Sydney Comets",
+          "logo": "https://media.api-sports.io/basketball/teams/5980.png"
+        },
+        "away": {
+          "id": 3541,
+          "name": "Sutherland Sharks",
+          "logo": "https://media.api-sports.io/basketball/teams/3541.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 14,
+          "quarter_2": 16,
+          "quarter_3": 16,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 62
+        },
+        "away": {
+          "quarter_1": 30,
+          "quarter_2": 18,
+          "quarter_3": 20,
+          "quarter_4": 19,
+          "over_time": null,
+          "total": 87
+        }
+      }
+    },
+    {
+      "id": 487205,
+      "date": "2026-05-30T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1780135200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 213,
+        "name": "NBL1 West Women",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/213.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3511,
+          "name": "Lakeside Lightning W",
+          "logo": "https://media.api-sports.io/basketball/teams/3511.png"
+        },
+        "away": {
+          "id": 3515,
+          "name": "Rockingham Flames W",
+          "logo": "https://media.api-sports.io/basketball/teams/3515.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 20,
+          "quarter_2": 22,
+          "quarter_3": 9,
+          "quarter_4": 24,
+          "over_time": null,
+          "total": 75
+        },
+        "away": {
+          "quarter_1": 22,
+          "quarter_2": 19,
+          "quarter_3": 22,
+          "quarter_4": 27,
+          "over_time": null,
+          "total": 90
+        }
+      }
+    },
+    {
+      "id": 487477,
+      "date": "2026-05-30T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1780135200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 209,
+        "name": "NBL1 South",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/209.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Eltham",
+          "logo": "https://media.api-sports.io/basketball/teams/47.png"
+        },
+        "away": {
+          "id": 46,
+          "name": "Diamond Valley",
+          "logo": "https://media.api-sports.io/basketball/teams/46.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 21,
+          "quarter_2": 30,
+          "quarter_3": 23,
+          "quarter_4": 31,
+          "over_time": null,
+          "total": 105
+        },
+        "away": {
+          "quarter_1": 19,
+          "quarter_2": 25,
+          "quarter_3": 24,
+          "quarter_4": 15,
+          "over_time": null,
+          "total": 83
+        }
+      }
+    },
+    {
+      "id": 488053,
+      "date": "2026-05-30T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1780135200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 207,
+        "name": "NBL1 North",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/207.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3444,
+          "name": "Cairns Marlins",
+          "logo": "https://media.api-sports.io/basketball/teams/3444.png"
+        },
+        "away": {
+          "id": 3446,
+          "name": "Gold Coast Rollers",
+          "logo": "https://media.api-sports.io/basketball/teams/3446.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 29,
+          "quarter_2": 29,
+          "quarter_3": 22,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 103
+        },
+        "away": {
+          "quarter_1": 33,
+          "quarter_2": 26,
+          "quarter_3": 22,
+          "quarter_4": 17,
+          "over_time": null,
+          "total": 98
+        }
+      }
+    },
+    {
+      "id": 488054,
+      "date": "2026-05-30T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1780135200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 207,
+        "name": "NBL1 North",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/207.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3453,
+          "name": "Rockhampton Rockets",
+          "logo": "https://media.api-sports.io/basketball/teams/3453.png"
+        },
+        "away": {
+          "id": 3451,
+          "name": "Northside Wizards",
+          "logo": "https://media.api-sports.io/basketball/teams/3451.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 31,
+          "quarter_2": 22,
+          "quarter_3": 21,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 95
+        },
+        "away": {
+          "quarter_1": 27,
+          "quarter_2": 36,
+          "quarter_3": 21,
+          "quarter_4": 28,
+          "over_time": null,
+          "total": 112
+        }
+      }
+    },
+    {
+      "id": 488055,
+      "date": "2026-05-30T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1780135200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 207,
+        "name": "NBL1 North",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/207.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 5932,
+          "name": "Sunshine Coast Phoenix",
+          "logo": "https://media.api-sports.io/basketball/teams/5932.png"
+        },
+        "away": {
+          "id": 3448,
+          "name": "Logan Thunder",
+          "logo": "https://media.api-sports.io/basketball/teams/3448.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 33,
+          "quarter_2": 26,
+          "quarter_3": 26,
+          "quarter_4": 31,
+          "over_time": null,
+          "total": 116
+        },
+        "away": {
+          "quarter_1": 18,
+          "quarter_2": 20,
+          "quarter_3": 30,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 89
+        }
+      }
+    },
+    {
+      "id": 498337,
+      "date": "2026-05-30T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1780135200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Postponed",
+        "short": "POST",
+        "timer": null
+      },
+      "league": {
+        "id": 426,
+        "name": "MPBL",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/426.png"
+      },
+      "country": {
+        "id": 60,
+        "name": "Philippines",
+        "code": "PH",
+        "flag": "https://media.api-sports.io/flags/ph.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7880,
+          "name": "Bacolod Masskara",
+          "logo": "https://media.api-sports.io/basketball/teams/7880.png"
+        },
+        "away": {
+          "id": 7887,
+          "name": "Basilan Steel",
+          "logo": "https://media.api-sports.io/basketball/teams/7887.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    },
+    {
+      "id": 498338,
+      "date": "2026-05-30T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1780135200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 426,
+        "name": "MPBL",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/426.png"
+      },
+      "country": {
+        "id": 60,
+        "name": "Philippines",
+        "code": "PH",
+        "flag": "https://media.api-sports.io/flags/ph.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7373,
+          "name": "San Juan Knights",
+          "logo": "https://media.api-sports.io/basketball/teams/7373.png"
+        },
+        "away": {
+          "id": 7887,
+          "name": "Basilan Steel",
+          "logo": "https://media.api-sports.io/basketball/teams/7887.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 23,
+          "quarter_2": 23,
+          "quarter_3": 28,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 97
+        },
+        "away": {
+          "quarter_1": 25,
+          "quarter_2": 13,
+          "quarter_3": 15,
+          "quarter_4": 26,
+          "over_time": null,
+          "total": 79
+        }
+      }
+    },
+    {
+      "id": 487315,
+      "date": "2026-05-30T10:30:00+00:00",
+      "time": "10:30",
+      "timestamp": 1780137000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 212,
+        "name": "NBL1 Central",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/212.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3497,
+          "name": "Forestville Eagles",
+          "logo": "https://media.api-sports.io/basketball/teams/3497.png"
+        },
+        "away": {
+          "id": 3502,
+          "name": "Sturt Sabres",
+          "logo": "https://media.api-sports.io/basketball/teams/3502.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 22,
+          "quarter_2": 30,
+          "quarter_3": 25,
+          "quarter_4": 18,
+          "over_time": null,
+          "total": 95
+        },
+        "away": {
+          "quarter_1": 19,
+          "quarter_2": 31,
+          "quarter_3": 19,
+          "quarter_4": 7,
+          "over_time": null,
+          "total": 76
+        }
+      }
+    },
+    {
+      "id": 487316,
+      "date": "2026-05-30T10:45:00+00:00",
+      "time": "10:45",
+      "timestamp": 1780137900,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 212,
+        "name": "NBL1 Central",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/212.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3505,
+          "name": "Central Districts Lions",
+          "logo": "https://media.api-sports.io/basketball/teams/3505.png"
+        },
+        "away": {
+          "id": 3504,
+          "name": "Woodville Warriors",
+          "logo": "https://media.api-sports.io/basketball/teams/3504.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 24,
+          "quarter_2": 16,
+          "quarter_3": 24,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 80
+        },
+        "away": {
+          "quarter_1": 24,
+          "quarter_2": 19,
+          "quarter_3": 20,
+          "quarter_4": 14,
+          "over_time": null,
+          "total": 77
+        }
+      }
+    },
+    {
+      "id": 487317,
+      "date": "2026-05-30T10:45:00+00:00",
+      "time": "10:45",
+      "timestamp": 1780137900,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 212,
+        "name": "NBL1 Central",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/212.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3498,
+          "name": "North Adelaide Rockets",
+          "logo": "https://media.api-sports.io/basketball/teams/3498.png"
+        },
+        "away": {
+          "id": 3499,
+          "name": "Norwood Flames",
+          "logo": "https://media.api-sports.io/basketball/teams/3499.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 14,
+          "quarter_2": 30,
+          "quarter_3": 30,
+          "quarter_4": 30,
+          "over_time": null,
+          "total": 104
+        },
+        "away": {
+          "quarter_1": 18,
+          "quarter_2": 23,
+          "quarter_3": 28,
+          "quarter_4": 6,
+          "over_time": null,
+          "total": 75
+        }
+      }
+    },
+    {
+      "id": 487318,
+      "date": "2026-05-30T10:45:00+00:00",
+      "time": "10:45",
+      "timestamp": 1780137900,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 212,
+        "name": "NBL1 Central",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/212.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3501,
+          "name": "Southern Tigers",
+          "logo": "https://media.api-sports.io/basketball/teams/3501.png"
+        },
+        "away": {
+          "id": 3496,
+          "name": "Eastern Mavericks",
+          "logo": "https://media.api-sports.io/basketball/teams/3496.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 21,
+          "quarter_2": 28,
+          "quarter_3": 29,
+          "quarter_4": 15,
+          "over_time": null,
+          "total": 116
+        },
+        "away": {
+          "quarter_1": 23,
+          "quarter_2": 24,
+          "quarter_3": 20,
+          "quarter_4": 26,
+          "over_time": null,
+          "total": 121
+        }
+      }
+    },
+    {
+      "id": 487319,
+      "date": "2026-05-30T10:45:00+00:00",
+      "time": "10:45",
+      "timestamp": 1780137900,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 212,
+        "name": "NBL1 Central",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/212.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3503,
+          "name": "West Adelaide Bearcats",
+          "logo": "https://media.api-sports.io/basketball/teams/3503.png"
+        },
+        "away": {
+          "id": 3500,
+          "name": "South Adelaide Panthers",
+          "logo": "https://media.api-sports.io/basketball/teams/3500.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 24,
+          "quarter_2": 24,
+          "quarter_3": 16,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 87
+        },
+        "away": {
+          "quarter_1": 20,
+          "quarter_2": 28,
+          "quarter_3": 23,
+          "quarter_4": 26,
+          "over_time": null,
+          "total": 97
+        }
+      }
+    },
+    {
+      "id": 487061,
+      "date": "2026-05-30T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1780138800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 214,
+        "name": "NBL1 West",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/214.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3524,
+          "name": "Kalamunda Eastern Suns",
+          "logo": "https://media.api-sports.io/basketball/teams/3524.png"
+        },
+        "away": {
+          "id": 3527,
+          "name": "Perry Lakes Hawks",
+          "logo": "https://media.api-sports.io/basketball/teams/3527.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 19,
+          "quarter_2": 16,
+          "quarter_3": 31,
+          "quarter_4": 29,
+          "over_time": null,
+          "total": 95
+        },
+        "away": {
+          "quarter_1": 26,
+          "quarter_2": 22,
+          "quarter_3": 24,
+          "quarter_4": 18,
+          "over_time": null,
+          "total": 90
+        }
+      }
+    },
+    {
+      "id": 487062,
+      "date": "2026-05-30T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1780138800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 214,
+        "name": "NBL1 West",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/214.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3526,
+          "name": "Mandurah Magic",
+          "logo": "https://media.api-sports.io/basketball/teams/3526.png"
+        },
+        "away": {
+          "id": 3530,
+          "name": "South West Slammers",
+          "logo": "https://media.api-sports.io/basketball/teams/3530.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 21,
+          "quarter_2": 25,
+          "quarter_3": 27,
+          "quarter_4": 25,
+          "over_time": null,
+          "total": 98
+        },
+        "away": {
+          "quarter_1": 21,
+          "quarter_2": 22,
+          "quarter_3": 24,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 89
+        }
+      }
+    },
+    {
+      "id": 487063,
+      "date": "2026-05-30T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1780138800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 214,
+        "name": "NBL1 West",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/214.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3520,
+          "name": "East Perth Eagles",
+          "logo": "https://media.api-sports.io/basketball/teams/3520.png"
+        },
+        "away": {
+          "id": 3528,
+          "name": "Perth Redbacks",
+          "logo": "https://media.api-sports.io/basketball/teams/3528.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 26,
+          "quarter_2": 15,
+          "quarter_3": 12,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 90
+        },
+        "away": {
+          "quarter_1": 23,
+          "quarter_2": 19,
+          "quarter_3": 13,
+          "quarter_4": 19,
+          "over_time": null,
+          "total": 83
+        }
+      }
+    },
+    {
+      "id": 499875,
+      "date": "2026-05-30T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1780138800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "Premier League - 3rd place",
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 111,
+        "name": "Premier League",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/111.png"
+      },
+      "country": {
+        "id": 51,
+        "name": "Belarus",
+        "code": "BY",
+        "flag": "https://media.api-sports.io/flags/by.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 1354,
+          "name": "Rubon",
+          "logo": "https://media.api-sports.io/basketball/teams/1354.png"
+        },
+        "away": {
+          "id": 1348,
+          "name": "Borisfen",
+          "logo": "https://media.api-sports.io/basketball/teams/1348.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 29,
+          "quarter_2": 21,
+          "quarter_3": 16,
+          "quarter_4": 18,
+          "over_time": null,
+          "total": 84
+        },
+        "away": {
+          "quarter_1": 23,
+          "quarter_2": 22,
+          "quarter_3": 25,
+          "quarter_4": 18,
+          "over_time": null,
+          "total": 88
+        }
+      }
+    },
+    {
+      "id": 500143,
+      "date": "2026-05-30T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1780138800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "IBL - Quarter-finals",
+      "venue": "Gor Satria Laga Tangkas",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 139,
+        "name": "IBL",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/139.png"
+      },
+      "country": {
+        "id": 58,
+        "name": "Indonesia",
+        "code": "ID",
+        "flag": "https://media.api-sports.io/flags/id.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7857,
+          "name": "Borneo Hornbills",
+          "logo": "https://media.api-sports.io/basketball/teams/7857.png"
+        },
+        "away": {
+          "id": 6450,
+          "name": "Kesatria Bengawan Solo",
+          "logo": "https://media.api-sports.io/basketball/teams/6450.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 28,
+          "quarter_2": 22,
+          "quarter_3": 18,
+          "quarter_4": 14,
+          "over_time": null,
+          "total": 93
+        },
+        "away": {
+          "quarter_1": 20,
+          "quarter_2": 20,
+          "quarter_3": 25,
+          "quarter_4": 17,
+          "over_time": null,
+          "total": 91
+        }
+      }
+    },
+    {
+      "id": 499614,
+      "date": "2026-05-30T11:50:00+00:00",
+      "time": "11:50",
+      "timestamp": 1780141800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "Basket League - Semi-finals",
+      "venue": "P.A.O.K. Sports Arena",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 45,
+        "name": "Basket League",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/45.png"
+      },
+      "country": {
+        "id": 18,
+        "name": "Greece",
+        "code": "GR",
+        "flag": "https://media.api-sports.io/flags/gr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 613,
+          "name": "PAOK",
+          "logo": "https://media.api-sports.io/basketball/teams/613.png"
+        },
+        "away": {
+          "id": 614,
+          "name": "Panathinaikos",
+          "logo": "https://media.api-sports.io/basketball/teams/614.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 27,
+          "quarter_2": 20,
+          "quarter_3": 20,
+          "quarter_4": 27,
+          "over_time": null,
+          "total": 94
+        },
+        "away": {
+          "quarter_1": 17,
+          "quarter_2": 27,
+          "quarter_3": 28,
+          "quarter_4": 30,
+          "over_time": null,
+          "total": 102
+        }
+      }
+    },
+    {
+      "id": 487064,
+      "date": "2026-05-30T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1780142400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 214,
+        "name": "NBL1 West",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/214.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3525,
+          "name": "Lakeside Lightning",
+          "logo": "https://media.api-sports.io/basketball/teams/3525.png"
+        },
+        "away": {
+          "id": 3529,
+          "name": "Rockingham Flames",
+          "logo": "https://media.api-sports.io/basketball/teams/3529.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 19,
+          "quarter_2": 28,
+          "quarter_3": 15,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 85
+        },
+        "away": {
+          "quarter_1": 37,
+          "quarter_2": 23,
+          "quarter_3": 25,
+          "quarter_4": 25,
+          "over_time": null,
+          "total": 110
+        }
+      }
+    },
+    {
+      "id": 498339,
+      "date": "2026-05-30T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1780142400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 426,
+        "name": "MPBL",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/426.png"
+      },
+      "country": {
+        "id": 60,
+        "name": "Philippines",
+        "code": "PH",
+        "flag": "https://media.api-sports.io/flags/ph.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7350,
+          "name": "Bataan Risers",
+          "logo": "https://media.api-sports.io/basketball/teams/7350.png"
+        },
+        "away": {
+          "id": 7372,
+          "name": "Rizal Golden Coolers",
+          "logo": "https://media.api-sports.io/basketball/teams/7372.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 19,
+          "quarter_2": 23,
+          "quarter_3": 22,
+          "quarter_4": 29,
+          "over_time": null,
+          "total": 93
+        },
+        "away": {
+          "quarter_1": 14,
+          "quarter_2": 28,
+          "quarter_3": 31,
+          "quarter_4": 27,
+          "over_time": null,
+          "total": 100
+        }
+      }
+    },
+    {
+      "id": 499411,
+      "date": "2026-05-30T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1780142400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "IBL - Quarter-finals",
+      "venue": "Dewa United Arena",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 139,
+        "name": "IBL",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/139.png"
+      },
+      "country": {
+        "id": 58,
+        "name": "Indonesia",
+        "code": "ID",
+        "flag": "https://media.api-sports.io/flags/id.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3412,
+          "name": "Dewa United",
+          "logo": "https://media.api-sports.io/basketball/teams/3412.png"
+        },
+        "away": {
+          "id": 3415,
+          "name": "Tangerang Hawks",
+          "logo": "https://media.api-sports.io/basketball/teams/3415.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 33,
+          "quarter_2": 20,
+          "quarter_3": 21,
+          "quarter_4": 28,
+          "over_time": null,
+          "total": 102
+        },
+        "away": {
+          "quarter_1": 23,
+          "quarter_2": 13,
+          "quarter_3": 16,
+          "quarter_4": 18,
+          "over_time": null,
+          "total": 70
+        }
+      }
+    },
+    {
+      "id": 499003,
+      "date": "2026-05-30T12:30:00+00:00",
+      "time": "12:30",
+      "timestamp": 1780144200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Nh\u00e0 thi",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 276,
+        "name": "VBA",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/276.png"
+      },
+      "country": {
+        "id": 70,
+        "name": "Vietnam",
+        "code": "VN",
+        "flag": "https://media.api-sports.io/flags/vn.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3993,
+          "name": "Da Nang Dragons",
+          "logo": "https://media.api-sports.io/basketball/teams/3993.png"
+        },
+        "away": {
+          "id": 3995,
+          "name": "Ho Chi Minh City Wings",
+          "logo": "https://media.api-sports.io/basketball/teams/3995.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 18,
+          "quarter_2": 8,
+          "quarter_3": 22,
+          "quarter_4": 18,
+          "over_time": null,
+          "total": 66
+        },
+        "away": {
+          "quarter_1": 14,
+          "quarter_2": 19,
+          "quarter_3": 19,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 75
+        }
+      }
+    },
+    {
+      "id": 500130,
+      "date": "2026-05-30T12:30:00+00:00",
+      "time": "12:30",
+      "timestamp": 1780144200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "BBL - Semi-finals",
+      "venue": "BMW Park",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 40,
+        "name": "BBL",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/40.png"
+      },
+      "country": {
+        "id": 17,
+        "name": "Germany",
+        "code": "DE",
+        "flag": "https://media.api-sports.io/flags/de.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 522,
+          "name": "Bayern",
+          "logo": "https://media.api-sports.io/basketball/teams/522.png"
+        },
+        "away": {
+          "id": 524,
+          "name": "Bonn",
+          "logo": "https://media.api-sports.io/basketball/teams/524.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 18,
+          "quarter_2": 12,
+          "quarter_3": 20,
+          "quarter_4": 33,
+          "over_time": null,
+          "total": 83
+        },
+        "away": {
+          "quarter_1": 21,
+          "quarter_2": 13,
+          "quarter_3": 24,
+          "quarter_4": 20,
+          "over_time": null,
+          "total": 78
+        }
+      }
+    },
+    {
+      "id": 500158,
+      "date": "2026-05-30T13:30:00+00:00",
+      "time": "13:30",
+      "timestamp": 1780147800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "LNB - Quarter-finals",
+      "venue": "Adidas Arena",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 2,
+        "name": "LNB",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/2.png"
+      },
+      "country": {
+        "id": 4,
+        "name": "France",
+        "code": "FR",
+        "flag": "https://media.api-sports.io/flags/fr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 108,
+          "name": "Paris",
+          "logo": "https://media.api-sports.io/basketball/teams/108.png"
+        },
+        "away": {
+          "id": 25,
+          "name": "Strasbourg",
+          "logo": "https://media.api-sports.io/basketball/teams/25.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 26,
+          "quarter_2": 28,
+          "quarter_3": 16,
+          "quarter_4": 19,
+          "over_time": null,
+          "total": 89
+        },
+        "away": {
+          "quarter_1": 19,
+          "quarter_2": 22,
+          "quarter_3": 16,
+          "quarter_4": 18,
+          "over_time": null,
+          "total": 75
+        }
+      }
+    },
+    {
+      "id": 499892,
+      "date": "2026-05-30T14:15:00+00:00",
+      "time": "14:15",
+      "timestamp": 1780150500,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "Basket League - Semi-finals",
+      "venue": "SUNEL Arena",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 45,
+        "name": "Basket League",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/45.png"
+      },
+      "country": {
+        "id": 18,
+        "name": "Greece",
+        "code": "GR",
+        "flag": "https://media.api-sports.io/flags/gr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 605,
+          "name": "AEK Athens",
+          "logo": "https://media.api-sports.io/basketball/teams/605.png"
+        },
+        "away": {
+          "id": 1542,
+          "name": "Olympiacos",
+          "logo": "https://media.api-sports.io/basketball/teams/1542.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 10,
+          "quarter_2": 20,
+          "quarter_3": 16,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 68
+        },
+        "away": {
+          "quarter_1": 20,
+          "quarter_2": 24,
+          "quarter_3": 22,
+          "quarter_4": 29,
+          "over_time": null,
+          "total": 95
+        }
+      }
+    },
+    {
+      "id": 499684,
+      "date": "2026-05-30T14:30:00+00:00",
+      "time": "14:30",
+      "timestamp": 1780151400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "Proliga - Final",
+      "venue": "Clube Desportivo P\u00f3voa",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 261,
+        "name": "Proliga",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/261.png"
+      },
+      "country": {
+        "id": 35,
+        "name": "Portugal",
+        "code": "PT",
+        "flag": "https://media.api-sports.io/flags/pt.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3182,
+          "name": "CD Povoa",
+          "logo": "https://media.api-sports.io/basketball/teams/3182.png"
+        },
+        "away": {
+          "id": 934,
+          "name": "CAB Madeira",
+          "logo": "https://media.api-sports.io/basketball/teams/934.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 26,
+          "quarter_2": 22,
+          "quarter_3": 17,
+          "quarter_4": 13,
+          "over_time": null,
+          "total": 78
+        },
+        "away": {
+          "quarter_1": 24,
+          "quarter_2": 13,
+          "quarter_3": 17,
+          "quarter_4": 7,
+          "over_time": null,
+          "total": 61
+        }
+      }
+    },
+    {
+      "id": 500131,
+      "date": "2026-05-30T14:30:00+00:00",
+      "time": "14:30",
+      "timestamp": 1780151400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "BBL - Semi-finals",
+      "venue": "Uber Arena",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 40,
+        "name": "BBL",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/40.png"
+      },
+      "country": {
+        "id": 17,
+        "name": "Germany",
+        "code": "DE",
+        "flag": "https://media.api-sports.io/flags/de.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 519,
+          "name": "Alba Berlin",
+          "logo": "https://media.api-sports.io/basketball/teams/519.png"
+        },
+        "away": {
+          "id": 520,
+          "name": "Bamberg",
+          "logo": "https://media.api-sports.io/basketball/teams/520.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 18,
+          "quarter_2": 35,
+          "quarter_3": 30,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 105
+        },
+        "away": {
+          "quarter_1": 19,
+          "quarter_2": 15,
+          "quarter_3": 20,
+          "quarter_4": 32,
+          "over_time": null,
+          "total": 86
+        }
+      }
+    },
+    {
+      "id": 500167,
+      "date": "2026-05-30T14:30:00+00:00",
+      "time": "14:30",
+      "timestamp": 1780151400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "Liga A - Semi-finals",
+      "venue": "Estadio H\u00e9ctor Etchart",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 18,
+        "name": "Liga A",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/18.png"
+      },
+      "country": {
+        "id": 6,
+        "name": "Argentina",
+        "code": "AR",
+        "flag": "https://media.api-sports.io/flags/ar.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 285,
+          "name": "Ferro",
+          "logo": "https://media.api-sports.io/basketball/teams/285.png"
+        },
+        "away": {
+          "id": 286,
+          "name": "Gimnasia",
+          "logo": "https://media.api-sports.io/basketball/teams/286.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 10,
+          "quarter_2": 26,
+          "quarter_3": 26,
+          "quarter_4": 19,
+          "over_time": null,
+          "total": 81
+        },
+        "away": {
+          "quarter_1": 19,
+          "quarter_2": 17,
+          "quarter_3": 20,
+          "quarter_4": 17,
+          "over_time": null,
+          "total": 73
+        }
+      }
+    },
+    {
+      "id": 499536,
+      "date": "2026-05-30T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1780153200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 409,
+        "name": "Division 1",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/409.png"
+      },
+      "country": {
+        "id": 77,
+        "name": "Lebanon",
+        "code": "LB",
+        "flag": "https://media.api-sports.io/flags/lb.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7309,
+          "name": "Tadamon Hrajel",
+          "logo": "https://media.api-sports.io/basketball/teams/7309.png"
+        },
+        "away": {
+          "id": 5995,
+          "name": "Beirut Club",
+          "logo": "https://media.api-sports.io/basketball/teams/5995.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 11,
+          "quarter_2": 19,
+          "quarter_3": 18,
+          "quarter_4": 19,
+          "over_time": null,
+          "total": 67
+        },
+        "away": {
+          "quarter_1": 24,
+          "quarter_2": 20,
+          "quarter_3": 19,
+          "quarter_4": 28,
+          "over_time": null,
+          "total": 91
+        }
+      }
+    },
+    {
+      "id": 500182,
+      "date": "2026-05-30T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1780153200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "Espoirs U21 - Semi-finals",
+      "venue": "Jean-Marc Boivin Gymnasium",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 233,
+        "name": "Espoirs U21",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/233.png"
+      },
+      "country": {
+        "id": 4,
+        "name": "France",
+        "code": "FR",
+        "flag": "https://media.api-sports.io/flags/fr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3668,
+          "name": "Dijon U21",
+          "logo": "https://media.api-sports.io/basketball/teams/3668.png"
+        },
+        "away": {
+          "id": 3671,
+          "name": "JL Bourg U21",
+          "logo": "https://media.api-sports.io/basketball/teams/3671.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 17,
+          "quarter_2": 20,
+          "quarter_3": 25,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 85
+        },
+        "away": {
+          "quarter_1": 19,
+          "quarter_2": 15,
+          "quarter_3": 15,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 72
+        }
+      }
+    },
+    {
+      "id": 499707,
+      "date": "2026-05-30T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1780156800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "Superliga - Final",
+      "venue": "Sporthalle Walfersam",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 217,
+        "name": "Superliga",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/217.png"
+      },
+      "country": {
+        "id": 3,
+        "name": "Austria",
+        "code": "AT",
+        "flag": "https://media.api-sports.io/flags/at.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 2516,
+          "name": "Kapfenberg Bulls",
+          "logo": "https://media.api-sports.io/basketball/teams/2516.png"
+        },
+        "away": {
+          "id": 2518,
+          "name": "Oberwart Gunners",
+          "logo": "https://media.api-sports.io/basketball/teams/2518.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 23,
+          "quarter_2": 20,
+          "quarter_3": 8,
+          "quarter_4": 19,
+          "over_time": null,
+          "total": 70
+        },
+        "away": {
+          "quarter_1": 8,
+          "quarter_2": 15,
+          "quarter_3": 18,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 57
+        }
+      }
+    },
+    {
+      "id": 499781,
+      "date": "2026-05-30T16:15:00+00:00",
+      "time": "16:15",
+      "timestamp": 1780157700,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "NBL - Final",
+      "venue": "Stadion Lokomotiv",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 113,
+        "name": "NBL",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/113.png"
+      },
+      "country": {
+        "id": 52,
+        "name": "Bulgaria",
+        "code": "BG",
+        "flag": "https://media.api-sports.io/flags/bg.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7482,
+          "name": "Lok. Plovdiv",
+          "logo": "https://media.api-sports.io/basketball/teams/7482.png"
+        },
+        "away": {
+          "id": 1369,
+          "name": "Balkan",
+          "logo": "https://media.api-sports.io/basketball/teams/1369.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 23,
+          "quarter_2": 19,
+          "quarter_3": 18,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 82
+        },
+        "away": {
+          "quarter_1": 23,
+          "quarter_2": 14,
+          "quarter_3": 22,
+          "quarter_4": 18,
+          "over_time": null,
+          "total": 77
+        }
+      }
+    },
+    {
+      "id": 494834,
+      "date": "2026-05-30T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1780160400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Coca-Cola Coliseum",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 13,
+        "name": "NBA W",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/13.png"
+      },
+      "country": {
+        "id": 5,
+        "name": "USA",
+        "code": "US",
+        "flag": "https://media.api-sports.io/flags/us.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7870,
+          "name": "Toronto Tempo W",
+          "logo": "https://media.api-sports.io/basketball/teams/7870.png"
+        },
+        "away": {
+          "id": 172,
+          "name": "Seattle Storm W",
+          "logo": "https://media.api-sports.io/basketball/teams/172.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 21,
+          "quarter_2": 16,
+          "quarter_3": 33,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 93
+        },
+        "away": {
+          "quarter_1": 13,
+          "quarter_2": 23,
+          "quarter_3": 20,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 72
+        }
+      }
+    },
+    {
+      "id": 500163,
+      "date": "2026-05-30T17:30:00+00:00",
+      "time": "17:30",
+      "timestamp": 1780162200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "Pro A - Semi-finals",
+      "venue": "Ischelandhalle",
+      "status": {
+        "long": "Quarter 3",
+        "short": "Q3",
+        "timer": "7"
+      },
+      "league": {
+        "id": 42,
+        "name": "Pro A",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/42.png"
+      },
+      "country": {
+        "id": 17,
+        "name": "Germany",
+        "code": "DE",
+        "flag": "https://media.api-sports.io/flags/de.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 560,
+          "name": "Phoenix Hagen",
+          "logo": "https://media.api-sports.io/basketball/teams/560.png"
+        },
+        "away": {
+          "id": 549,
+          "name": "Bremerhaven",
+          "logo": "https://media.api-sports.io/basketball/teams/549.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 16,
+          "quarter_2": 24,
+          "quarter_3": 12,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 52
+        },
+        "away": {
+          "quarter_1": 17,
+          "quarter_2": 18,
+          "quarter_3": 10,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 45
+        }
+      }
+    },
+    {
+      "id": 500184,
+      "date": "2026-05-30T17:30:00+00:00",
+      "time": "17:30",
+      "timestamp": 1780162200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "Super Lig - Quarter-finals",
+      "venue": "BJK Akatlar Sports Complex",
+      "status": {
+        "long": "Quarter 3",
+        "short": "Q3",
+        "timer": "9"
+      },
+      "league": {
+        "id": 104,
+        "name": "Basketbol S\u00fcper Ligi",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/104.png"
+      },
+      "country": {
+        "id": 48,
+        "name": "Turkey",
+        "code": "TR",
+        "flag": "https://media.api-sports.io/flags/tr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 1266,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/basketball/teams/1266.png"
+        },
+        "away": {
+          "id": 1271,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/basketball/teams/1271.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 25,
+          "quarter_2": 14,
+          "quarter_3": 17,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 56
+        },
+        "away": {
+          "quarter_1": 17,
+          "quarter_2": 15,
+          "quarter_3": 17,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 49
+        }
+      }
+    },
+    {
+      "id": 499537,
+      "date": "2026-05-30T17:45:00+00:00",
+      "time": "17:45",
+      "timestamp": 1780163100,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Half Time",
+        "short": "HT",
+        "timer": null
+      },
+      "league": {
+        "id": 409,
+        "name": "Division 1",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/409.png"
+      },
+      "country": {
+        "id": 77,
+        "name": "Lebanon",
+        "code": "LB",
+        "flag": "https://media.api-sports.io/flags/lb.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 6465,
+          "name": "Sagesse Beirut",
+          "logo": "https://media.api-sports.io/basketball/teams/6465.png"
+        },
+        "away": {
+          "id": 4418,
+          "name": "Al-Riyadi",
+          "logo": "https://media.api-sports.io/basketball/teams/4418.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 19,
+          "quarter_2": 21,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 40
+        },
+        "away": {
+          "quarter_1": 25,
+          "quarter_2": 21,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 46
+        }
+      }
+    },
+    {
+      "id": 499847,
+      "date": "2026-05-30T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1780164000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "Liga OTP banka - Final",
+      "venue": "Arena Stozice",
+      "status": {
+        "long": "Halftime",
+        "short": "HT",
+        "timer": "0"
+      },
+      "league": {
+        "id": 89,
+        "name": "Liga Nova KBM",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/89.png"
+      },
+      "country": {
+        "id": 43,
+        "name": "Slovenia",
+        "code": "SI",
+        "flag": "https://media.api-sports.io/flags/si.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 1800,
+          "name": "Cedevita Olimpija",
+          "logo": "https://media.api-sports.io/basketball/teams/1800.png"
+        },
+        "away": {
+          "id": 1094,
+          "name": "KK Krka Novo mesto",
+          "logo": "https://media.api-sports.io/basketball/teams/1094.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 22,
+          "quarter_2": 29,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 51
+        },
+        "away": {
+          "quarter_1": 30,
+          "quarter_2": 19,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 49
+        }
+      }
+    },
+    {
+      "id": 499921,
+      "date": "2026-05-30T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1780164000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "Lega A - Semi-finals",
+      "venue": "Segafredo Arena",
+      "status": {
+        "long": "Halftime",
+        "short": "HT",
+        "timer": "0"
+      },
+      "league": {
+        "id": 52,
+        "name": "Lega A",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/52.png"
+      },
+      "country": {
+        "id": 23,
+        "name": "Italy",
+        "code": "IT",
+        "flag": "https://media.api-sports.io/flags/it.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 732,
+          "name": "Virtus Bologna",
+          "logo": "https://media.api-sports.io/basketball/teams/732.png"
+        },
+        "away": {
+          "id": 731,
+          "name": "Venezia",
+          "logo": "https://media.api-sports.io/basketball/teams/731.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 23,
+          "quarter_2": 23,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 46
+        },
+        "away": {
+          "quarter_1": 18,
+          "quarter_2": 27,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 45
+        }
+      }
+    },
+    {
+      "id": 500183,
+      "date": "2026-05-30T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1780164000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "Espoirs U21 - Semi-finals",
+      "venue": "La Meilleraie",
+      "status": {
+        "long": "Halftime",
+        "short": "HT",
+        "timer": "0"
+      },
+      "league": {
+        "id": 233,
+        "name": "Espoirs U21",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/233.png"
+      },
+      "country": {
+        "id": 4,
+        "name": "France",
+        "code": "FR",
+        "flag": "https://media.api-sports.io/flags/fr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3667,
+          "name": "Cholet U21",
+          "logo": "https://media.api-sports.io/basketball/teams/3667.png"
+        },
+        "away": {
+          "id": 3683,
+          "name": "Strasbourg U21",
+          "logo": "https://media.api-sports.io/basketball/teams/3683.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 19,
+          "quarter_2": 17,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 36
+        },
+        "away": {
+          "quarter_1": 25,
+          "quarter_2": 23,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 48
+        }
+      }
+    },
+    {
+      "id": 499658,
+      "date": "2026-05-30T18:15:00+00:00",
+      "time": "18:15",
+      "timestamp": 1780164900,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "Segunda FEB - Final",
+      "venue": null,
+      "status": {
+        "long": "Quarter 2",
+        "short": "Q2",
+        "timer": "7"
+      },
+      "league": {
+        "id": 96,
+        "name": "Segunda FEB",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/96.png"
+      },
+      "country": {
+        "id": 45,
+        "name": "Spain",
+        "code": "ES",
+        "flag": "https://media.api-sports.io/flags/es.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3089,
+          "name": "Sant Antoni",
+          "logo": "https://media.api-sports.io/basketball/teams/3089.png"
+        },
+        "away": {
+          "id": 6507,
+          "name": "Caja 87",
+          "logo": "https://media.api-sports.io/basketball/teams/6507.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 27,
+          "quarter_2": 11,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 38
+        },
+        "away": {
+          "quarter_1": 15,
+          "quarter_2": 18,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 33
+        }
+      }
+    },
+    {
+      "id": 500159,
+      "date": "2026-05-30T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1780167600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "LNB - Quarter-finals",
+      "venue": "LDLC Arena",
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "timer": "0"
+      },
+      "league": {
+        "id": 2,
+        "name": "LNB",
+        "type": "League",
+        "season": "2025-2026",
+        "logo": "https://media.api-sports.io/basketball/leagues/2.png"
+      },
+      "country": {
+        "id": 4,
+        "name": "France",
+        "code": "FR",
+        "flag": "https://media.api-sports.io/flags/fr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 26,
+          "name": "Lyon-Villeurbanne",
+          "logo": "https://media.api-sports.io/basketball/teams/26.png"
+        },
+        "away": {
+          "id": 18,
+          "name": "Cholet",
+          "logo": "https://media.api-sports.io/basketball/teams/18.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    },
+    {
+      "id": 495988,
+      "date": "2026-05-30T21:00:00+00:00",
+      "time": "21:00",
+      "timestamp": 1780174800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Estadio Municipal Techado de San Fernando",
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "timer": null
+      },
+      "league": {
+        "id": 224,
+        "name": "LNB 2",
+        "type": "League",
+        "season": "2026-2027",
+        "logo": "https://media.api-sports.io/basketball/leagues/224.png"
+      },
+      "country": {
+        "id": 53,
+        "name": "Chile",
+        "code": "CL",
+        "flag": "https://media.api-sports.io/flags/cl.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7328,
+          "name": "CDSB Constitucion",
+          "logo": "https://media.api-sports.io/basketball/teams/7328.png"
+        },
+        "away": {
+          "id": 7868,
+          "name": "Vila Alemana",
+          "logo": "https://media.api-sports.io/basketball/teams/7868.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    },
+    {
+      "id": 494835,
+      "date": "2026-05-30T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1780178400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Mohegan Sun Arena",
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "timer": null
+      },
+      "league": {
+        "id": 13,
+        "name": "NBA W",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/13.png"
+      },
+      "country": {
+        "id": 5,
+        "name": "USA",
+        "code": "US",
+        "flag": "https://media.api-sports.io/flags/us.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 164,
+          "name": "Connecticut Sun W",
+          "logo": "https://media.api-sports.io/basketball/teams/164.png"
+        },
+        "away": {
+          "id": 168,
+          "name": "Los Angeles Sparks W",
+          "logo": "https://media.api-sports.io/basketball/teams/168.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    },
+    {
+      "id": 495989,
+      "date": "2026-05-30T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1780178400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Polideportivo Aleman",
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "timer": null
+      },
+      "league": {
+        "id": 224,
+        "name": "LNB 2",
+        "type": "League",
+        "season": "2026-2027",
+        "logo": "https://media.api-sports.io/basketball/leagues/224.png"
+      },
+      "country": {
+        "id": 53,
+        "name": "Chile",
+        "code": "CL",
+        "flag": "https://media.api-sports.io/flags/cl.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 4920,
+          "name": "Aleman",
+          "logo": "https://media.api-sports.io/basketball/teams/4920.png"
+        },
+        "away": {
+          "id": 3587,
+          "name": "Truenos De Talca",
+          "logo": "https://media.api-sports.io/basketball/teams/3587.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    },
+    {
+      "id": 495990,
+      "date": "2026-05-30T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1780178400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Polideportivo Municipal",
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "timer": null
+      },
+      "league": {
+        "id": 224,
+        "name": "LNB 2",
+        "type": "League",
+        "season": "2026-2027",
+        "logo": "https://media.api-sports.io/basketball/leagues/224.png"
+      },
+      "country": {
+        "id": 53,
+        "name": "Chile",
+        "code": "CL",
+        "flag": "https://media.api-sports.io/flags/cl.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7329,
+          "name": "Illapel",
+          "logo": "https://media.api-sports.io/basketball/teams/7329.png"
+        },
+        "away": {
+          "id": 6336,
+          "name": "Quilpue Basquetbol",
+          "logo": "https://media.api-sports.io/basketball/teams/6336.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    },
+    {
+      "id": 489823,
+      "date": "2026-05-30T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1780182000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "CAA Centre",
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "timer": null
+      },
+      "league": {
+        "id": 222,
+        "name": "CEBL",
+        "type": "League",
+        "season": 2026,
+        "logo": "https://media.api-sports.io/basketball/leagues/222.png"
+      },
+      "country": {
+        "id": 9,
+        "name": "Canada",
+        "code": "CA",
+        "flag": "https://media.api-sports.io/flags/ca.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 5960,
+          "name": "Brampton Honey Badgers",
+          "logo": "https://media.api-sports.io/basketball/teams/5960.png"
+        },
+        "away": {
+          "id": 3571,
+          "name": "Vancouver Bandits",
+          "logo": "https://media.api-sports.io/basketball/teams/3571.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    },
+    {
+      "id": 495991,
+      "date": "2026-05-30T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1780182000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Fort\u00edn Prat",
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "timer": null
+      },
+      "league": {
+        "id": 224,
+        "name": "LNB 2",
+        "type": "League",
+        "season": "2026-2027",
+        "logo": "https://media.api-sports.io/basketball/leagues/224.png"
+      },
+      "country": {
+        "id": 53,
+        "name": "Chile",
+        "code": "CL",
+        "flag": "https://media.api-sports.io/flags/cl.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3580,
+          "name": "Arturo Prat San Felipe",
+          "logo": "https://media.api-sports.io/basketball/teams/3580.png"
+        },
+        "away": {
+          "id": 4923,
+          "name": "Luis Matte Larrain",
+          "logo": "https://media.api-sports.io/basketball/teams/4923.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    },
+    {
+      "id": 495992,
+      "date": "2026-05-30T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1780182000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Gimnasio Jos\u00e9 Iglesias",
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "timer": null
+      },
+      "league": {
+        "id": 224,
+        "name": "LNB 2",
+        "type": "League",
+        "season": "2026-2027",
+        "logo": "https://media.api-sports.io/basketball/leagues/224.png"
+      },
+      "country": {
+        "id": 53,
+        "name": "Chile",
+        "code": "CL",
+        "flag": "https://media.api-sports.io/flags/cl.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7330,
+          "name": "The Sharks",
+          "logo": "https://media.api-sports.io/basketball/teams/7330.png"
+        },
+        "away": {
+          "id": 3579,
+          "name": "Arabe Valparaiso",
+          "logo": "https://media.api-sports.io/basketball/teams/3579.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    }
+  ]
+}
