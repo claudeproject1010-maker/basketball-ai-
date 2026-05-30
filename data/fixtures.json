@@ -5528,7 +5528,7 @@
       "status": {
         "long": "Not Started",
         "short": "NS",
-        "timer": null
+        "timer": "0"
       },
       "league": {
         "id": 13,
@@ -5553,64 +5553,6 @@
           "id": 168,
           "name": "Los Angeles Sparks W",
           "logo": "https://media.api-sports.io/basketball/teams/168.png"
-        }
-      },
-      "scores": {
-        "home": {
-          "quarter_1": null,
-          "quarter_2": null,
-          "quarter_3": null,
-          "quarter_4": null,
-          "over_time": null,
-          "total": null
-        },
-        "away": {
-          "quarter_1": null,
-          "quarter_2": null,
-          "quarter_3": null,
-          "quarter_4": null,
-          "over_time": null,
-          "total": null
-        }
-      }
-    },
-    {
-      "id": 495989,
-      "date": "2026-05-30T22:00:00+00:00",
-      "time": "22:00",
-      "timestamp": 1780178400,
-      "timezone": "UTC",
-      "stage": null,
-      "week": null,
-      "venue": "Polideportivo Aleman",
-      "status": {
-        "long": "Not Started",
-        "short": "NS",
-        "timer": null
-      },
-      "league": {
-        "id": 224,
-        "name": "LNB 2",
-        "type": "League",
-        "season": "2026-2027",
-        "logo": "https://media.api-sports.io/basketball/leagues/224.png"
-      },
-      "country": {
-        "id": 53,
-        "name": "Chile",
-        "code": "CL",
-        "flag": "https://media.api-sports.io/flags/cl.svg"
-      },
-      "teams": {
-        "home": {
-          "id": 4920,
-          "name": "Aleman",
-          "logo": "https://media.api-sports.io/basketball/teams/4920.png"
-        },
-        "away": {
-          "id": 3587,
-          "name": "Truenos De Talca",
-          "logo": "https://media.api-sports.io/basketball/teams/3587.png"
         }
       },
       "scores": {
@@ -5901,6 +5843,64 @@
           "id": 3579,
           "name": "Arabe Valparaiso",
           "logo": "https://media.api-sports.io/basketball/teams/3579.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    },
+    {
+      "id": 495989,
+      "date": "2026-05-30T23:30:00+00:00",
+      "time": "23:30",
+      "timestamp": 1780183800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Polideportivo Aleman",
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "timer": null
+      },
+      "league": {
+        "id": 224,
+        "name": "LNB 2",
+        "type": "League",
+        "season": "2026-2027",
+        "logo": "https://media.api-sports.io/basketball/leagues/224.png"
+      },
+      "country": {
+        "id": 53,
+        "name": "Chile",
+        "code": "CL",
+        "flag": "https://media.api-sports.io/flags/cl.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 4920,
+          "name": "Aleman",
+          "logo": "https://media.api-sports.io/basketball/teams/4920.png"
+        },
+        "away": {
+          "id": 3587,
+          "name": "Truenos De Talca",
+          "logo": "https://media.api-sports.io/basketball/teams/3587.png"
         }
       },
       "scores": {
