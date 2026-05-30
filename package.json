@@ -1,7 +1,1 @@
-{
-  "name": "basketball-ai",
-  "private": true,
-  "scripts": {
-    "build": "echo build complete"
-  }
-}
+{"name":"basketball-ai-dashboard","private":true,"scripts":{"build":"echo build"}}
