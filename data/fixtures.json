@@ -4,7 +4,7 @@
     "date": "2026-05-30"
   },
   "errors": [],
-  "results": 102,
+  "results": 100,
   "response": [
     {
       "id": 493733,
@@ -5526,9 +5526,9 @@
       "week": null,
       "venue": "Mohegan Sun Arena",
       "status": {
-        "long": "Not Started",
-        "short": "NS",
-        "timer": "0"
+        "long": "Quarter 1",
+        "short": "Q1",
+        "timer": "6"
       },
       "league": {
         "id": 13,
@@ -5557,78 +5557,20 @@
       },
       "scores": {
         "home": {
-          "quarter_1": null,
+          "quarter_1": 8,
           "quarter_2": null,
           "quarter_3": null,
           "quarter_4": null,
           "over_time": null,
-          "total": null
+          "total": 8
         },
         "away": {
-          "quarter_1": null,
+          "quarter_1": 15,
           "quarter_2": null,
           "quarter_3": null,
           "quarter_4": null,
           "over_time": null,
-          "total": null
-        }
-      }
-    },
-    {
-      "id": 495990,
-      "date": "2026-05-30T22:00:00+00:00",
-      "time": "22:00",
-      "timestamp": 1780178400,
-      "timezone": "UTC",
-      "stage": null,
-      "week": null,
-      "venue": "Polideportivo Municipal",
-      "status": {
-        "long": "Not Started",
-        "short": "NS",
-        "timer": null
-      },
-      "league": {
-        "id": 224,
-        "name": "LNB 2",
-        "type": "League",
-        "season": "2026-2027",
-        "logo": "https://media.api-sports.io/basketball/leagues/224.png"
-      },
-      "country": {
-        "id": 53,
-        "name": "Chile",
-        "code": "CL",
-        "flag": "https://media.api-sports.io/flags/cl.svg"
-      },
-      "teams": {
-        "home": {
-          "id": 7329,
-          "name": "Illapel",
-          "logo": "https://media.api-sports.io/basketball/teams/7329.png"
-        },
-        "away": {
-          "id": 6336,
-          "name": "Quilpue Basquetbol",
-          "logo": "https://media.api-sports.io/basketball/teams/6336.png"
-        }
-      },
-      "scores": {
-        "home": {
-          "quarter_1": null,
-          "quarter_2": null,
-          "quarter_3": null,
-          "quarter_4": null,
-          "over_time": null,
-          "total": null
-        },
-        "away": {
-          "quarter_1": null,
-          "quarter_2": null,
-          "quarter_3": null,
-          "quarter_4": null,
-          "over_time": null,
-          "total": null
+          "total": 15
         }
       }
     },
@@ -5749,14 +5691,14 @@
       }
     },
     {
-      "id": 495991,
+      "id": 495994,
       "date": "2026-05-30T23:00:00+00:00",
       "time": "23:00",
       "timestamp": 1780182000,
       "timezone": "UTC",
       "stage": null,
       "week": null,
-      "venue": "Fort\u00edn Prat",
+      "venue": "Coliseo Universidad Aut\u00f3noma",
       "status": {
         "long": "Not Started",
         "short": "NS",
@@ -5777,72 +5719,14 @@
       },
       "teams": {
         "home": {
-          "id": 3580,
-          "name": "Arturo Prat San Felipe",
-          "logo": "https://media.api-sports.io/basketball/teams/3580.png"
+          "id": 7867,
+          "name": "UDE Temuco",
+          "logo": "https://media.api-sports.io/basketball/teams/7867.png"
         },
         "away": {
-          "id": 4923,
-          "name": "Luis Matte Larrain",
-          "logo": "https://media.api-sports.io/basketball/teams/4923.png"
-        }
-      },
-      "scores": {
-        "home": {
-          "quarter_1": null,
-          "quarter_2": null,
-          "quarter_3": null,
-          "quarter_4": null,
-          "over_time": null,
-          "total": null
-        },
-        "away": {
-          "quarter_1": null,
-          "quarter_2": null,
-          "quarter_3": null,
-          "quarter_4": null,
-          "over_time": null,
-          "total": null
-        }
-      }
-    },
-    {
-      "id": 495992,
-      "date": "2026-05-30T23:00:00+00:00",
-      "time": "23:00",
-      "timestamp": 1780182000,
-      "timezone": "UTC",
-      "stage": null,
-      "week": null,
-      "venue": "Gimnasio Jos\u00e9 Iglesias",
-      "status": {
-        "long": "Not Started",
-        "short": "NS",
-        "timer": null
-      },
-      "league": {
-        "id": 224,
-        "name": "LNB 2",
-        "type": "League",
-        "season": "2026-2027",
-        "logo": "https://media.api-sports.io/basketball/leagues/224.png"
-      },
-      "country": {
-        "id": 53,
-        "name": "Chile",
-        "code": "CL",
-        "flag": "https://media.api-sports.io/flags/cl.svg"
-      },
-      "teams": {
-        "home": {
-          "id": 7330,
-          "name": "The Sharks",
-          "logo": "https://media.api-sports.io/basketball/teams/7330.png"
-        },
-        "away": {
-          "id": 3579,
-          "name": "Arabe Valparaiso",
-          "logo": "https://media.api-sports.io/basketball/teams/3579.png"
+          "id": 7377,
+          "name": "CD Huachipato",
+          "logo": "https://media.api-sports.io/basketball/teams/7377.png"
         }
       },
       "scores": {
