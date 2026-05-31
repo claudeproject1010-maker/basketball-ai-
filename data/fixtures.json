@@ -538,8 +538,8 @@
       "week": "CIBACOPA - Quarter-finals",
       "venue": "Auditorio Zonkeys",
       "status": {
-        "long": "Game Finished",
-        "short": "FT",
+        "long": "After Over Time",
+        "short": "AOT",
         "timer": null
       },
       "league": {
@@ -573,7 +573,7 @@
           "quarter_2": 26,
           "quarter_3": 19,
           "quarter_4": 23,
-          "over_time": null,
+          "over_time": 9,
           "total": 107
         },
         "away": {
@@ -581,7 +581,7 @@
           "quarter_2": 20,
           "quarter_3": 21,
           "quarter_4": 30,
-          "over_time": null,
+          "over_time": 14,
           "total": 112
         }
       }
@@ -1988,8 +1988,8 @@
       "week": null,
       "venue": null,
       "status": {
-        "long": "Game Finished",
-        "short": "FT",
+        "long": "Game Abandoned",
+        "short": "ABD",
         "timer": null
       },
       "league": {
@@ -2022,7 +2022,7 @@
           "quarter_1": 18,
           "quarter_2": 29,
           "quarter_3": 0,
-          "quarter_4": 0,
+          "quarter_4": null,
           "over_time": null,
           "total": 47
         },
@@ -2030,7 +2030,7 @@
           "quarter_1": 22,
           "quarter_2": 10,
           "quarter_3": 0,
-          "quarter_4": 0,
+          "quarter_4": null,
           "over_time": null,
           "total": 32
         }
@@ -2742,8 +2742,8 @@
       "week": null,
       "venue": null,
       "status": {
-        "long": "Game Finished",
-        "short": "FT",
+        "long": "After Over Time",
+        "short": "AOT",
         "timer": null
       },
       "league": {
@@ -2777,7 +2777,7 @@
           "quarter_2": 16,
           "quarter_3": 20,
           "quarter_4": 20,
-          "over_time": null,
+          "over_time": 10,
           "total": 93
         },
         "away": {
@@ -2785,7 +2785,7 @@
           "quarter_2": 23,
           "quarter_3": 26,
           "quarter_4": 17,
-          "over_time": null,
+          "over_time": 13,
           "total": 96
         }
       }
@@ -3182,17 +3182,17 @@
           "quarter_1": 20,
           "quarter_2": 22,
           "quarter_3": 9,
-          "quarter_4": 24,
+          "quarter_4": 26,
           "over_time": null,
-          "total": 75
+          "total": 77
         },
         "away": {
           "quarter_1": 22,
           "quarter_2": 19,
-          "quarter_3": 22,
+          "quarter_3": 24,
           "quarter_4": 27,
           "over_time": null,
-          "total": 90
+          "total": 92
         }
       }
     },
@@ -3422,9 +3422,9 @@
           "quarter_1": 18,
           "quarter_2": 20,
           "quarter_3": 30,
-          "quarter_4": 21,
+          "quarter_4": 19,
           "over_time": null,
-          "total": 89
+          "total": 87
         }
       }
     },
@@ -3728,8 +3728,8 @@
       "week": null,
       "venue": null,
       "status": {
-        "long": "Game Finished",
-        "short": "FT",
+        "long": "After Over Time",
+        "short": "AOT",
         "timer": null
       },
       "league": {
@@ -3763,7 +3763,7 @@
           "quarter_2": 28,
           "quarter_3": 29,
           "quarter_4": 15,
-          "over_time": null,
+          "over_time": 23,
           "total": 116
         },
         "away": {
@@ -3771,7 +3771,7 @@
           "quarter_2": 24,
           "quarter_3": 20,
           "quarter_4": 26,
-          "over_time": null,
+          "over_time": 28,
           "total": 121
         }
       }
@@ -3941,8 +3941,8 @@
           "total": 98
         },
         "away": {
-          "quarter_1": 21,
-          "quarter_2": 22,
+          "quarter_1": 22,
+          "quarter_2": 21,
           "quarter_3": 24,
           "quarter_4": 22,
           "over_time": null,
@@ -3960,8 +3960,8 @@
       "week": null,
       "venue": null,
       "status": {
-        "long": "Game Finished",
-        "short": "FT",
+        "long": "After Over Time",
+        "short": "AOT",
         "timer": null
       },
       "league": {
@@ -3995,7 +3995,7 @@
           "quarter_2": 15,
           "quarter_3": 12,
           "quarter_4": 21,
-          "over_time": null,
+          "over_time": 16,
           "total": 90
         },
         "away": {
@@ -4003,7 +4003,7 @@
           "quarter_2": 19,
           "quarter_3": 13,
           "quarter_4": 19,
-          "over_time": null,
+          "over_time": 9,
           "total": 83
         }
       }
@@ -4076,8 +4076,8 @@
       "week": "IBL - Quarter-finals",
       "venue": "Gor Satria Laga Tangkas",
       "status": {
-        "long": "Game Finished",
-        "short": "FT",
+        "long": "After Over Time",
+        "short": "AOT",
         "timer": null
       },
       "league": {
@@ -4111,7 +4111,7 @@
           "quarter_2": 22,
           "quarter_3": 18,
           "quarter_4": 14,
-          "over_time": null,
+          "over_time": 11,
           "total": 93
         },
         "away": {
@@ -4119,7 +4119,7 @@
           "quarter_2": 20,
           "quarter_3": 25,
           "quarter_4": 17,
-          "over_time": null,
+          "over_time": 9,
           "total": 91
         }
       }
@@ -4637,8 +4637,8 @@
           "total": 78
         },
         "away": {
-          "quarter_1": 24,
-          "quarter_2": 13,
+          "quarter_1": 26,
+          "quarter_2": 11,
           "quarter_3": 17,
           "quarter_4": 7,
           "over_time": null,
@@ -4803,16 +4803,16 @@
       },
       "scores": {
         "home": {
-          "quarter_1": 11,
-          "quarter_2": 19,
+          "quarter_1": 13,
+          "quarter_2": 17,
           "quarter_3": 18,
           "quarter_4": 19,
           "over_time": null,
           "total": 67
         },
         "away": {
-          "quarter_1": 24,
-          "quarter_2": 20,
+          "quarter_1": 29,
+          "quarter_2": 15,
           "quarter_3": 19,
           "quarter_4": 28,
           "over_time": null,
@@ -5468,8 +5468,8 @@
       "week": "LNB - Quarter-finals",
       "venue": "LDLC Arena",
       "status": {
-        "long": "Game Finished",
-        "short": "FT",
+        "long": "After Over Time",
+        "short": "AOT",
         "timer": null
       },
       "league": {
@@ -5503,7 +5503,7 @@
           "quarter_2": 18,
           "quarter_3": 15,
           "quarter_4": 16,
-          "over_time": null,
+          "over_time": 9,
           "total": 75
         },
         "away": {
@@ -5511,7 +5511,7 @@
           "quarter_2": 19,
           "quarter_3": 16,
           "quarter_4": 19,
-          "over_time": null,
+          "over_time": 14,
           "total": 80
         }
       }
@@ -5526,9 +5526,9 @@
       "week": null,
       "venue": "Mohegan Sun Arena",
       "status": {
-        "long": "Halftime",
-        "short": "HT",
-        "timer": "0"
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
       },
       "league": {
         "id": 13,
@@ -5559,18 +5559,18 @@
         "home": {
           "quarter_1": 20,
           "quarter_2": 19,
-          "quarter_3": null,
-          "quarter_4": null,
+          "quarter_3": 23,
+          "quarter_4": 22,
           "over_time": null,
-          "total": 39
+          "total": 84
         },
         "away": {
           "quarter_1": 18,
           "quarter_2": 18,
-          "quarter_3": null,
-          "quarter_4": null,
+          "quarter_3": 24,
+          "quarter_4": 21,
           "over_time": null,
-          "total": 36
+          "total": 81
         }
       }
     },
@@ -5584,9 +5584,9 @@
       "week": null,
       "venue": "CAA Centre",
       "status": {
-        "long": "Not Started",
-        "short": "NS",
-        "timer": "0"
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
       },
       "league": {
         "id": 222,
@@ -5615,20 +5615,20 @@
       },
       "scores": {
         "home": {
-          "quarter_1": null,
-          "quarter_2": null,
-          "quarter_3": null,
-          "quarter_4": null,
+          "quarter_1": 20,
+          "quarter_2": 27,
+          "quarter_3": 20,
+          "quarter_4": 20,
           "over_time": null,
-          "total": null
+          "total": 87
         },
         "away": {
-          "quarter_1": null,
-          "quarter_2": null,
-          "quarter_3": null,
-          "quarter_4": null,
+          "quarter_1": 21,
+          "quarter_2": 24,
+          "quarter_3": 19,
+          "quarter_4": 29,
           "over_time": null,
-          "total": null
+          "total": 93
         }
       }
     },
@@ -5642,8 +5642,8 @@
       "week": null,
       "venue": "Estadio Municipal Techado de San Fernando",
       "status": {
-        "long": "Not Started",
-        "short": "NS",
+        "long": "Game Finished",
+        "short": "FT",
         "timer": null
       },
       "league": {
@@ -5673,20 +5673,20 @@
       },
       "scores": {
         "home": {
-          "quarter_1": null,
-          "quarter_2": null,
-          "quarter_3": null,
-          "quarter_4": null,
+          "quarter_1": 22,
+          "quarter_2": 20,
+          "quarter_3": 20,
+          "quarter_4": 27,
           "over_time": null,
-          "total": null
+          "total": 89
         },
         "away": {
-          "quarter_1": null,
-          "quarter_2": null,
-          "quarter_3": null,
-          "quarter_4": null,
+          "quarter_1": 23,
+          "quarter_2": 27,
+          "quarter_3": 25,
+          "quarter_4": 23,
           "over_time": null,
-          "total": null
+          "total": 98
         }
       }
     },
@@ -5700,8 +5700,8 @@
       "week": null,
       "venue": "Coliseo Universidad Aut\u00f3noma",
       "status": {
-        "long": "Not Started",
-        "short": "NS",
+        "long": "Game Finished",
+        "short": "FT",
         "timer": null
       },
       "league": {
@@ -5731,20 +5731,20 @@
       },
       "scores": {
         "home": {
-          "quarter_1": null,
-          "quarter_2": null,
-          "quarter_3": null,
-          "quarter_4": null,
+          "quarter_1": 12,
+          "quarter_2": 16,
+          "quarter_3": 26,
+          "quarter_4": 26,
           "over_time": null,
-          "total": null
+          "total": 80
         },
         "away": {
-          "quarter_1": null,
-          "quarter_2": null,
-          "quarter_3": null,
-          "quarter_4": null,
+          "quarter_1": 20,
+          "quarter_2": 11,
+          "quarter_3": 26,
+          "quarter_4": 21,
           "over_time": null,
-          "total": null
+          "total": 78
         }
       }
     },
@@ -5758,8 +5758,8 @@
       "week": null,
       "venue": "Polideportivo Aleman",
       "status": {
-        "long": "Not Started",
-        "short": "NS",
+        "long": "Game Finished",
+        "short": "FT",
         "timer": null
       },
       "league": {
@@ -5789,20 +5789,20 @@
       },
       "scores": {
         "home": {
-          "quarter_1": null,
-          "quarter_2": null,
-          "quarter_3": null,
-          "quarter_4": null,
+          "quarter_1": 19,
+          "quarter_2": 19,
+          "quarter_3": 30,
+          "quarter_4": 24,
           "over_time": null,
-          "total": null
+          "total": 92
         },
         "away": {
-          "quarter_1": null,
-          "quarter_2": null,
-          "quarter_3": null,
-          "quarter_4": null,
+          "quarter_1": 16,
+          "quarter_2": 17,
+          "quarter_3": 10,
+          "quarter_4": 18,
           "over_time": null,
-          "total": null
+          "total": 61
         }
       }
     }

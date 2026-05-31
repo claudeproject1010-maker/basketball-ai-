@@ -121,8 +121,8 @@
     {
       "league": "NBL1 North",
       "game": "Sunshine Coast Phoenix vs Logan Thunder",
-      "predicted_total": 215,
-      "market_total": 205,
+      "predicted_total": 213,
+      "market_total": 203,
       "edge": 10,
       "over_probability": 0.75,
       "confidence": "HIGH"
@@ -168,42 +168,6 @@
       "game": "Alba Berlin vs Bamberg",
       "predicted_total": 201,
       "market_total": 191,
-      "edge": 10,
-      "over_probability": 0.75,
-      "confidence": "HIGH"
-    },
-    {
-      "league": "CEBL",
-      "game": "Brampton Honey Badgers vs Vancouver Bandits",
-      "predicted_total": 200,
-      "market_total": 190,
-      "edge": 10,
-      "over_probability": 0.75,
-      "confidence": "HIGH"
-    },
-    {
-      "league": "LNB 2",
-      "game": "CDSB Constitucion vs Vila Alemana",
-      "predicted_total": 200,
-      "market_total": 190,
-      "edge": 10,
-      "over_probability": 0.75,
-      "confidence": "HIGH"
-    },
-    {
-      "league": "LNB 2",
-      "game": "UDE Temuco vs CD Huachipato",
-      "predicted_total": 200,
-      "market_total": 190,
-      "edge": 10,
-      "over_probability": 0.75,
-      "confidence": "HIGH"
-    },
-    {
-      "league": "LNB 2",
-      "game": "Aleman vs Truenos De Talca",
-      "predicted_total": 200,
-      "market_total": 190,
       "edge": 10,
       "over_probability": 0.75,
       "confidence": "HIGH"
@@ -267,6 +231,42 @@
       "game": "East Perth Eagles W vs Perth Redbacks W",
       "predicted_total": 188,
       "market_total": 179,
+      "edge": 9,
+      "over_probability": 0.72,
+      "confidence": "HIGH"
+    },
+    {
+      "league": "NBL1 West Women",
+      "game": "Mandurah Magic W vs South West Slammers W",
+      "predicted_total": 188,
+      "market_total": 179,
+      "edge": 9,
+      "over_probability": 0.72,
+      "confidence": "HIGH"
+    },
+    {
+      "league": "NBL1 South",
+      "game": "Melbourne Tigers vs Keilor Thunder",
+      "predicted_total": 184,
+      "market_total": 175,
+      "edge": 9,
+      "over_probability": 0.72,
+      "confidence": "HIGH"
+    },
+    {
+      "league": "NBL1 East",
+      "game": "Norths Bears vs Maitland M.",
+      "predicted_total": 194,
+      "market_total": 185,
+      "edge": 9,
+      "over_probability": 0.72,
+      "confidence": "HIGH"
+    },
+    {
+      "league": "NBL1 South",
+      "game": "Kilsyth vs Knox",
+      "predicted_total": 198,
+      "market_total": 189,
       "edge": 9,
       "over_probability": 0.72,
       "confidence": "HIGH"
