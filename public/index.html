@@ -117,103 +117,114 @@ Loading…
 
 <script>
 
-fetch(
-"./data/predictions.json"
-)
+fetch("/data/predictions.json")
 
-.then(
-r=>r.json()
-)
+.then(r => r.json())
 
-.then(
+.then(data => {
 
-data=>{
-
-const predictions=
-
-data.top_predictions
-||
-
-data.predictions
-
-||
-
+const predictions =
+data.top_predictions ||
+data.predictions ||
 [];
 
-const root=
-
-document
-.getElementById(
+const root =
+document.getElementById(
 "results"
 );
 
-root.innerHTML="";
+root.innerHTML = "";
 
-predictions.forEach(
+if (!predictions.length){
 
-p=>{
+root.innerHTML =
+"No predictions available";
 
-const div=
+return;
 
-document
-.createElement(
+}
+
+predictions.forEach(p=>{
+
+const div =
+document.createElement(
 "div"
 );
 
 let cls="low";
 
 if(
-p.confidence
-==="HIGH"
+p.confidence==="HIGH"
 )
-
 cls="high";
 
 else if(
-p.confidence
-==="MEDIUM"
+p.confidence==="MEDIUM"
 )
-
 cls="medium";
 
-div.className=
+const expected =
+Number(
+p.predicted_total || 0
+);
+
+const market =
+Number(
+p.market_total || 0
+);
+
+const edge =
+(
+expected - market
+).toFixed(1);
+
+const probability =
+Math.round(
+(Number(
+p.over_probability
+)||0)
+*
+100
+);
+
+div.className =
 "card";
 
-div.innerHTML=
+div.innerHTML =
 
 `
 
 <h2>
 
-${p.game}
+${p.game || "-"}
 
 </h2>
 
 <div>
 
 League:
-${p.league}
+${p.league || "-"}
 
 </div>
 
 <div>
 
 Expected:
-${p.predicted_total}
+${expected}
 
 </div>
 
 <div>
 
 Market:
-${p.market_total}
+${market}
 
 </div>
 
 <div>
 
 Edge:
-${p.edge}
+${edge}
 
 </div>
 
@@ -221,11 +232,7 @@ ${p.edge}
 
 Probability:
 
-${(
-p.over_probability
-*
-100
-).toFixed(0)}%
+${probability}%
 
 </div>
 
@@ -234,41 +241,34 @@ class="${cls}">
 
 Confidence:
 
-${p.confidence}
+${p.confidence || "LOW"}
 
 </div>
 
 `;
 
-root
-.appendChild(
+root.appendChild(
 div
 );
 
-}
+});
 
-)
+})
 
-}
+.catch(err=>{
 
-)
-
-.catch(
-
-()=>{
+console.log(err);
 
 document
 .getElementById(
 "results"
 )
 
-.innerHTML=
+.innerHTML =
 
 "Could not load predictions";
 
-}
-
-)
+});
 
 </script>
 
