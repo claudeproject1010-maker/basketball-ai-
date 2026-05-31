@@ -1,0 +1,12 @@
+{
+  "predictions": [
+    {
+      "league": "NBA",
+      "game": "Lakers vs Celtics",
+      "predicted_total": 228.5,
+      "market_total": 223.5,
+      "edge": 5.0,
+      "confidence": "HIGH"
+    }
+  ]
+}
