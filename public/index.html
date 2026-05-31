@@ -232,92 +232,42 @@ Loading...
 
 <script>
 
-async function loadPredictions(){
+async function load(){
 
 try{
 
-const response=
-await fetch(
-"./data/predictions.json"
-);
+const res=
+await fetch("./data/predictions.json")
 
 const data=
-await response.json();
+await res.json()
 
 const predictions=
 
-Array.isArray(
 data.top_predictions
-)
-
-?
-
-data.top_predictions
-
-:
-
-Array.isArray(
+||
 data.predictions
-)
+||
+[]
 
-?
+const app=
+document.getElementById("app")
+||
+document.getElementById("results")
 
-data.predictions
+app.innerHTML=""
 
-:
+predictions.forEach(p=>{
 
-[];
-
-const root=
-
-document.getElementById(
-"results"
-);
-
-root.innerHTML="";
-
-if(
-predictions.length===0
-){
-
-root.innerHTML=
-
-`
-<div class="empty">
-
-No predictions found
-
-</div>
-`;
-
-return;
-
-}
-
-predictions.forEach(
-
-p=>{
-
-const card=
-
-document.createElement(
-"div"
-);
-
-card.className=
-"card";
+try{
 
 const probability=
 
 Math.round(
 Number(
-p.over_probability
-||
-0
+p.over_probability || 0
+)*100
 )
-*
-100
-);
 
 const edge=
 
@@ -326,142 +276,100 @@ p.edge
 
 (
 Number(
-p.predicted_total
-||
-0
+p.predicted_total||0
 )
-
 -
-
 Number(
-p.market_total
-||
-0
+p.market_total||0
 )
-
-).toFixed(1);
+).toFixed(1)
 
 const confidence=
 
-(
-p.confidence
-||
-"LOW"
-)
-.toUpperCase();
+(p.confidence||"LOW")
 
-let cls=
-"low";
+let cls="low"
 
-if(
-confidence==="HIGH"
-)
-cls="high";
+if(confidence==="HIGH")
+cls="high"
 
-if(
-confidence==="MEDIUM"
-)
-cls="medium";
+if(confidence==="MEDIUM")
+cls="medium"
 
-card.innerHTML=
+app.innerHTML+=`
 
-`
+<div class="card">
 
 <div class="match">
-
-${p.game || "Unknown Match"}
-
+${p.game||"-"}
 </div>
 
-<div class="row">
-
+<div class="value">
 League:
-${p.league || "-"}
-
+${p.league||"-"}
 </div>
 
-<div class="row">
-
+<div class="value">
 Expected:
-${p.predicted_total ?? "-"}
-
+${p.predicted_total??"-"}
 </div>
 
-<div class="row">
-
+<div class="value">
 Market:
-${p.market_total ?? "-"}
-
+${p.market_total??"-"}
 </div>
 
-<div class="row">
-
+<div class="value">
 Edge:
 ${edge}
-
 </div>
 
-<div class="row">
-
+<div class="value">
 Probability:
 ${probability}%
-
 </div>
 
-<div class="row">
+<div class="value">
 
 Confidence:
 
 <span class="${cls}">
-
 ${confidence}
-
 </span>
 
 </div>
 
-`;
-
-root.appendChild(
-card
-);
-
-}
-
-);
-
-}
-
-catch(
-err
-){
-
-document
-.getElementById(
-"results"
-)
-
-.innerHTML=
+</div>
 
 `
 
-<div class="empty">
+}
 
-Could not load predictions
+catch(err){
 
-</div>
-
-`;
-
-console.error(
+console.log(
+"Skipped record",
 err
-);
+)
+
+}
+
+})
+
+}
+
+catch(err){
+
+console.error(err)
+
+document.body.innerHTML+=
+"<p>Could not load predictions</p>"
 
 }
 
 }
 
-loadPredictions();
+load()
 
 </script>
 
