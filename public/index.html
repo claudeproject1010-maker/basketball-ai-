@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
 
-<meta charset="utf-8">
+<meta charset="UTF-8">
 
 <meta
 name="viewport"
@@ -16,55 +15,149 @@ Basketball AI
 
 <style>
 
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
 body{
 
+background:#050505;
+
+color:white;
+
 font-family:
-Arial;
-
-max-width:
-1400px;
-
-margin:
-auto;
+Arial,
+sans-serif;
 
 padding:
-20px;
+50px;
 
-background:
-#111;
+}
 
-color:
-white;
+.container{
+
+max-width:
+1500px;
+
+margin:
+0 auto;
+
+}
+
+.header{
+
+display:flex;
+
+align-items:center;
+
+gap:20px;
+
+margin-bottom:15px;
+
+}
+
+.logo{
+
+font-size:
+72px;
 
 }
 
 h1{
 
+font-size:
+64px;
+
+font-weight:
+800;
+
+}
+
+.subtitle{
+
+color:#999;
+
+font-size:
+18px;
+
 margin-bottom:
-10px;
+35px;
+
+}
+
+.grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(
+auto-fill,
+minmax(
+450px,
+1fr
+)
+);
+
+gap:
+18px;
 
 }
 
 .card{
 
 background:
-#1c1c1c;
-
-padding:
-16px;
-
-margin-bottom:
-12px;
+#111;
 
 border-radius:
-10px;
+18px;
+
+padding:
+28px;
+
+transition:
+0.2s;
+
+}
+
+.card:hover{
+
+transform:
+translateY(-2px);
+
+}
+
+.match{
+
+font-size:
+32px;
+
+font-weight:
+700;
+
+margin-bottom:
+20px;
+
+}
+
+.row{
+
+margin:
+10px 0;
+
+font-size:
+20px;
 
 }
 
 .high{
 
 color:
-#00ff99;
+#00ff88;
+
+font-weight:
+700;
 
 }
 
@@ -73,19 +166,31 @@ color:
 color:
 orange;
 
+font-weight:
+700;
+
 }
 
 .low{
 
 color:
-red;
+#ff4444;
+
+font-weight:
+700;
 
 }
 
-.small{
+.empty{
 
-opacity:
-0.7;
+color:
+#777;
+
+font-size:
+22px;
+
+margin-top:
+50px;
 
 }
 
@@ -95,180 +200,268 @@ opacity:
 
 <body>
 
+<div class="container">
+
+<div class="header">
+
+<div class="logo">
+🏀
+</div>
+
 <h1>
-🏀 Basketball AI
+Basketball AI
 </h1>
 
-<div
-class="small">
+</div>
+
+<div class="subtitle">
 
 Top 30 OVER predictions
 
 </div>
 
-<br>
-
 <div
-id="results">
+id="results"
+class="grid">
 
-Loading…
+Loading...
+
+</div>
 
 </div>
 
 <script>
 
-fetch("/data/predictions.json")
+async function loadPredictions(){
 
-.then(r => r.json())
+try{
 
-.then(data => {
+const response=
+await fetch(
+"./data/predictions.json"
+);
 
-const predictions =
-data.top_predictions ||
-data.predictions ||
+const data=
+await response.json();
+
+const predictions=
+
+Array.isArray(
+data.top_predictions
+)
+
+?
+
+data.top_predictions
+
+:
+
+Array.isArray(
+data.predictions
+)
+
+?
+
+data.predictions
+
+:
+
 [];
 
-const root =
+const root=
+
 document.getElementById(
 "results"
 );
 
-root.innerHTML = "";
+root.innerHTML="";
 
-if (!predictions.length){
+if(
+predictions.length===0
+){
 
-root.innerHTML =
-"No predictions available";
+root.innerHTML=
+
+`
+<div class="empty">
+
+No predictions found
+
+</div>
+`;
 
 return;
 
 }
 
-predictions.forEach(p=>{
+predictions.forEach(
 
-const div =
+p=>{
+
+const card=
+
 document.createElement(
 "div"
 );
 
-let cls="low";
+card.className=
+"card";
 
-if(
-p.confidence==="HIGH"
-)
-cls="high";
+const probability=
 
-else if(
-p.confidence==="MEDIUM"
-)
-cls="medium";
-
-const expected =
-Number(
-p.predicted_total || 0
-);
-
-const market =
-Number(
-p.market_total || 0
-);
-
-const edge =
-(
-expected - market
-).toFixed(1);
-
-const probability =
 Math.round(
-(Number(
+Number(
 p.over_probability
-)||0)
+||
+0
+)
 *
 100
 );
 
-div.className =
-"card";
+const edge=
 
-div.innerHTML =
+p.edge
+??
+
+(
+Number(
+p.predicted_total
+||
+0
+)
+
+-
+
+Number(
+p.market_total
+||
+0
+)
+
+).toFixed(1);
+
+const confidence=
+
+(
+p.confidence
+||
+"LOW"
+)
+.toUpperCase();
+
+let cls=
+"low";
+
+if(
+confidence==="HIGH"
+)
+cls="high";
+
+if(
+confidence==="MEDIUM"
+)
+cls="medium";
+
+card.innerHTML=
 
 `
 
-<h2>
+<div class="match">
 
-${p.game || "-"}
+${p.game || "Unknown Match"}
 
-</h2>
+</div>
 
-<div>
+<div class="row">
 
 League:
 ${p.league || "-"}
 
 </div>
 
-<div>
+<div class="row">
 
 Expected:
-${expected}
+${p.predicted_total ?? "-"}
 
 </div>
 
-<div>
+<div class="row">
 
 Market:
-${market}
+${p.market_total ?? "-"}
 
 </div>
 
-<div>
+<div class="row">
 
 Edge:
 ${edge}
 
 </div>
 
-<div>
+<div class="row">
 
 Probability:
-
 ${probability}%
 
 </div>
 
-<div
-class="${cls}">
+<div class="row">
 
 Confidence:
 
-${p.confidence || "LOW"}
+<span class="${cls}">
+
+${confidence}
+
+</span>
 
 </div>
 
 `;
 
 root.appendChild(
-div
+card
 );
 
-});
+}
 
-})
+);
 
-.catch(err=>{
+}
 
-console.log(err);
+catch(
+err
+){
 
 document
 .getElementById(
 "results"
 )
 
-.innerHTML =
+.innerHTML=
 
-"Could not load predictions";
+`
 
-});
+<div class="empty">
+
+Could not load predictions
+
+</div>
+
+`;
+
+console.error(
+err
+);
+
+}
+
+}
+
+loadPredictions();
 
 </script>
 
