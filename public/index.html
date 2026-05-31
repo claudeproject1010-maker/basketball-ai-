@@ -1,160 +1,277 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 
-<title>Basketball AI</title>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<meta
+name="viewport"
+content="width=device-width,initial-scale=1">
+
+<title>
+Basketball AI
+</title>
 
 <style>
+
 body{
-background:#050505;
-color:white;
-font-family:Arial;
-padding:40px;
+
+font-family:
+Arial;
+
+max-width:
+1400px;
+
+margin:
+auto;
+
+padding:
+20px;
+
+background:
+#111;
+
+color:
+white;
+
 }
 
 h1{
-font-size:60px;
-margin-bottom:10px;
-}
 
-.subtitle{
-color:#aaa;
-margin-bottom:40px;
+margin-bottom:
+10px;
+
 }
 
 .card{
-background:#111;
-padding:25px;
-margin-bottom:20px;
-border-radius:18px;
-}
 
-.match{
-font-size:36px;
-font-weight:bold;
-margin-bottom:20px;
-}
+background:
+#1c1c1c;
 
-.value{
-margin:8px 0;
-font-size:24px;
+padding:
+16px;
+
+margin-bottom:
+12px;
+
+border-radius:
+10px;
+
 }
 
 .high{
-color:#00ff88;
-font-weight:bold;
+
+color:
+#00ff99;
+
 }
 
 .medium{
-color:#ffaa00;
-font-weight:bold;
+
+color:
+orange;
+
 }
 
 .low{
-color:#ff4444;
-font-weight:bold;
+
+color:
+red;
+
 }
+
+.small{
+
+opacity:
+0.7;
+
+}
+
 </style>
+
 </head>
 
 <body>
 
-<h1>🏀 Basketball AI</h1>
-<div class="subtitle">Top 30 OVER predictions</div>
+<h1>
+🏀 Basketball AI
+</h1>
 
-<div id="app"></div>
+<div
+class="small">
+
+Top 30 OVER predictions
+
+</div>
+
+<br>
+
+<div
+id="results">
+
+Loading…
+
+</div>
 
 <script>
 
-async function load(){
-
-const res=
-await fetch("./data/predictions.json")
-
-const data=
-await res.json()
-
-const predictions =
-data.top_predictions || []
-
-const app =
-document.getElementById("app")
-
-app.innerHTML=""
-
-predictions.forEach(p=>{
-
-const probability=
-Math.round(
-(p.over_probability || 0)*100
+fetch(
+"./data/predictions.json"
 )
 
-const edge=
-(
-p.predicted_total-
-p.market_total
-).toFixed(1)
+.then(
+r=>r.json()
+)
 
-app.innerHTML+=`
+.then(
 
-<div class="card">
+data=>{
 
-<div class="match">
-${p.game}
-</div>
+const predictions=
 
-<div class="value">
-League:
-${p.league}
-</div>
+data.top_predictions
+||
 
-<div class="value">
-Expected:
-${p.predicted_total}
-</div>
+data.predictions
 
-<div class="value">
-Market:
-${p.market_total}
-</div>
+||
 
-<div class="value">
-Edge:
-${edge}
-</div>
+[];
 
-<div class="value">
-Probability:
-${probability}%
-</div>
+const root=
 
-<div class="value">
+document
+.getElementById(
+"results"
+);
 
-Confidence:
+root.innerHTML="";
 
-<span class="
-${p.confidence.toLowerCase()}
-">
+predictions.forEach(
 
-${p.confidence}
+p=>{
 
-</span>
+const div=
 
-</div>
+document
+.createElement(
+"div"
+);
 
-</div>
+let cls="low";
+
+if(
+p.confidence
+==="HIGH"
+)
+
+cls="high";
+
+else if(
+p.confidence
+==="MEDIUM"
+)
+
+cls="medium";
+
+div.className=
+"card";
+
+div.innerHTML=
 
 `
 
-})
+<h2>
+
+${p.game}
+
+</h2>
+
+<div>
+
+League:
+${p.league}
+
+</div>
+
+<div>
+
+Expected:
+${p.predicted_total}
+
+</div>
+
+<div>
+
+Market:
+${p.market_total}
+
+</div>
+
+<div>
+
+Edge:
+${p.edge}
+
+</div>
+
+<div>
+
+Probability:
+
+${(
+p.over_probability
+*
+100
+).toFixed(0)}%
+
+</div>
+
+<div
+class="${cls}">
+
+Confidence:
+
+${p.confidence}
+
+</div>
+
+`;
+
+root
+.appendChild(
+div
+);
 
 }
 
-load()
+)
+
+}
+
+)
+
+.catch(
+
+()=>{
+
+document
+.getElementById(
+"results"
+)
+
+.innerHTML=
+
+"Could not load predictions";
+
+}
+
+)
 
 </script>
 
 </body>
+
 </html>
