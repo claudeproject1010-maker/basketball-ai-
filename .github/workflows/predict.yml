@@ -4,17 +4,14 @@ permissions:
   contents: write
 
 on:
-  # Run automatically every day at 06:00 UTC and 14:00 UTC
   schedule:
-    - cron: "0 6 * * *"
-    - cron: "0 14 * * *"
-  # Also allow manual trigger
-  workflow_dispatch:
+    - cron: "0 5 * * *"   # 05:00 UTC = 06:00 WAT
+    - cron: "0 13 * * *"  # 13:00 UTC = 14:00 WAT
+  workflow_dispatch:        # manual trigger
 
 jobs:
   predict:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
@@ -22,18 +19,21 @@ jobs:
         with:
           python-version: "3.12"
 
-      # No pip installs needed — stdlib only (urllib, json, math)
+      # No pip installs — pure stdlib
 
-      - name: Collect fixtures & team history
+      - name: "🔍 Debug: test API sources"
+        run: python scripts/debug_sources.py
+
+      - name: "📥 Collect fixtures & team history"
         run: python scripts/collect_fixtures.py
 
-      - name: Generate predictions
+      - name: "🔮 Generate predictions"
         run: python scripts/generate_predictions.py
 
-      - name: Commit & push updated data
+      - name: "📤 Commit & push"
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ public/data/
-          git diff --cached --quiet || git commit -m "chore: update predictions $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git diff --cached --quiet || git commit -m "chore: predictions $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
