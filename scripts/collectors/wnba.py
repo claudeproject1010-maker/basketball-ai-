@@ -1,1 +1,0 @@
-# WNBA collector placeholder
