@@ -1,0 +1,34 @@
+{
+  "collected_at": "2026-06-26T06:00:00+00:00",
+  "dates": [
+    "2026-06-26",
+    "2026-06-27"
+  ],
+  "total_games": 3,
+  "games": [
+    {
+      "source": "espn_nba",
+      "league": "NBA",
+      "home_team": "Boston Celtics",
+      "away_team": "Miami Heat",
+      "date": "2026-06-26",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "source": "espn_nba",
+      "league": "NBA",
+      "home_team": "Golden State Warriors",
+      "away_team": "Los Angeles Lakers",
+      "date": "2026-06-26",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "source": "thesportsdb",
+      "league": "EuroLeague",
+      "home_team": "Real Madrid",
+      "away_team": "FC Barcelona",
+      "date": "2026-06-26",
+      "status": "NS"
+    }
+  ]
+}
