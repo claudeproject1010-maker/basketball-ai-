@@ -1,14 +1,5 @@
 {
-  "generated_at": "2026-06-28T13:29:44.884836+00:00",
-  "total_games_analysed": 4,
-  "games_skipped_final": 0,
-  "games_with_no_history": 0,
-  "by_confidence": {
-    "HIGH": 0,
-    "MEDIUM": 0,
-    "LOW": 4
-  },
-  "top_predictions": [
+  "predictions": [
     {
       "league": "WNBA",
       "game": "Golden State Valkyries vs New York Liberty",
@@ -33,7 +24,10 @@
       "home_trend": 0.976,
       "away_trend": 1.035,
       "source": "espn_wnba",
-      "venue": "Chase Center"
+      "venue": "Chase Center",
+      "generated_at": "2026-06-28T13:29:44.884836+00:00",
+      "scored": false,
+      "result": null
     },
     {
       "league": "WNBA",
@@ -59,7 +53,10 @@
       "home_trend": 1.12,
       "away_trend": 0.915,
       "source": "espn_wnba",
-      "venue": "College Park Center"
+      "venue": "College Park Center",
+      "generated_at": "2026-06-28T13:29:44.884836+00:00",
+      "scored": false,
+      "result": null
     },
     {
       "league": "WNBA",
@@ -85,7 +82,10 @@
       "home_trend": 0.919,
       "away_trend": 1.081,
       "source": "espn_wnba",
-      "venue": "CareFirst Arena"
+      "venue": "CareFirst Arena",
+      "generated_at": "2026-06-28T13:29:44.884836+00:00",
+      "scored": false,
+      "result": null
     },
     {
       "league": "WNBA",
@@ -111,7 +111,10 @@
       "home_trend": 1.031,
       "away_trend": 0.985,
       "source": "espn_wnba",
-      "venue": "United Center"
+      "venue": "United Center",
+      "generated_at": "2026-06-28T13:29:44.884836+00:00",
+      "scored": false,
+      "result": null
     }
   ]
 }
