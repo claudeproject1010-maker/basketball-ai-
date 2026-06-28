@@ -1,0 +1,40 @@
+name: Basketball Predictions
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "0 5 * * *"    # 05:00 UTC = 06:00 WAT
+    - cron: "0 13 * * *"   # 13:00 UTC = 14:00 WAT
+  workflow_dispatch:
+
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: "🔍 Debug — test API sources"
+        run: python scripts/debug_sources.py
+
+      - name: "📥 Collect fixtures & team history"
+        run: python scripts/collect_fixtures.py
+
+      - name: "🔮 Generate predictions"
+        run: python scripts/generate_predictions.py
+
+      - name: "🎯 Score yesterday's predictions"
+        run: python scripts/score_predictions.py
+
+      - name: "📤 Commit & push"
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ public/data/
+          git diff --cached --quiet || git commit -m "chore: predictions + scores $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
