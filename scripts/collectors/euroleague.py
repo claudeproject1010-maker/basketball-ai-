@@ -1,1 +1,0 @@
-# EuroLeague collector placeholder
