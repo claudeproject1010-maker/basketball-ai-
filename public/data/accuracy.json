@@ -1,4 +1,72 @@
 {
-  "total_scored": 0,
-  "message": "No predictions scored yet"
+  "computed_at": "2026-06-29T16:47:59.965227+00:00",
+  "total_scored": 4,
+  "total_hits": 2,
+  "overall_hit_rate": 50.0,
+  "avg_abs_error": 36.0,
+  "recent_20_hit_rate": 50.0,
+  "by_confidence": {
+    "LOW": {
+      "total": 4,
+      "hits": 2,
+      "hit_rate": 50.0
+    }
+  },
+  "by_league": {
+    "WNBA": {
+      "total": 4,
+      "hits": 2,
+      "hit_rate": 50.0
+    }
+  },
+  "last_10_results": [
+    {
+      "date": "2026-06-28",
+      "game": "Golden State Valkyries vs New York Liberty",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 168.7,
+      "actual": 143,
+      "error": -25.7,
+      "recommended": "UNDER",
+      "outcome": "UNDER",
+      "hit": true
+    },
+    {
+      "date": "2026-06-28",
+      "game": "Dallas Wings vs Minnesota Lynx",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 176.9,
+      "actual": 162,
+      "error": -14.9,
+      "recommended": "UNDER",
+      "outcome": "UNDER",
+      "hit": true
+    },
+    {
+      "date": "2026-06-28",
+      "game": "Washington Mystics vs Portland Fire",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 171.6,
+      "actual": 247,
+      "error": 75.4,
+      "recommended": "UNDER",
+      "outcome": "OVER",
+      "hit": false
+    },
+    {
+      "date": "2026-06-28",
+      "game": "Chicago Sky vs Las Vegas Aces",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 178.1,
+      "actual": 206,
+      "error": 27.9,
+      "recommended": "UNDER",
+      "outcome": "OVER",
+      "hit": false
+    }
+  ]
 }

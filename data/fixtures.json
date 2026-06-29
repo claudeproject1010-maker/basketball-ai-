@@ -1,71 +1,34 @@
 {
-  "collected_at": "2026-06-28T14:09:31.344494+00:00",
+  "collected_at": "2026-06-29T16:46:58.710190+00:00",
   "dates": [
-    "2026-06-28",
-    "2026-06-29"
+    "2026-06-29",
+    "2026-06-30"
   ],
-  "total_games": 4,
+  "total_games": 1,
   "games": [
     {
       "source": "espn_wnba",
       "league": "WNBA",
-      "home_team": "Dallas Wings",
-      "away_team": "Minnesota Lynx",
-      "home_team_id": "3",
-      "away_team_id": "8",
-      "date": "2026-06-28",
-      "time_utc": "2026-06-28T18:00Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "College Park Center"
-    },
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Washington Mystics",
-      "away_team": "Portland Fire",
-      "home_team_id": "16",
-      "away_team_id": "132052",
-      "date": "2026-06-28",
-      "time_utc": "2026-06-28T19:00Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "CareFirst Arena"
-    },
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Chicago Sky",
+      "home_team": "New York Liberty",
       "away_team": "Las Vegas Aces",
-      "home_team_id": "19",
+      "home_team_id": "9",
       "away_team_id": "17",
-      "date": "2026-06-28",
-      "time_utc": "2026-06-28T20:00Z",
+      "date": "2026-06-30",
+      "time_utc": "2026-06-30T23:00Z",
       "status": "STATUS_SCHEDULED",
       "home_score": null,
       "away_score": null,
-      "venue": "United Center"
-    },
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Golden State Valkyries",
-      "away_team": "New York Liberty",
-      "home_team_id": "129689",
-      "away_team_id": "9",
-      "date": "2026-06-28",
-      "time_utc": "2026-06-28T23:00Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "Chase Center"
+      "venue": "Barclays Center"
     }
   ],
   "source_errors": [
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-28",
+    "ESPN HTTP 502 \u2014 https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates=20260521&li",
+    "ESPN HTTP 504 \u2014 https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/scorebo",
+    "ESPN HTTP 502 \u2014 https://site.api.espn.com/apis/site/v2/sports/basketball/nbl/scoreboard?dates=20260612&lim",
+    "ESPN HTTP 504 \u2014 https://site.api.espn.com/apis/site/v2/sports/basketball/nbl/scoreboard?dates=20260520&lim",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-29",
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-30",
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-28",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-27",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-26",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-25",
@@ -94,7 +57,6 @@
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-02",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-01",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-05-31",
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-05-30",
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-05-29"
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-05-30"
   ]
 }
