@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-01T15:35:37.137156+00:00",
-  "total_games_analysed": 3,
+  "generated_at": "2026-07-02T08:11:13.337095+00:00",
+  "total_games_analysed": 5,
   "games_skipped_final": 0,
   "games_with_no_history": 0,
   "by_confidence": {
     "HIGH": 0,
-    "MEDIUM": 1,
-    "LOW": 2
+    "MEDIUM": 2,
+    "LOW": 3
   },
   "top_predictions": [
     {
@@ -34,6 +34,32 @@
       "away_trend": 1.144,
       "source": "espn_wnba",
       "venue": "Mortgage Matchup Center"
+    },
+    {
+      "league": "WNBA",
+      "game": "Las Vegas Aces vs Chicago Sky",
+      "home_team": "Las Vegas Aces",
+      "away_team": "Chicago Sky",
+      "date": "2026-07-04",
+      "time_utc": "2026-07-04T02:00Z",
+      "predicted_total": 187.6,
+      "league_baseline": 162,
+      "edge": 25.6,
+      "over_probability": 0.38,
+      "under_probability": 0.62,
+      "confidence": "MEDIUM",
+      "home_avg_scored": 91.7,
+      "away_avg_scored": 90.8,
+      "home_avg_allowed": 88.5,
+      "away_avg_allowed": 92.1,
+      "home_avg_total": 180.2,
+      "away_avg_total": 182.9,
+      "home_games_used": 10,
+      "away_games_used": 10,
+      "home_trend": 1.049,
+      "away_trend": 1.099,
+      "source": "espn_wnba",
+      "venue": "T-Mobile Arena"
     },
     {
       "league": "WNBA",
@@ -86,6 +112,32 @@
       "away_trend": 0.906,
       "source": "espn_wnba",
       "venue": "CareFirst Arena"
+    },
+    {
+      "league": "WNBA",
+      "game": "New York Liberty vs Minnesota Lynx",
+      "home_team": "New York Liberty",
+      "away_team": "Minnesota Lynx",
+      "date": "2026-07-03",
+      "time_utc": "2026-07-03T23:30Z",
+      "predicted_total": 171.6,
+      "league_baseline": 162,
+      "edge": 9.6,
+      "over_probability": 0.507,
+      "under_probability": 0.493,
+      "confidence": "LOW",
+      "home_avg_scored": 89.0,
+      "away_avg_scored": 90.1,
+      "home_avg_allowed": 84.9,
+      "away_avg_allowed": 79.7,
+      "home_avg_total": 173.9,
+      "away_avg_total": 169.8,
+      "home_games_used": 10,
+      "away_games_used": 10,
+      "home_trend": 0.974,
+      "away_trend": 0.94,
+      "source": "espn_wnba",
+      "venue": "Barclays Center"
     }
   ]
 }
