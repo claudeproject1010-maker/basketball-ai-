@@ -1,25 +1,37 @@
 {
-  "computed_at": "2026-07-02T15:07:13.374209+00:00",
-  "total_scored": 5,
-  "total_hits": 2,
-  "overall_hit_rate": 40.0,
-  "avg_abs_error": 29.0,
-  "recent_20_hit_rate": 40.0,
+  "computed_at": "2026-07-03T07:59:32.106920+00:00",
+  "total_scored": 6,
+  "total_hits": 3,
+  "overall_hit_rate": 50.0,
+  "avg_abs_error": 27.2,
+  "recent_20_hit_rate": 50.0,
   "by_confidence": {
     "LOW": {
-      "total": 5,
-      "hits": 2,
-      "hit_rate": 40.0
+      "total": 6,
+      "hits": 3,
+      "hit_rate": 50.0
     }
   },
   "by_league": {
     "WNBA": {
-      "total": 5,
-      "hits": 2,
-      "hit_rate": 40.0
+      "total": 6,
+      "hits": 3,
+      "hit_rate": 50.0
     }
   },
   "last_10_results": [
+    {
+      "date": "2026-07-02",
+      "game": "Washington Mystics vs Atlanta Dream",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 175.2,
+      "actual": 157,
+      "error": -18.2,
+      "recommended": "UNDER",
+      "outcome": "UNDER",
+      "hit": true
+    },
     {
       "date": "2026-06-30",
       "game": "New York Liberty vs Las Vegas Aces",
