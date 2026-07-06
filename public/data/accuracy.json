@@ -1,25 +1,49 @@
 {
-  "computed_at": "2026-07-05T14:26:13.947779+00:00",
-  "total_scored": 8,
-  "total_hits": 5,
-  "overall_hit_rate": 62.5,
-  "avg_abs_error": 22.8,
-  "recent_20_hit_rate": 62.5,
+  "computed_at": "2026-07-06T08:58:18.019690+00:00",
+  "total_scored": 10,
+  "total_hits": 7,
+  "overall_hit_rate": 70.0,
+  "avg_abs_error": 23.7,
+  "recent_20_hit_rate": 70.0,
   "by_confidence": {
     "LOW": {
-      "total": 8,
-      "hits": 5,
-      "hit_rate": 62.5
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0
     }
   },
   "by_league": {
     "WNBA": {
-      "total": 8,
-      "hits": 5,
-      "hit_rate": 62.5
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0
     }
   },
   "last_10_results": [
+    {
+      "date": "2026-07-05",
+      "game": "Las Vegas Aces vs Indiana Fever",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 189.0,
+      "actual": 152,
+      "error": -37.0,
+      "recommended": "UNDER",
+      "outcome": "UNDER",
+      "hit": true
+    },
+    {
+      "date": "2026-07-05",
+      "game": "Toronto Tempo vs Dallas Wings",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 182.8,
+      "actual": 165,
+      "error": -17.8,
+      "recommended": "UNDER",
+      "outcome": "UNDER",
+      "hit": true
+    },
     {
       "date": "2026-07-04",
       "game": "Atlanta Dream vs Golden State Valkyries",
