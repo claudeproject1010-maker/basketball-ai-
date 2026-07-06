@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-06T08:57:25.699444+00:00",
+  "collected_at": "2026-07-06T16:12:41.157248+00:00",
   "dates": [
     "2026-07-06",
     "2026-07-07"
@@ -78,6 +78,10 @@
     }
   ],
   "source_errors": [
+    "ESPN HTTP 502 \u2014 https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates=20260531&li",
+    "ESPN HTTP 500 \u2014 https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates=20260528&li",
+    "ESPN HTTP 502 \u2014 https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/scorebo",
+    "ESPN HTTP 504 \u2014 https://site.api.espn.com/apis/site/v2/sports/basketball/nbl/scoreboard?dates=20260512&lim",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-06",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-07",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-05",
