@@ -1,25 +1,37 @@
 {
-  "computed_at": "2026-07-06T16:13:49.774745+00:00",
-  "total_scored": 10,
-  "total_hits": 7,
-  "overall_hit_rate": 70.0,
-  "avg_abs_error": 23.7,
-  "recent_20_hit_rate": 70.0,
+  "computed_at": "2026-07-07T08:19:29.441457+00:00",
+  "total_scored": 11,
+  "total_hits": 8,
+  "overall_hit_rate": 72.7,
+  "avg_abs_error": 26.4,
+  "recent_20_hit_rate": 72.7,
   "by_confidence": {
     "LOW": {
-      "total": 10,
-      "hits": 7,
-      "hit_rate": 70.0
+      "total": 11,
+      "hits": 8,
+      "hit_rate": 72.7
     }
   },
   "by_league": {
     "WNBA": {
-      "total": 10,
-      "hits": 7,
-      "hit_rate": 70.0
+      "total": 11,
+      "hits": 8,
+      "hit_rate": 72.7
     }
   },
   "last_10_results": [
+    {
+      "date": "2026-07-06",
+      "game": "Washington Mystics vs Golden State Valkyries",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 164.2,
+      "actual": 111,
+      "error": -53.2,
+      "recommended": "UNDER",
+      "outcome": "UNDER",
+      "hit": true
+    },
     {
       "date": "2026-07-05",
       "game": "Las Vegas Aces vs Indiana Fever",
@@ -124,18 +136,6 @@
       "predicted": 171.6,
       "actual": 247,
       "error": 75.4,
-      "recommended": "UNDER",
-      "outcome": "OVER",
-      "hit": false
-    },
-    {
-      "date": "2026-06-28",
-      "game": "Chicago Sky vs Las Vegas Aces",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 178.1,
-      "actual": 206,
-      "error": 27.9,
       "recommended": "UNDER",
       "outcome": "OVER",
       "hit": false
