@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-09T08:34:11.328582+00:00",
+  "collected_at": "2026-07-09T15:52:54.625617+00:00",
   "dates": [
     "2026-07-09",
     "2026-07-10"
@@ -92,9 +92,6 @@
     }
   ],
   "source_errors": [
-    "ESPN HTTP 502 \u2014 https://site.api.espn.com/apis/site/v2/sports/basketball/nbl/scoreboard?dates=20260708&lim",
-    "ESPN HTTP 502 \u2014 https://site.api.espn.com/apis/site/v2/sports/basketball/nbl/scoreboard?dates=20260705&lim",
-    "ESPN HTTP 502 \u2014 https://site.api.espn.com/apis/site/v2/sports/basketball/nbl/scoreboard?dates=20260512&lim",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-09",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-10",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-08",
