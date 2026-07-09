@@ -1,9 +1,386 @@
 {
-  "collected_at": "2026-07-08T15:10:04.330457+00:00",
-  "teams_with_history": 11,
+  "collected_at": "2026-07-09T08:34:11.328582+00:00",
+  "teams_with_history": 12,
   "teams_without_history": 0,
   "history": {
+    "Golden State Valkyries": [
+      {
+        "date": "2026-07-08",
+        "opponent": "Toronto Tempo",
+        "team_score": 83,
+        "opp_score": 75,
+        "total": 158,
+        "home": false,
+        "result": "W"
+      },
+      {
+        "date": "2026-07-06",
+        "opponent": "Washington Mystics",
+        "team_score": 62,
+        "opp_score": 49,
+        "total": 111,
+        "home": false,
+        "result": "W"
+      },
+      {
+        "date": "2026-07-04",
+        "opponent": "Atlanta Dream",
+        "team_score": 88,
+        "opp_score": 83,
+        "total": 171,
+        "home": false,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-28",
+        "opponent": "New York Liberty",
+        "team_score": 76,
+        "opp_score": 67,
+        "total": 143,
+        "home": true,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-27",
+        "opponent": "Atlanta Dream",
+        "team_score": 78,
+        "opp_score": 75,
+        "total": 153,
+        "home": true,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-25",
+        "opponent": "Atlanta Dream",
+        "team_score": 77,
+        "opp_score": 66,
+        "total": 143,
+        "home": true,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-21",
+        "opponent": "Las Vegas Aces",
+        "team_score": 73,
+        "opp_score": 92,
+        "total": 165,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-20",
+        "opponent": "Minnesota Lynx",
+        "team_score": 75,
+        "opp_score": 81,
+        "total": 156,
+        "home": true,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-18",
+        "opponent": "Dallas Wings",
+        "team_score": 91,
+        "opp_score": 80,
+        "total": 171,
+        "home": true,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-16",
+        "opponent": "Los Angeles Sparks",
+        "team_score": 78,
+        "opp_score": 58,
+        "total": 136,
+        "home": true,
+        "result": "W"
+      }
+    ],
+    "Indiana Fever": [
+      {
+        "date": "2026-07-09",
+        "opponent": "Los Angeles Sparks",
+        "team_score": 92,
+        "opp_score": 106,
+        "total": 198,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-07-05",
+        "opponent": "Las Vegas Aces",
+        "team_score": 84,
+        "opp_score": 68,
+        "total": 152,
+        "home": false,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-28",
+        "opponent": "Los Angeles Sparks",
+        "team_score": 111,
+        "opp_score": 87,
+        "total": 198,
+        "home": true,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-24",
+        "opponent": "Phoenix Mercury",
+        "team_score": 109,
+        "opp_score": 111,
+        "total": 220,
+        "home": true,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-23",
+        "opponent": "Phoenix Mercury",
+        "team_score": 86,
+        "opp_score": 77,
+        "total": 163,
+        "home": true,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-20",
+        "opponent": "Atlanta Dream",
+        "team_score": 96,
+        "opp_score": 113,
+        "total": 209,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-18",
+        "opponent": "Atlanta Dream",
+        "team_score": 101,
+        "opp_score": 108,
+        "total": 209,
+        "home": true,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-16",
+        "opponent": "Toronto Tempo",
+        "team_score": 113,
+        "opp_score": 91,
+        "total": 204,
+        "home": true,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-13",
+        "opponent": "Connecticut Sun",
+        "team_score": 85,
+        "opp_score": 75,
+        "total": 160,
+        "home": false,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-11",
+        "opponent": "Chicago Sky",
+        "team_score": 114,
+        "opp_score": 106,
+        "total": 220,
+        "home": true,
+        "result": "W"
+      }
+    ],
+    "Chicago Sky": [
+      {
+        "date": "2026-07-08",
+        "opponent": "Phoenix Mercury",
+        "team_score": 77,
+        "opp_score": 66,
+        "total": 143,
+        "home": false,
+        "result": "W"
+      },
+      {
+        "date": "2026-07-04",
+        "opponent": "Las Vegas Aces",
+        "team_score": 90,
+        "opp_score": 98,
+        "total": 188,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-28",
+        "opponent": "Las Vegas Aces",
+        "team_score": 99,
+        "opp_score": 107,
+        "total": 206,
+        "home": true,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-26",
+        "opponent": "Portland Fire",
+        "team_score": 124,
+        "opp_score": 94,
+        "total": 218,
+        "home": true,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-25",
+        "opponent": "Portland Fire",
+        "team_score": 101,
+        "opp_score": 78,
+        "total": 179,
+        "home": true,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-22",
+        "opponent": "Connecticut Sun",
+        "team_score": 63,
+        "opp_score": 92,
+        "total": 155,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-21",
+        "opponent": "Dallas Wings",
+        "team_score": 92,
+        "opp_score": 93,
+        "total": 185,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-18",
+        "opponent": "New York Liberty",
+        "team_score": 95,
+        "opp_score": 96,
+        "total": 191,
+        "home": true,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-11",
+        "opponent": "Indiana Fever",
+        "team_score": 106,
+        "opp_score": 114,
+        "total": 220,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-09",
+        "opponent": "Atlanta Dream",
+        "team_score": 75,
+        "opp_score": 82,
+        "total": 157,
+        "home": true,
+        "result": "L"
+      }
+    ],
+    "Los Angeles Sparks": [
+      {
+        "date": "2026-07-09",
+        "opponent": "Indiana Fever",
+        "team_score": 106,
+        "opp_score": 92,
+        "total": 198,
+        "home": true,
+        "result": "W"
+      },
+      {
+        "date": "2026-07-07",
+        "opponent": "Seattle Storm",
+        "team_score": 64,
+        "opp_score": 82,
+        "total": 146,
+        "home": true,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-28",
+        "opponent": "Indiana Fever",
+        "team_score": 87,
+        "opp_score": 111,
+        "total": 198,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-25",
+        "opponent": "Toronto Tempo",
+        "team_score": 97,
+        "opp_score": 125,
+        "total": 222,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-22",
+        "opponent": "New York Liberty",
+        "team_score": 98,
+        "opp_score": 97,
+        "total": 195,
+        "home": true,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-18",
+        "opponent": "Minnesota Lynx",
+        "team_score": 83,
+        "opp_score": 99,
+        "total": 182,
+        "home": true,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-16",
+        "opponent": "Golden State Valkyries",
+        "team_score": 58,
+        "opp_score": 78,
+        "total": 136,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-14",
+        "opponent": "Phoenix Mercury",
+        "team_score": 111,
+        "opp_score": 102,
+        "total": 213,
+        "home": false,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-11",
+        "opponent": "Seattle Storm",
+        "team_score": 88,
+        "opp_score": 83,
+        "total": 171,
+        "home": false,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-07",
+        "opponent": "Portland Fire",
+        "team_score": 89,
+        "opp_score": 72,
+        "total": 161,
+        "home": true,
+        "result": "W"
+      }
+    ],
     "Toronto Tempo": [
+      {
+        "date": "2026-07-08",
+        "opponent": "Golden State Valkyries",
+        "team_score": 75,
+        "opp_score": 83,
+        "total": 158,
+        "home": true,
+        "result": "L"
+      },
       {
         "date": "2026-07-05",
         "opponent": "Dallas Wings",
@@ -84,18 +461,294 @@
         "total": 208,
         "home": true,
         "result": "W"
+      }
+    ],
+    "Portland Fire": [
+      {
+        "date": "2026-07-05",
+        "opponent": "Seattle Storm",
+        "team_score": 77,
+        "opp_score": 72,
+        "total": 149,
+        "home": false,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-28",
+        "opponent": "Washington Mystics",
+        "team_score": 123,
+        "opp_score": 124,
+        "total": 247,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-26",
+        "opponent": "Chicago Sky",
+        "team_score": 94,
+        "opp_score": 124,
+        "total": 218,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-25",
+        "opponent": "Chicago Sky",
+        "team_score": 78,
+        "opp_score": 101,
+        "total": 179,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-18",
+        "opponent": "Seattle Storm",
+        "team_score": 94,
+        "opp_score": 89,
+        "total": 183,
+        "home": true,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-16",
+        "opponent": "Minnesota Lynx",
+        "team_score": 74,
+        "opp_score": 107,
+        "total": 181,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-14",
+        "opponent": "Dallas Wings",
+        "team_score": 84,
+        "opp_score": 83,
+        "total": 167,
+        "home": true,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-12",
+        "opponent": "Las Vegas Aces",
+        "team_score": 89,
+        "opp_score": 105,
+        "total": 194,
+        "home": true,
+        "result": "L"
       },
       {
         "date": "2026-06-07",
-        "opponent": "Chicago Sky",
-        "team_score": 85,
-        "opp_score": 68,
+        "opponent": "Los Angeles Sparks",
+        "team_score": 72,
+        "opp_score": 89,
+        "total": 161,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-06",
+        "opponent": "Phoenix Mercury",
+        "team_score": 72,
+        "opp_score": 78,
+        "total": 150,
+        "home": true,
+        "result": "L"
+      }
+    ],
+    "Atlanta Dream": [
+      {
+        "date": "2026-07-04",
+        "opponent": "Golden State Valkyries",
+        "team_score": 83,
+        "opp_score": 88,
+        "total": 171,
+        "home": true,
+        "result": "L"
+      },
+      {
+        "date": "2026-07-02",
+        "opponent": "Washington Mystics",
+        "team_score": 76,
+        "opp_score": 81,
+        "total": 157,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-28",
+        "opponent": "Seattle Storm",
+        "team_score": 90,
+        "opp_score": 105,
+        "total": 195,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-27",
+        "opponent": "Golden State Valkyries",
+        "team_score": 75,
+        "opp_score": 78,
         "total": 153,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-25",
+        "opponent": "Golden State Valkyries",
+        "team_score": 66,
+        "opp_score": 77,
+        "total": 143,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-22",
+        "opponent": "Toronto Tempo",
+        "team_score": 94,
+        "opp_score": 87,
+        "total": 181,
         "home": true,
         "result": "W"
+      },
+      {
+        "date": "2026-06-20",
+        "opponent": "Indiana Fever",
+        "team_score": 113,
+        "opp_score": 96,
+        "total": 209,
+        "home": true,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-18",
+        "opponent": "Indiana Fever",
+        "team_score": 108,
+        "opp_score": 101,
+        "total": 209,
+        "home": false,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-14",
+        "opponent": "Toronto Tempo",
+        "team_score": 102,
+        "opp_score": 77,
+        "total": 179,
+        "home": false,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-11",
+        "opponent": "New York Liberty",
+        "team_score": 90,
+        "opp_score": 104,
+        "total": 194,
+        "home": true,
+        "result": "L"
+      }
+    ],
+    "Phoenix Mercury": [
+      {
+        "date": "2026-07-08",
+        "opponent": "Chicago Sky",
+        "team_score": 66,
+        "opp_score": 77,
+        "total": 143,
+        "home": true,
+        "result": "L"
+      },
+      {
+        "date": "2026-07-03",
+        "opponent": "Seattle Storm",
+        "team_score": 90,
+        "opp_score": 67,
+        "total": 157,
+        "home": true,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-27",
+        "opponent": "Toronto Tempo",
+        "team_score": 89,
+        "opp_score": 80,
+        "total": 169,
+        "home": false,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-24",
+        "opponent": "Indiana Fever",
+        "team_score": 111,
+        "opp_score": 109,
+        "total": 220,
+        "home": false,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-23",
+        "opponent": "Indiana Fever",
+        "team_score": 77,
+        "opp_score": 86,
+        "total": 163,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-20",
+        "opponent": "Seattle Storm",
+        "team_score": 93,
+        "opp_score": 73,
+        "total": 166,
+        "home": true,
+        "result": "W"
+      },
+      {
+        "date": "2026-06-18",
+        "opponent": "Las Vegas Aces",
+        "team_score": 76,
+        "opp_score": 86,
+        "total": 162,
+        "home": true,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-14",
+        "opponent": "Los Angeles Sparks",
+        "team_score": 102,
+        "opp_score": 111,
+        "total": 213,
+        "home": true,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-12",
+        "opponent": "Dallas Wings",
+        "team_score": 70,
+        "opp_score": 85,
+        "total": 155,
+        "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-10",
+        "opponent": "Golden State Valkyries",
+        "team_score": 81,
+        "opp_score": 87,
+        "total": 168,
+        "home": false,
+        "result": "L"
       }
     ],
     "Connecticut Sun": [
+      {
+        "date": "2026-07-08",
+        "opponent": "Minnesota Lynx",
+        "team_score": 80,
+        "opp_score": 86,
+        "total": 166,
+        "home": true,
+        "result": "L"
+      },
       {
         "date": "2026-07-07",
         "opponent": "Minnesota Lynx",
@@ -175,15 +828,6 @@
         "opp_score": 89,
         "total": 169,
         "home": true,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-05",
-        "opponent": "Chicago Sky",
-        "team_score": 80,
-        "opp_score": 85,
-        "total": 165,
-        "home": false,
         "result": "L"
       }
     ],
@@ -279,282 +923,6 @@
         "result": "W"
       }
     ],
-    "Phoenix Mercury": [
-      {
-        "date": "2026-07-08",
-        "opponent": "Chicago Sky",
-        "team_score": 66,
-        "opp_score": 77,
-        "total": 143,
-        "home": true,
-        "result": "L"
-      },
-      {
-        "date": "2026-07-03",
-        "opponent": "Seattle Storm",
-        "team_score": 90,
-        "opp_score": 67,
-        "total": 157,
-        "home": true,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-27",
-        "opponent": "Toronto Tempo",
-        "team_score": 89,
-        "opp_score": 80,
-        "total": 169,
-        "home": false,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-24",
-        "opponent": "Indiana Fever",
-        "team_score": 111,
-        "opp_score": 109,
-        "total": 220,
-        "home": false,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-23",
-        "opponent": "Indiana Fever",
-        "team_score": 77,
-        "opp_score": 86,
-        "total": 163,
-        "home": false,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-20",
-        "opponent": "Seattle Storm",
-        "team_score": 93,
-        "opp_score": 73,
-        "total": 166,
-        "home": true,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-18",
-        "opponent": "Las Vegas Aces",
-        "team_score": 76,
-        "opp_score": 86,
-        "total": 162,
-        "home": true,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-14",
-        "opponent": "Los Angeles Sparks",
-        "team_score": 102,
-        "opp_score": 111,
-        "total": 213,
-        "home": true,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-12",
-        "opponent": "Dallas Wings",
-        "team_score": 70,
-        "opp_score": 85,
-        "total": 155,
-        "home": false,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-10",
-        "opponent": "Golden State Valkyries",
-        "team_score": 81,
-        "opp_score": 87,
-        "total": 168,
-        "home": false,
-        "result": "L"
-      }
-    ],
-    "Los Angeles Sparks": [
-      {
-        "date": "2026-07-07",
-        "opponent": "Seattle Storm",
-        "team_score": 64,
-        "opp_score": 82,
-        "total": 146,
-        "home": true,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-28",
-        "opponent": "Indiana Fever",
-        "team_score": 87,
-        "opp_score": 111,
-        "total": 198,
-        "home": false,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-25",
-        "opponent": "Toronto Tempo",
-        "team_score": 97,
-        "opp_score": 125,
-        "total": 222,
-        "home": false,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-22",
-        "opponent": "New York Liberty",
-        "team_score": 98,
-        "opp_score": 97,
-        "total": 195,
-        "home": true,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-18",
-        "opponent": "Minnesota Lynx",
-        "team_score": 83,
-        "opp_score": 99,
-        "total": 182,
-        "home": true,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-16",
-        "opponent": "Golden State Valkyries",
-        "team_score": 58,
-        "opp_score": 78,
-        "total": 136,
-        "home": false,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-14",
-        "opponent": "Phoenix Mercury",
-        "team_score": 111,
-        "opp_score": 102,
-        "total": 213,
-        "home": false,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-11",
-        "opponent": "Seattle Storm",
-        "team_score": 88,
-        "opp_score": 83,
-        "total": 171,
-        "home": false,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-07",
-        "opponent": "Portland Fire",
-        "team_score": 89,
-        "opp_score": 72,
-        "total": 161,
-        "home": true,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-06",
-        "opponent": "Dallas Wings",
-        "team_score": 96,
-        "opp_score": 104,
-        "total": 200,
-        "home": true,
-        "result": "L"
-      }
-    ],
-    "Golden State Valkyries": [
-      {
-        "date": "2026-07-06",
-        "opponent": "Washington Mystics",
-        "team_score": 62,
-        "opp_score": 49,
-        "total": 111,
-        "home": false,
-        "result": "W"
-      },
-      {
-        "date": "2026-07-04",
-        "opponent": "Atlanta Dream",
-        "team_score": 88,
-        "opp_score": 83,
-        "total": 171,
-        "home": false,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-28",
-        "opponent": "New York Liberty",
-        "team_score": 76,
-        "opp_score": 67,
-        "total": 143,
-        "home": true,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-27",
-        "opponent": "Atlanta Dream",
-        "team_score": 78,
-        "opp_score": 75,
-        "total": 153,
-        "home": true,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-25",
-        "opponent": "Atlanta Dream",
-        "team_score": 77,
-        "opp_score": 66,
-        "total": 143,
-        "home": true,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-21",
-        "opponent": "Las Vegas Aces",
-        "team_score": 73,
-        "opp_score": 92,
-        "total": 165,
-        "home": false,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-20",
-        "opponent": "Minnesota Lynx",
-        "team_score": 75,
-        "opp_score": 81,
-        "total": 156,
-        "home": true,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-18",
-        "opponent": "Dallas Wings",
-        "team_score": 91,
-        "opp_score": 80,
-        "total": 171,
-        "home": true,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-16",
-        "opponent": "Los Angeles Sparks",
-        "team_score": 78,
-        "opp_score": 58,
-        "total": 136,
-        "home": true,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-13",
-        "opponent": "Seattle Storm",
-        "team_score": 76,
-        "opp_score": 72,
-        "total": 148,
-        "home": false,
-        "result": "W"
-      }
-    ],
     "Seattle Storm": [
       {
         "date": "2026-07-07",
@@ -647,372 +1015,96 @@
         "result": "L"
       }
     ],
-    "Portland Fire": [
+    "Dallas Wings": [
+      {
+        "date": "2026-07-08",
+        "opponent": "New York Liberty",
+        "team_score": 88,
+        "opp_score": 77,
+        "total": 165,
+        "home": false,
+        "result": "W"
+      },
       {
         "date": "2026-07-05",
-        "opponent": "Seattle Storm",
-        "team_score": 77,
-        "opp_score": 72,
-        "total": 149,
+        "opponent": "Toronto Tempo",
+        "team_score": 89,
+        "opp_score": 76,
+        "total": 165,
+        "home": false,
+        "result": "W"
+      },
+      {
+        "date": "2026-07-03",
+        "opponent": "Connecticut Sun",
+        "team_score": 86,
+        "opp_score": 83,
+        "total": 169,
         "home": false,
         "result": "W"
       },
       {
         "date": "2026-06-28",
-        "opponent": "Washington Mystics",
-        "team_score": 123,
-        "opp_score": 124,
-        "total": 247,
-        "home": false,
+        "opponent": "Minnesota Lynx",
+        "team_score": 77,
+        "opp_score": 85,
+        "total": 162,
+        "home": true,
         "result": "L"
       },
       {
         "date": "2026-06-26",
-        "opponent": "Chicago Sky",
-        "team_score": 94,
-        "opp_score": 124,
-        "total": 218,
-        "home": false,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-25",
-        "opponent": "Chicago Sky",
-        "team_score": 78,
-        "opp_score": 101,
-        "total": 179,
-        "home": false,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-18",
-        "opponent": "Seattle Storm",
-        "team_score": 94,
-        "opp_score": 89,
-        "total": 183,
-        "home": true,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-16",
-        "opponent": "Minnesota Lynx",
-        "team_score": 74,
-        "opp_score": 107,
-        "total": 181,
-        "home": false,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-14",
-        "opponent": "Dallas Wings",
-        "team_score": 84,
-        "opp_score": 83,
-        "total": 167,
-        "home": true,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-12",
         "opponent": "Las Vegas Aces",
-        "team_score": 89,
-        "opp_score": 105,
-        "total": 194,
-        "home": true,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-07",
-        "opponent": "Los Angeles Sparks",
-        "team_score": 72,
-        "opp_score": 89,
-        "total": 161,
-        "home": false,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-06",
-        "opponent": "Phoenix Mercury",
-        "team_score": 72,
-        "opp_score": 78,
-        "total": 150,
-        "home": true,
-        "result": "L"
-      }
-    ],
-    "Minnesota Lynx": [
-      {
-        "date": "2026-07-07",
-        "opponent": "Connecticut Sun",
-        "team_score": 89,
-        "opp_score": 90,
-        "total": 179,
-        "home": true,
-        "result": "L"
-      },
-      {
-        "date": "2026-07-03",
-        "opponent": "New York Liberty",
-        "team_score": 86,
+        "team_score": 84,
         "opp_score": 99,
-        "total": 185,
+        "total": 183,
         "home": false,
         "result": "L"
       },
       {
-        "date": "2026-06-28",
-        "opponent": "Dallas Wings",
-        "team_score": 85,
-        "opp_score": 77,
-        "total": 162,
-        "home": false,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-24",
-        "opponent": "Washington Mystics",
-        "team_score": 78,
-        "opp_score": 76,
-        "total": 154,
+        "date": "2026-06-23",
+        "opponent": "Seattle Storm",
+        "team_score": 112,
+        "opp_score": 110,
+        "total": 222,
         "home": false,
         "result": "W"
       },
       {
         "date": "2026-06-21",
-        "opponent": "Washington Mystics",
-        "team_score": 79,
-        "opp_score": 84,
-        "total": 163,
-        "home": true,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-20",
-        "opponent": "Golden State Valkyries",
-        "team_score": 81,
-        "opp_score": 75,
-        "total": 156,
-        "home": false,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-18",
-        "opponent": "Los Angeles Sparks",
-        "team_score": 99,
-        "opp_score": 83,
-        "total": 182,
-        "home": false,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-16",
-        "opponent": "Portland Fire",
-        "team_score": 107,
-        "opp_score": 74,
-        "total": 181,
-        "home": true,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-14",
-        "opponent": "Las Vegas Aces",
-        "team_score": 97,
-        "opp_score": 100,
-        "total": 197,
-        "home": false,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-10",
-        "opponent": "Dallas Wings",
-        "team_score": 100,
-        "opp_score": 76,
-        "total": 176,
-        "home": true,
-        "result": "W"
-      }
-    ],
-    "Atlanta Dream": [
-      {
-        "date": "2026-07-04",
-        "opponent": "Golden State Valkyries",
-        "team_score": 83,
-        "opp_score": 88,
-        "total": 171,
-        "home": true,
-        "result": "L"
-      },
-      {
-        "date": "2026-07-02",
-        "opponent": "Washington Mystics",
-        "team_score": 76,
-        "opp_score": 81,
-        "total": 157,
-        "home": false,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-28",
-        "opponent": "Seattle Storm",
-        "team_score": 90,
-        "opp_score": 105,
-        "total": 195,
-        "home": false,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-27",
-        "opponent": "Golden State Valkyries",
-        "team_score": 75,
-        "opp_score": 78,
-        "total": 153,
-        "home": false,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-25",
-        "opponent": "Golden State Valkyries",
-        "team_score": 66,
-        "opp_score": 77,
-        "total": 143,
-        "home": false,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-22",
-        "opponent": "Toronto Tempo",
-        "team_score": 94,
-        "opp_score": 87,
-        "total": 181,
-        "home": true,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-20",
-        "opponent": "Indiana Fever",
-        "team_score": 113,
-        "opp_score": 96,
-        "total": 209,
-        "home": true,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-18",
-        "opponent": "Indiana Fever",
-        "team_score": 108,
-        "opp_score": 101,
-        "total": 209,
-        "home": false,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-14",
-        "opponent": "Toronto Tempo",
-        "team_score": 102,
-        "opp_score": 77,
-        "total": 179,
-        "home": false,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-11",
-        "opponent": "New York Liberty",
-        "team_score": 90,
-        "opp_score": 104,
-        "total": 194,
-        "home": true,
-        "result": "L"
-      }
-    ],
-    "Indiana Fever": [
-      {
-        "date": "2026-07-05",
-        "opponent": "Las Vegas Aces",
-        "team_score": 84,
-        "opp_score": 68,
-        "total": 152,
-        "home": false,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-28",
-        "opponent": "Los Angeles Sparks",
-        "team_score": 111,
-        "opp_score": 87,
-        "total": 198,
-        "home": true,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-24",
-        "opponent": "Phoenix Mercury",
-        "team_score": 109,
-        "opp_score": 111,
-        "total": 220,
-        "home": true,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-23",
-        "opponent": "Phoenix Mercury",
-        "team_score": 86,
-        "opp_score": 77,
-        "total": 163,
-        "home": true,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-20",
-        "opponent": "Atlanta Dream",
-        "team_score": 96,
-        "opp_score": 113,
-        "total": 209,
-        "home": false,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-18",
-        "opponent": "Atlanta Dream",
-        "team_score": 101,
-        "opp_score": 108,
-        "total": 209,
-        "home": true,
-        "result": "L"
-      },
-      {
-        "date": "2026-06-16",
-        "opponent": "Toronto Tempo",
-        "team_score": 113,
-        "opp_score": 91,
-        "total": 204,
-        "home": true,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-13",
-        "opponent": "Connecticut Sun",
-        "team_score": 85,
-        "opp_score": 75,
-        "total": 160,
-        "home": false,
-        "result": "W"
-      },
-      {
-        "date": "2026-06-11",
         "opponent": "Chicago Sky",
-        "team_score": 114,
-        "opp_score": 106,
-        "total": 220,
+        "team_score": 93,
+        "opp_score": 92,
+        "total": 185,
         "home": true,
         "result": "W"
       },
       {
-        "date": "2026-06-08",
-        "opponent": "Washington Mystics",
-        "team_score": 78,
-        "opp_score": 76,
-        "total": 154,
+        "date": "2026-06-18",
+        "opponent": "Golden State Valkyries",
+        "team_score": 80,
+        "opp_score": 91,
+        "total": 171,
         "home": false,
+        "result": "L"
+      },
+      {
+        "date": "2026-06-16",
+        "opponent": "Las Vegas Aces",
+        "team_score": 96,
+        "opp_score": 66,
+        "total": 162,
+        "home": true,
         "result": "W"
+      },
+      {
+        "date": "2026-06-14",
+        "opponent": "Portland Fire",
+        "team_score": 83,
+        "opp_score": 84,
+        "total": 167,
+        "home": false,
+        "result": "L"
       }
     ]
   }
