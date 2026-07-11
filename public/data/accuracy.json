@@ -1,25 +1,49 @@
 {
-  "computed_at": "2026-07-10T15:27:25.408298+00:00",
-  "total_scored": 13,
-  "total_hits": 10,
-  "overall_hit_rate": 76.9,
-  "avg_abs_error": 23.5,
-  "recent_20_hit_rate": 76.9,
+  "computed_at": "2026-07-11T07:09:58.038986+00:00",
+  "total_scored": 15,
+  "total_hits": 12,
+  "overall_hit_rate": 80.0,
+  "avg_abs_error": 23.3,
+  "recent_20_hit_rate": 80.0,
   "by_confidence": {
     "LOW": {
-      "total": 13,
-      "hits": 10,
-      "hit_rate": 76.9
+      "total": 15,
+      "hits": 12,
+      "hit_rate": 80.0
     }
   },
   "by_league": {
     "WNBA": {
-      "total": 13,
-      "hits": 10,
-      "hit_rate": 76.9
+      "total": 15,
+      "hits": 12,
+      "hit_rate": 80.0
     }
   },
   "last_10_results": [
+    {
+      "date": "2026-07-10",
+      "game": "Toronto Tempo vs Dallas Wings",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 177.8,
+      "actual": 203,
+      "error": 25.2,
+      "recommended": "OVER",
+      "outcome": "OVER",
+      "hit": true
+    },
+    {
+      "date": "2026-07-10",
+      "game": "Connecticut Sun vs Golden State Valkyries",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 161.8,
+      "actual": 143,
+      "error": -18.8,
+      "recommended": "UNDER",
+      "outcome": "UNDER",
+      "hit": true
+    },
     {
       "date": "2026-07-08",
       "game": "Toronto Tempo vs Golden State Valkyries",
@@ -112,30 +136,6 @@
       "predicted": 175.2,
       "actual": 157,
       "error": -18.2,
-      "recommended": "UNDER",
-      "outcome": "UNDER",
-      "hit": true
-    },
-    {
-      "date": "2026-06-30",
-      "game": "New York Liberty vs Las Vegas Aces",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 176.9,
-      "actual": 178,
-      "error": 1.1,
-      "recommended": "UNDER",
-      "outcome": "OVER",
-      "hit": false
-    },
-    {
-      "date": "2026-06-28",
-      "game": "Golden State Valkyries vs New York Liberty",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 168.7,
-      "actual": 143,
-      "error": -25.7,
       "recommended": "UNDER",
       "outcome": "UNDER",
       "hit": true
