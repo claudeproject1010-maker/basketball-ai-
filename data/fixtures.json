@@ -1,53 +1,11 @@
 {
-  "collected_at": "2026-07-11T14:18:30.871364+00:00",
+  "collected_at": "2026-07-12T06:33:07.920548+00:00",
   "dates": [
-    "2026-07-11",
-    "2026-07-12"
+    "2026-07-12",
+    "2026-07-13"
   ],
-  "total_games": 7,
+  "total_games": 6,
   "games": [
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Minnesota Lynx",
-      "away_team": "New York Liberty",
-      "home_team_id": "8",
-      "away_team_id": "9",
-      "date": "2026-07-11",
-      "time_utc": "2026-07-11T17:00Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "Target Center"
-    },
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Atlanta Dream",
-      "away_team": "Portland Fire",
-      "home_team_id": "20",
-      "away_team_id": "132052",
-      "date": "2026-07-11",
-      "time_utc": "2026-07-11T20:00Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "Gateway Center"
-    },
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Las Vegas Aces",
-      "away_team": "Phoenix Mercury",
-      "home_team_id": "17",
-      "away_team_id": "11",
-      "date": "2026-07-11",
-      "time_utc": "2026-07-11T22:00Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "Michelob ULTRA Arena"
-    },
     {
       "source": "espn_wnba",
       "league": "WNBA",
@@ -103,11 +61,40 @@
       "home_score": null,
       "away_score": null,
       "venue": "Michelob ULTRA Arena"
+    },
+    {
+      "source": "espn_wnba",
+      "league": "WNBA",
+      "home_team": "Atlanta Dream",
+      "away_team": "Los Angeles Sparks",
+      "home_team_id": "20",
+      "away_team_id": "6",
+      "date": "2026-07-13",
+      "time_utc": "2026-07-13T23:00Z",
+      "status": "STATUS_SCHEDULED",
+      "home_score": null,
+      "away_score": null,
+      "venue": "Gateway Center"
+    },
+    {
+      "source": "espn_wnba",
+      "league": "WNBA",
+      "home_team": "Minnesota Lynx",
+      "away_team": "Phoenix Mercury",
+      "home_team_id": "8",
+      "away_team_id": "11",
+      "date": "2026-07-14",
+      "time_utc": "2026-07-14T01:00Z",
+      "status": "STATUS_SCHEDULED",
+      "home_score": null,
+      "away_score": null,
+      "venue": "Target Center"
     }
   ],
   "source_errors": [
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-11",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-12",
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-13",
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-11",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-10",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-09",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-08",
@@ -136,7 +123,6 @@
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-15",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-14",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-13",
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-12",
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-11"
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-12"
   ]
 }
