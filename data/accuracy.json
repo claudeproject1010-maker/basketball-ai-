@@ -1,25 +1,61 @@
 {
-  "computed_at": "2026-07-12T14:23:51.845190+00:00",
-  "total_scored": 18,
-  "total_hits": 13,
-  "overall_hit_rate": 72.2,
-  "avg_abs_error": 20.7,
-  "recent_20_hit_rate": 72.2,
+  "computed_at": "2026-07-13T08:14:08.290543+00:00",
+  "total_scored": 21,
+  "total_hits": 15,
+  "overall_hit_rate": 71.4,
+  "avg_abs_error": 18.3,
+  "recent_20_hit_rate": 75.0,
   "by_confidence": {
     "LOW": {
-      "total": 18,
-      "hits": 13,
-      "hit_rate": 72.2
+      "total": 21,
+      "hits": 15,
+      "hit_rate": 71.4
     }
   },
   "by_league": {
     "WNBA": {
-      "total": 18,
-      "hits": 13,
-      "hit_rate": 72.2
+      "total": 21,
+      "hits": 15,
+      "hit_rate": 71.4
     }
   },
   "last_10_results": [
+    {
+      "date": "2026-07-12",
+      "game": "Toronto Tempo vs New York Liberty",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 179.9,
+      "actual": 184,
+      "error": 4.1,
+      "recommended": "UNDER",
+      "outcome": "OVER",
+      "hit": false
+    },
+    {
+      "date": "2026-07-12",
+      "game": "Washington Mystics vs Seattle Storm",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 167.7,
+      "actual": 163,
+      "error": -4.7,
+      "recommended": "UNDER",
+      "outcome": "UNDER",
+      "hit": true
+    },
+    {
+      "date": "2026-07-12",
+      "game": "Dallas Wings vs Chicago Sky",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 182.8,
+      "actual": 187,
+      "error": 4.2,
+      "recommended": "OVER",
+      "outcome": "OVER",
+      "hit": true
+    },
     {
       "date": "2026-07-11",
       "game": "Minnesota Lynx vs New York Liberty",
@@ -100,42 +136,6 @@
       "predicted": 172.0,
       "actual": 166,
       "error": -6.0,
-      "recommended": "UNDER",
-      "outcome": "UNDER",
-      "hit": true
-    },
-    {
-      "date": "2026-07-06",
-      "game": "Washington Mystics vs Golden State Valkyries",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 164.2,
-      "actual": 111,
-      "error": -53.2,
-      "recommended": "UNDER",
-      "outcome": "UNDER",
-      "hit": true
-    },
-    {
-      "date": "2026-07-05",
-      "game": "Las Vegas Aces vs Indiana Fever",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 189.0,
-      "actual": 152,
-      "error": -37.0,
-      "recommended": "UNDER",
-      "outcome": "UNDER",
-      "hit": true
-    },
-    {
-      "date": "2026-07-05",
-      "game": "Toronto Tempo vs Dallas Wings",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 182.8,
-      "actual": 165,
-      "error": -17.8,
       "recommended": "UNDER",
       "outcome": "UNDER",
       "hit": true
