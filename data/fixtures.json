@@ -1,39 +1,11 @@
 {
-  "collected_at": "2026-07-13T15:38:25.523035+00:00",
+  "collected_at": "2026-07-14T07:08:48.289694+00:00",
   "dates": [
-    "2026-07-13",
-    "2026-07-14"
+    "2026-07-14",
+    "2026-07-15"
   ],
-  "total_games": 4,
+  "total_games": 5,
   "games": [
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Atlanta Dream",
-      "away_team": "Los Angeles Sparks",
-      "home_team_id": "20",
-      "away_team_id": "6",
-      "date": "2026-07-13",
-      "time_utc": "2026-07-13T23:00Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "Gateway Center"
-    },
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Minnesota Lynx",
-      "away_team": "Phoenix Mercury",
-      "home_team_id": "8",
-      "away_team_id": "11",
-      "date": "2026-07-14",
-      "time_utc": "2026-07-14T01:00Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "Target Center"
-    },
     {
       "source": "espn_wnba",
       "league": "WNBA",
@@ -61,11 +33,55 @@
       "home_score": null,
       "away_score": null,
       "venue": "Coca-Cola Coliseum"
+    },
+    {
+      "source": "espn_wnba",
+      "league": "WNBA",
+      "home_team": "Chicago Sky",
+      "away_team": "Seattle Storm",
+      "home_team_id": "19",
+      "away_team_id": "14",
+      "date": "2026-07-15",
+      "time_utc": "2026-07-15T16:00Z",
+      "status": "STATUS_SCHEDULED",
+      "home_score": null,
+      "away_score": null,
+      "venue": "Wintrust Arena"
+    },
+    {
+      "source": "espn_wnba",
+      "league": "WNBA",
+      "home_team": "Minnesota Lynx",
+      "away_team": "Los Angeles Sparks",
+      "home_team_id": "8",
+      "away_team_id": "6",
+      "date": "2026-07-15",
+      "time_utc": "2026-07-15T17:00Z",
+      "status": "STATUS_SCHEDULED",
+      "home_score": null,
+      "away_score": null,
+      "venue": "Target Center"
+    },
+    {
+      "source": "espn_wnba",
+      "league": "WNBA",
+      "home_team": "Indiana Fever",
+      "away_team": "Golden State Valkyries",
+      "home_team_id": "5",
+      "away_team_id": "129689",
+      "date": "2026-07-16",
+      "time_utc": "2026-07-16T00:00Z",
+      "status": "STATUS_SCHEDULED",
+      "home_score": null,
+      "away_score": null,
+      "venue": "Gainbridge Fieldhouse"
     }
   ],
   "source_errors": [
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-13",
+    "ESPN HTTP 503 \u2014 https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates=20260604&li",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-14",
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-15",
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-13",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-12",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-11",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-10",
@@ -94,7 +110,6 @@
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-17",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-16",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-15",
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-14",
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-13"
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-06-14"
   ]
 }
