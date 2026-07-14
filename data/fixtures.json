@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-14T07:08:48.289694+00:00",
+  "collected_at": "2026-07-14T14:42:19.910215+00:00",
   "dates": [
     "2026-07-14",
     "2026-07-15"
@@ -78,7 +78,6 @@
     }
   ],
   "source_errors": [
-    "ESPN HTTP 503 \u2014 https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates=20260604&li",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-14",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-15",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-13",
