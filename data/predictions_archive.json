@@ -1545,8 +1545,17 @@
       "source": "espn_wnba",
       "venue": "Mortgage Matchup Center",
       "generated_at": "2026-07-16T07:21:37.609024+00:00",
-      "scored": false,
-      "result": null
+      "scored": true,
+      "result": null,
+      "actual_total": 135,
+      "actual_home": 72,
+      "actual_away": 63,
+      "actual_outcome": "UNDER",
+      "recommended": "UNDER",
+      "hit": true,
+      "error": -36.7,
+      "abs_error": 36.7,
+      "scored_at": "2026-07-20T07:55:53.033936+00:00"
     },
     {
       "league": "WNBA",
@@ -1775,8 +1784,17 @@
       "source": "espn_wnba",
       "venue": "Gateway Center",
       "generated_at": "2026-07-18T06:59:09.410689+00:00",
-      "scored": false,
-      "result": null
+      "scored": true,
+      "result": null,
+      "actual_total": 184,
+      "actual_home": 93,
+      "actual_away": 91,
+      "actual_outcome": "UNDER",
+      "recommended": "UNDER",
+      "hit": true,
+      "error": -0.6,
+      "abs_error": 0.6,
+      "scored_at": "2026-07-20T07:55:53.033936+00:00"
     },
     {
       "league": "WNBA",
@@ -1804,8 +1822,17 @@
       "source": "espn_wnba",
       "venue": "Mortgage Matchup Center",
       "generated_at": "2026-07-18T06:59:09.410689+00:00",
-      "scored": false,
-      "result": null
+      "scored": true,
+      "result": null,
+      "actual_total": 135,
+      "actual_home": 72,
+      "actual_away": 63,
+      "actual_outcome": "UNDER",
+      "recommended": "UNDER",
+      "hit": true,
+      "error": -38.5,
+      "abs_error": 38.5,
+      "scored_at": "2026-07-20T07:55:53.033936+00:00"
     },
     {
       "league": "WNBA",
@@ -1833,8 +1860,17 @@
       "source": "espn_wnba",
       "venue": "College Park Center",
       "generated_at": "2026-07-18T06:59:09.410689+00:00",
-      "scored": false,
-      "result": null
+      "scored": true,
+      "result": null,
+      "actual_total": 172,
+      "actual_home": 90,
+      "actual_away": 82,
+      "actual_outcome": "UNDER",
+      "recommended": "UNDER",
+      "hit": true,
+      "error": -14.8,
+      "abs_error": 14.8,
+      "scored_at": "2026-07-20T07:55:53.033936+00:00"
     },
     {
       "league": "WNBA",
