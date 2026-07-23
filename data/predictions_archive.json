@@ -1916,8 +1916,17 @@
       "source": "espn_wnba",
       "venue": "Climate Pledge Arena",
       "generated_at": "2026-07-19T07:25:06.651864+00:00",
-      "scored": false,
-      "result": null
+      "scored": true,
+      "result": null,
+      "actual_total": 162,
+      "actual_home": 76,
+      "actual_away": 86,
+      "actual_outcome": "UNDER",
+      "recommended": "UNDER",
+      "hit": true,
+      "error": -21.7,
+      "abs_error": 21.7,
+      "scored_at": "2026-07-23T07:29:50.095668+00:00"
     },
     {
       "league": "WNBA",
@@ -2032,8 +2041,17 @@
       "source": "espn_wnba",
       "venue": "Climate Pledge Arena",
       "generated_at": "2026-07-21T07:31:24.834116+00:00",
-      "scored": false,
-      "result": null
+      "scored": true,
+      "result": null,
+      "actual_total": 162,
+      "actual_home": 76,
+      "actual_away": 86,
+      "actual_outcome": "UNDER",
+      "recommended": "UNDER",
+      "hit": true,
+      "error": -25.1,
+      "abs_error": 25.1,
+      "scored_at": "2026-07-23T07:29:50.095668+00:00"
     },
     {
       "league": "WNBA",
@@ -2061,8 +2079,17 @@
       "source": "espn_wnba",
       "venue": "Barclays Center",
       "generated_at": "2026-07-21T07:31:24.834116+00:00",
-      "scored": false,
-      "result": null
+      "scored": true,
+      "result": null,
+      "actual_total": 189,
+      "actual_home": 95,
+      "actual_away": 94,
+      "actual_outcome": "OVER",
+      "recommended": "UNDER",
+      "hit": false,
+      "error": 3.7,
+      "abs_error": 3.7,
+      "scored_at": "2026-07-23T07:29:50.095668+00:00"
     },
     {
       "league": "WNBA",
@@ -2119,8 +2146,17 @@
       "source": "espn_wnba",
       "venue": "CareFirst Arena",
       "generated_at": "2026-07-21T07:31:24.834116+00:00",
-      "scored": false,
-      "result": null
+      "scored": true,
+      "result": null,
+      "actual_total": 199,
+      "actual_home": 100,
+      "actual_away": 99,
+      "actual_outcome": "OVER",
+      "recommended": "UNDER",
+      "hit": false,
+      "error": 31.5,
+      "abs_error": 31.5,
+      "scored_at": "2026-07-23T07:29:50.095668+00:00"
     },
     {
       "league": "WNBA",
@@ -2148,8 +2184,17 @@
       "source": "espn_wnba",
       "venue": "crypto.com Arena",
       "generated_at": "2026-07-21T07:31:24.834116+00:00",
-      "scored": false,
-      "result": null
+      "scored": true,
+      "result": null,
+      "actual_total": 168,
+      "actual_home": 82,
+      "actual_away": 86,
+      "actual_outcome": "UNDER",
+      "recommended": "UNDER",
+      "hit": true,
+      "error": -12.2,
+      "abs_error": 12.2,
+      "scored_at": "2026-07-23T07:29:50.095668+00:00"
     },
     {
       "league": "WNBA",

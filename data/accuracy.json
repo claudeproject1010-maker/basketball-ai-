@@ -1,30 +1,95 @@
 {
-  "computed_at": "2026-07-22T14:58:11.122326+00:00",
-  "total_scored": 36,
-  "total_hits": 23,
-  "overall_hit_rate": 63.9,
+  "computed_at": "2026-07-23T07:29:50.095668+00:00",
+  "total_scored": 41,
+  "total_hits": 26,
+  "overall_hit_rate": 63.4,
   "avg_abs_error": 18.6,
   "recent_20_hit_rate": 55.0,
   "by_confidence": {
-    "MEDIUM": {
+    "HIGH": {
       "total": 1,
       "hits": 1,
       "hit_rate": 100.0
     },
+    "MEDIUM": {
+      "total": 2,
+      "hits": 2,
+      "hit_rate": 100.0
+    },
     "LOW": {
-      "total": 35,
-      "hits": 22,
-      "hit_rate": 62.9
+      "total": 38,
+      "hits": 23,
+      "hit_rate": 60.5
     }
   },
   "by_league": {
     "WNBA": {
-      "total": 36,
-      "hits": 23,
-      "hit_rate": 63.9
+      "total": 41,
+      "hits": 26,
+      "hit_rate": 63.4
     }
   },
   "last_10_results": [
+    {
+      "date": "2026-07-22",
+      "game": "Seattle Storm vs Minnesota Lynx",
+      "league": "WNBA",
+      "confidence": "HIGH",
+      "predicted": 187.1,
+      "actual": 162,
+      "error": -25.1,
+      "recommended": "UNDER",
+      "outcome": "UNDER",
+      "hit": true
+    },
+    {
+      "date": "2026-07-22",
+      "game": "New York Liberty vs Chicago Sky",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 185.3,
+      "actual": 189,
+      "error": 3.7,
+      "recommended": "UNDER",
+      "outcome": "OVER",
+      "hit": false
+    },
+    {
+      "date": "2026-07-22",
+      "game": "Washington Mystics vs Las Vegas Aces",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 167.5,
+      "actual": 199,
+      "error": 31.5,
+      "recommended": "UNDER",
+      "outcome": "OVER",
+      "hit": false
+    },
+    {
+      "date": "2026-07-22",
+      "game": "Los Angeles Sparks vs Phoenix Mercury",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 180.2,
+      "actual": 168,
+      "error": -12.2,
+      "recommended": "UNDER",
+      "outcome": "UNDER",
+      "hit": true
+    },
+    {
+      "date": "2026-07-21",
+      "game": "Seattle Storm vs Minnesota Lynx",
+      "league": "WNBA",
+      "confidence": "MEDIUM",
+      "predicted": 183.7,
+      "actual": 162,
+      "error": -21.7,
+      "recommended": "UNDER",
+      "outcome": "UNDER",
+      "hit": true
+    },
     {
       "date": "2026-07-19",
       "game": "Golden State Valkyries vs Washington Mystics",
@@ -84,66 +149,6 @@
       "recommended": "UNDER",
       "outcome": "UNDER",
       "hit": true
-    },
-    {
-      "date": "2026-07-17",
-      "game": "Dallas Wings vs New York Liberty",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 180.4,
-      "actual": 197,
-      "error": 16.6,
-      "recommended": "UNDER",
-      "outcome": "OVER",
-      "hit": false
-    },
-    {
-      "date": "2026-07-17",
-      "game": "Chicago Sky vs Los Angeles Sparks",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 187.0,
-      "actual": 178,
-      "error": -9.0,
-      "recommended": "UNDER",
-      "outcome": "UNDER",
-      "hit": true
-    },
-    {
-      "date": "2026-07-17",
-      "game": "Toronto Tempo vs Atlanta Dream",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 181.7,
-      "actual": 203,
-      "error": 21.3,
-      "recommended": "UNDER",
-      "outcome": "OVER",
-      "hit": false
-    },
-    {
-      "date": "2026-07-17",
-      "game": "Indiana Fever vs Seattle Storm",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 180.7,
-      "actual": 217,
-      "error": 36.3,
-      "recommended": "UNDER",
-      "outcome": "OVER",
-      "hit": false
-    },
-    {
-      "date": "2026-07-16",
-      "game": "Washington Mystics vs Portland Fire",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 170.6,
-      "actual": 131,
-      "error": -39.6,
-      "recommended": "OVER",
-      "outcome": "UNDER",
-      "hit": false
     }
   ]
 }
