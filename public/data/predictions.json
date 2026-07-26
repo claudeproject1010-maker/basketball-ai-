@@ -1,39 +1,12 @@
 {
-  "generated_at": "2026-07-25T14:27:36.484912+00:00",
-  "total_games_analysed": 1,
+  "generated_at": "2026-07-26T07:33:46.358788+00:00",
+  "total_games_analysed": 0,
   "games_skipped_final": 0,
-  "games_with_no_history": 1,
+  "games_with_no_history": 0,
   "by_confidence": {
     "HIGH": 0,
     "MEDIUM": 0,
-    "LOW": 1
+    "LOW": 0
   },
-  "top_predictions": [
-    {
-      "league": "WNBA",
-      "game": "TEAM COOP vs TEAM SPOON",
-      "home_team": "TEAM COOP",
-      "away_team": "TEAM SPOON",
-      "date": "2026-07-26",
-      "time_utc": "2026-07-26T00:30Z",
-      "predicted_total": 164.0,
-      "league_baseline": 162,
-      "edge": 2.0,
-      "over_probability": 0.45,
-      "under_probability": 0.55,
-      "confidence": "LOW",
-      "home_avg_scored": null,
-      "away_avg_scored": null,
-      "home_avg_allowed": null,
-      "away_avg_allowed": null,
-      "home_avg_total": null,
-      "away_avg_total": null,
-      "home_games_used": 0,
-      "away_games_used": 0,
-      "home_trend": 1.0,
-      "away_trend": 1.0,
-      "source": "espn_wnba",
-      "venue": "United Center"
-    }
-  ]
+  "top_predictions": []
 }
