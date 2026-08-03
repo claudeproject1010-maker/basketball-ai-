@@ -1,67 +1,11 @@
 {
-  "collected_at": "2026-08-02T14:23:40.009547+00:00",
+  "collected_at": "2026-08-03T08:24:06.679276+00:00",
   "dates": [
-    "2026-08-02",
-    "2026-08-03"
+    "2026-08-03",
+    "2026-08-04"
   ],
-  "total_games": 7,
+  "total_games": 4,
   "games": [
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Minnesota Lynx",
-      "away_team": "Indiana Fever",
-      "home_team_id": "8",
-      "away_team_id": "5",
-      "date": "2026-08-02",
-      "time_utc": "2026-08-02T17:00Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "Target Center"
-    },
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Portland Fire",
-      "away_team": "Los Angeles Sparks",
-      "home_team_id": "132052",
-      "away_team_id": "6",
-      "date": "2026-08-02",
-      "time_utc": "2026-08-02T19:30Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "Moda Center"
-    },
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Dallas Wings",
-      "away_team": "Connecticut Sun",
-      "home_team_id": "3",
-      "away_team_id": "18",
-      "date": "2026-08-02",
-      "time_utc": "2026-08-02T23:00Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "College Park Center"
-    },
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Golden State Valkyries",
-      "away_team": "Toronto Tempo",
-      "home_team_id": "129689",
-      "away_team_id": "131935",
-      "date": "2026-08-03",
-      "time_utc": "2026-08-03T00:30Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "Chase Center"
-    },
     {
       "source": "espn_wnba",
       "league": "WNBA",
@@ -103,11 +47,26 @@
       "home_score": null,
       "away_score": null,
       "venue": "Wintrust Arena"
+    },
+    {
+      "source": "espn_wnba",
+      "league": "WNBA",
+      "home_team": "Golden State Valkyries",
+      "away_team": "Toronto Tempo",
+      "home_team_id": "129689",
+      "away_team_id": "131935",
+      "date": "2026-08-05",
+      "time_utc": "2026-08-05T02:00Z",
+      "status": "STATUS_SCHEDULED",
+      "home_score": null,
+      "away_score": null,
+      "venue": "Chase Center"
     }
   ],
   "source_errors": [
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-02",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-03",
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-04",
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-02",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-01",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-31",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-30",
@@ -136,7 +95,6 @@
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-07",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-06",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-05",
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-04",
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-03"
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-04"
   ]
 }
