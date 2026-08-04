@@ -1,9 +1,9 @@
 {
-  "computed_at": "2026-08-03T15:38:36.803738+00:00",
-  "total_scored": 50,
-  "total_hits": 30,
-  "overall_hit_rate": 60.0,
-  "avg_abs_error": 18.0,
+  "computed_at": "2026-08-04T07:35:00.987216+00:00",
+  "total_scored": 52,
+  "total_hits": 31,
+  "overall_hit_rate": 59.6,
+  "avg_abs_error": 17.8,
   "recent_20_hit_rate": 55.0,
   "by_confidence": {
     "HIGH": {
@@ -17,19 +17,43 @@
       "hit_rate": 100.0
     },
     "LOW": {
-      "total": 46,
-      "hits": 26,
-      "hit_rate": 56.5
+      "total": 48,
+      "hits": 27,
+      "hit_rate": 56.2
     }
   },
   "by_league": {
     "WNBA": {
-      "total": 50,
-      "hits": 30,
-      "hit_rate": 60.0
+      "total": 52,
+      "hits": 31,
+      "hit_rate": 59.6
     }
   },
   "last_10_results": [
+    {
+      "date": "2026-08-03",
+      "game": "New York Liberty vs Seattle Storm",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 189.0,
+      "actual": 178,
+      "error": -11.0,
+      "recommended": "UNDER",
+      "outcome": "UNDER",
+      "hit": true
+    },
+    {
+      "date": "2026-08-03",
+      "game": "Atlanta Dream vs Las Vegas Aces",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 182.7,
+      "actual": 196,
+      "error": 13.3,
+      "recommended": "UNDER",
+      "outcome": "OVER",
+      "hit": false
+    },
     {
       "date": "2026-08-02",
       "game": "Dallas Wings vs Connecticut Sun",
@@ -122,30 +146,6 @@
       "predicted": 167.0,
       "actual": 176,
       "error": 9.0,
-      "recommended": "UNDER",
-      "outcome": "OVER",
-      "hit": false
-    },
-    {
-      "date": "2026-07-22",
-      "game": "Seattle Storm vs Minnesota Lynx",
-      "league": "WNBA",
-      "confidence": "HIGH",
-      "predicted": 187.1,
-      "actual": 162,
-      "error": -25.1,
-      "recommended": "UNDER",
-      "outcome": "UNDER",
-      "hit": true
-    },
-    {
-      "date": "2026-07-22",
-      "game": "New York Liberty vs Chicago Sky",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 185.3,
-      "actual": 189,
-      "error": 3.7,
       "recommended": "UNDER",
       "outcome": "OVER",
       "hit": false
