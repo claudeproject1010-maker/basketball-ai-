@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-08-04T15:19:21.669246+00:00",
-  "total_scored": 52,
+  "computed_at": "2026-08-05T07:36:45.509603+00:00",
+  "total_scored": 53,
   "total_hits": 31,
-  "overall_hit_rate": 59.6,
-  "avg_abs_error": 17.8,
-  "recent_20_hit_rate": 55.0,
+  "overall_hit_rate": 58.5,
+  "avg_abs_error": 17.5,
+  "recent_20_hit_rate": 50.0,
   "by_confidence": {
     "HIGH": {
       "total": 1,
@@ -12,9 +12,9 @@
       "hit_rate": 100.0
     },
     "MEDIUM": {
-      "total": 3,
+      "total": 4,
       "hits": 3,
-      "hit_rate": 100.0
+      "hit_rate": 75.0
     },
     "LOW": {
       "total": 48,
@@ -24,12 +24,24 @@
   },
   "by_league": {
     "WNBA": {
-      "total": 52,
+      "total": 53,
       "hits": 31,
-      "hit_rate": 59.6
+      "hit_rate": 58.5
     }
   },
   "last_10_results": [
+    {
+      "date": "2026-08-03",
+      "game": "Golden State Valkyries vs Toronto Tempo",
+      "league": "WNBA",
+      "confidence": "MEDIUM",
+      "predicted": 171.1,
+      "actual": 173,
+      "error": 1.9,
+      "recommended": "UNDER",
+      "outcome": "OVER",
+      "hit": false
+    },
     {
       "date": "2026-08-03",
       "game": "New York Liberty vs Seattle Storm",
@@ -137,18 +149,6 @@
       "recommended": "UNDER",
       "outcome": "UNDER",
       "hit": true
-    },
-    {
-      "date": "2026-07-28",
-      "game": "Washington Mystics vs Connecticut Sun",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 167.0,
-      "actual": 176,
-      "error": 9.0,
-      "recommended": "UNDER",
-      "outcome": "OVER",
-      "hit": false
     }
   ]
 }
