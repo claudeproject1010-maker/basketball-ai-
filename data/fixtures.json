@@ -1,53 +1,11 @@
 {
-  "collected_at": "2026-08-08T13:37:47.512012+00:00",
+  "collected_at": "2026-08-09T05:43:07.188411+00:00",
   "dates": [
-    "2026-08-08",
-    "2026-08-09"
+    "2026-08-09",
+    "2026-08-10"
   ],
-  "total_games": 7,
+  "total_games": 6,
   "games": [
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Minnesota Lynx",
-      "away_team": "Las Vegas Aces",
-      "home_team_id": "8",
-      "away_team_id": "17",
-      "date": "2026-08-08",
-      "time_utc": "2026-08-08T17:00Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "Target Center"
-    },
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Chicago Sky",
-      "away_team": "Indiana Fever",
-      "home_team_id": "19",
-      "away_team_id": "5",
-      "date": "2026-08-08",
-      "time_utc": "2026-08-08T19:30Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "United Center"
-    },
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Portland Fire",
-      "away_team": "Seattle Storm",
-      "home_team_id": "132052",
-      "away_team_id": "14",
-      "date": "2026-08-09",
-      "time_utc": "2026-08-09T00:30Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "Moda Center"
-    },
     {
       "source": "espn_wnba",
       "league": "WNBA",
@@ -103,11 +61,40 @@
       "home_score": null,
       "away_score": null,
       "venue": "crypto.com Arena"
+    },
+    {
+      "source": "espn_wnba",
+      "league": "WNBA",
+      "home_team": "Atlanta Dream",
+      "away_team": "Toronto Tempo",
+      "home_team_id": "20",
+      "away_team_id": "131935",
+      "date": "2026-08-11",
+      "time_utc": "2026-08-11T00:00Z",
+      "status": "STATUS_SCHEDULED",
+      "home_score": null,
+      "away_score": null,
+      "venue": "Gateway Center"
+    },
+    {
+      "source": "espn_wnba",
+      "league": "WNBA",
+      "home_team": "Seattle Storm",
+      "away_team": "Chicago Sky",
+      "home_team_id": "14",
+      "away_team_id": "19",
+      "date": "2026-08-11",
+      "time_utc": "2026-08-11T02:00Z",
+      "status": "STATUS_SCHEDULED",
+      "home_score": null,
+      "away_score": null,
+      "venue": "Climate Pledge Arena"
     }
   ],
   "source_errors": [
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-08",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-09",
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-10",
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-08",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-07",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-06",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-05",
@@ -136,7 +123,6 @@
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-13",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-12",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-11",
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-10",
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-09"
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-10"
   ]
 }
