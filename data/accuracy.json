@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-08-11T14:13:42.084036+00:00",
-  "total_scored": 65,
-  "total_hits": 40,
-  "overall_hit_rate": 61.5,
-  "avg_abs_error": 16.7,
-  "recent_20_hit_rate": 60.0,
+  "computed_at": "2026-08-12T06:10:22.969307+00:00",
+  "total_scored": 67,
+  "total_hits": 41,
+  "overall_hit_rate": 61.2,
+  "avg_abs_error": 16.6,
+  "recent_20_hit_rate": 65.0,
   "by_confidence": {
     "HIGH": {
       "total": 1,
@@ -17,19 +17,31 @@
       "hit_rate": 83.3
     },
     "LOW": {
-      "total": 58,
-      "hits": 34,
-      "hit_rate": 58.6
+      "total": 60,
+      "hits": 35,
+      "hit_rate": 58.3
     }
   },
   "by_league": {
     "WNBA": {
-      "total": 65,
-      "hits": 40,
-      "hit_rate": 61.5
+      "total": 67,
+      "hits": 41,
+      "hit_rate": 61.2
     }
   },
   "last_10_results": [
+    {
+      "date": "2026-08-11",
+      "game": "Indiana Fever vs New York Liberty",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 191.3,
+      "actual": 198,
+      "error": 6.7,
+      "recommended": "OVER",
+      "outcome": "OVER",
+      "hit": true
+    },
     {
       "date": "2026-08-09",
       "game": "Los Angeles Sparks vs Golden State Valkyries",
@@ -134,18 +146,6 @@
       "predicted": 193.3,
       "actual": 170,
       "error": -23.3,
-      "recommended": "UNDER",
-      "outcome": "UNDER",
-      "hit": true
-    },
-    {
-      "date": "2026-08-05",
-      "game": "Atlanta Dream vs Phoenix Mercury",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 182.7,
-      "actual": 178,
-      "error": -4.7,
       "recommended": "UNDER",
       "outcome": "UNDER",
       "hit": true
