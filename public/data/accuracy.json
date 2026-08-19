@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-08-18T13:36:04.314389+00:00",
-  "total_scored": 77,
+  "computed_at": "2026-08-19T05:25:55.267915+00:00",
+  "total_scored": 79,
   "total_hits": 46,
-  "overall_hit_rate": 59.7,
-  "avg_abs_error": 16.3,
-  "recent_20_hit_rate": 65.0,
+  "overall_hit_rate": 58.2,
+  "avg_abs_error": 16.1,
+  "recent_20_hit_rate": 55.0,
   "by_confidence": {
     "HIGH": {
       "total": 1,
@@ -17,19 +17,43 @@
       "hit_rate": 85.7
     },
     "LOW": {
-      "total": 69,
+      "total": 71,
       "hits": 39,
-      "hit_rate": 56.5
+      "hit_rate": 54.9
     }
   },
   "by_league": {
     "WNBA": {
-      "total": 77,
+      "total": 79,
       "hits": 46,
-      "hit_rate": 59.7
+      "hit_rate": 58.2
     }
   },
   "last_10_results": [
+    {
+      "date": "2026-08-18",
+      "game": "Toronto Tempo vs Indiana Fever",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 190.2,
+      "actual": 196,
+      "error": 5.8,
+      "recommended": "UNDER",
+      "outcome": "OVER",
+      "hit": false
+    },
+    {
+      "date": "2026-08-18",
+      "game": "Connecticut Sun vs Los Angeles Sparks",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 171.9,
+      "actual": 162,
+      "error": -9.9,
+      "recommended": "OVER",
+      "outcome": "UNDER",
+      "hit": false
+    },
     {
       "date": "2026-08-16",
       "game": "Atlanta Dream vs Indiana Fever",
@@ -124,30 +148,6 @@
       "error": -17.6,
       "recommended": "UNDER",
       "outcome": "UNDER",
-      "hit": true
-    },
-    {
-      "date": "2026-08-11",
-      "game": "Seattle Storm vs Chicago Sky",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 187.5,
-      "actual": 162,
-      "error": -25.5,
-      "recommended": "UNDER",
-      "outcome": "UNDER",
-      "hit": true
-    },
-    {
-      "date": "2026-08-11",
-      "game": "Indiana Fever vs New York Liberty",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 191.3,
-      "actual": 198,
-      "error": 6.7,
-      "recommended": "OVER",
-      "outcome": "OVER",
       "hit": true
     }
   ]
