@@ -1,53 +1,11 @@
 {
-  "collected_at": "2026-08-20T13:38:19.353414+00:00",
+  "collected_at": "2026-08-21T05:26:57.490712+00:00",
   "dates": [
-    "2026-08-20",
-    "2026-08-21"
+    "2026-08-21",
+    "2026-08-22"
   ],
-  "total_games": 6,
+  "total_games": 8,
   "games": [
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Dallas Wings",
-      "away_team": "Indiana Fever",
-      "home_team_id": "3",
-      "away_team_id": "5",
-      "date": "2026-08-21",
-      "time_utc": "2026-08-21T00:00Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "American Airlines Center"
-    },
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Las Vegas Aces",
-      "away_team": "Connecticut Sun",
-      "home_team_id": "17",
-      "away_team_id": "18",
-      "date": "2026-08-21",
-      "time_utc": "2026-08-21T02:00Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "Michelob ULTRA Arena"
-    },
-    {
-      "source": "espn_wnba",
-      "league": "WNBA",
-      "home_team": "Los Angeles Sparks",
-      "away_team": "Atlanta Dream",
-      "home_team_id": "6",
-      "away_team_id": "20",
-      "date": "2026-08-21",
-      "time_utc": "2026-08-21T02:00Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": "crypto.com Arena"
-    },
     {
       "source": "espn_wnba",
       "league": "WNBA",
@@ -89,11 +47,82 @@
       "home_score": null,
       "away_score": null,
       "venue": "Rogers Arena"
+    },
+    {
+      "source": "espn_wnba",
+      "league": "WNBA",
+      "home_team": "New York Liberty",
+      "away_team": "Indiana Fever",
+      "home_team_id": "9",
+      "away_team_id": "5",
+      "date": "2026-08-22",
+      "time_utc": "2026-08-22T23:00Z",
+      "status": "STATUS_SCHEDULED",
+      "home_score": null,
+      "away_score": null,
+      "venue": "Barclays Center"
+    },
+    {
+      "source": "espn_wnba",
+      "league": "WNBA",
+      "home_team": "Los Angeles Sparks",
+      "away_team": "Connecticut Sun",
+      "home_team_id": "6",
+      "away_team_id": "18",
+      "date": "2026-08-23",
+      "time_utc": "2026-08-23T01:00Z",
+      "status": "STATUS_SCHEDULED",
+      "home_score": null,
+      "away_score": null,
+      "venue": "crypto.com Arena"
+    },
+    {
+      "source": "espn_wnba",
+      "league": "WNBA",
+      "home_team": "Phoenix Mercury",
+      "away_team": "Atlanta Dream",
+      "home_team_id": "11",
+      "away_team_id": "20",
+      "date": "2026-08-23",
+      "time_utc": "2026-08-23T02:00Z",
+      "status": "STATUS_SCHEDULED",
+      "home_score": null,
+      "away_score": null,
+      "venue": "Mortgage Matchup Center"
+    },
+    {
+      "source": "espn_nbl",
+      "league": "NBL",
+      "home_team": "Perth Wildcats",
+      "away_team": "Cairns Taipans",
+      "home_team_id": "7",
+      "away_team_id": "3",
+      "date": "2026-08-22",
+      "time_utc": "2026-08-22T04:00Z",
+      "status": "STATUS_SCHEDULED",
+      "home_score": null,
+      "away_score": null,
+      "venue": ""
+    },
+    {
+      "source": "espn_nbl",
+      "league": "NBL",
+      "home_team": "South East Melbourne Phoenix",
+      "away_team": "Melbourne United",
+      "home_team_id": "8",
+      "away_team_id": "5",
+      "date": "2026-08-22",
+      "time_utc": "2026-08-22T09:00Z",
+      "status": "STATUS_SCHEDULED",
+      "home_score": null,
+      "away_score": null,
+      "venue": ""
     }
   ],
   "source_errors": [
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-20",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-21",
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-22",
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-20",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-19",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-18",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-17",
@@ -122,7 +151,6 @@
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-25",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-24",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-23",
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-22",
-    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-21"
+    "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-07-22"
   ]
 }
