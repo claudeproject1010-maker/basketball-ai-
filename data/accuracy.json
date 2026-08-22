@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-08-21T13:38:26.640900+00:00",
-  "total_scored": 80,
-  "total_hits": 47,
-  "overall_hit_rate": 58.8,
+  "computed_at": "2026-08-22T05:23:14.336999+00:00",
+  "total_scored": 82,
+  "total_hits": 48,
+  "overall_hit_rate": 58.5,
   "avg_abs_error": 15.9,
-  "recent_20_hit_rate": 55.0,
+  "recent_20_hit_rate": 50.0,
   "by_confidence": {
     "HIGH": {
       "total": 1,
@@ -17,19 +17,43 @@
       "hit_rate": 85.7
     },
     "LOW": {
-      "total": 72,
-      "hits": 40,
-      "hit_rate": 55.6
+      "total": 74,
+      "hits": 41,
+      "hit_rate": 55.4
     }
   },
   "by_league": {
     "WNBA": {
-      "total": 80,
-      "hits": 47,
-      "hit_rate": 58.8
+      "total": 82,
+      "hits": 48,
+      "hit_rate": 58.5
     }
   },
   "last_10_results": [
+    {
+      "date": "2026-08-21",
+      "game": "Chicago Sky vs Golden State Valkyries",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 169.4,
+      "actual": 143,
+      "error": -26.4,
+      "recommended": "OVER",
+      "outcome": "UNDER",
+      "hit": false
+    },
+    {
+      "date": "2026-08-21",
+      "game": "Washington Mystics vs Minnesota Lynx",
+      "league": "WNBA",
+      "confidence": "LOW",
+      "predicted": 171.8,
+      "actual": 178,
+      "error": 6.2,
+      "recommended": "OVER",
+      "outcome": "OVER",
+      "hit": true
+    },
     {
       "date": "2026-08-19",
       "game": "Washington Mystics vs Toronto Tempo",
@@ -122,30 +146,6 @@
       "predicted": 174.1,
       "actual": 150,
       "error": -24.1,
-      "recommended": "OVER",
-      "outcome": "UNDER",
-      "hit": false
-    },
-    {
-      "date": "2026-08-14",
-      "game": "Indiana Fever vs Dallas Wings",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 186.6,
-      "actual": 185,
-      "error": -1.6,
-      "recommended": "UNDER",
-      "outcome": "UNDER",
-      "hit": true
-    },
-    {
-      "date": "2026-08-13",
-      "game": "Connecticut Sun vs Atlanta Dream",
-      "league": "WNBA",
-      "confidence": "LOW",
-      "predicted": 175.4,
-      "actual": 173,
-      "error": -2.4,
       "recommended": "OVER",
       "outcome": "UNDER",
       "hit": false
