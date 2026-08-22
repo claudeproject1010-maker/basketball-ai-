@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-08-22T05:21:39.976867+00:00",
+  "collected_at": "2026-08-22T13:24:01.699198+00:00",
   "dates": [
     "2026-08-22",
     "2026-08-23"
   ],
-  "total_games": 9,
+  "total_games": 7,
   "games": [
     {
       "source": "espn_wnba",
@@ -103,37 +103,10 @@
       "home_score": null,
       "away_score": null,
       "venue": "Rogers Arena"
-    },
-    {
-      "source": "espn_nbl",
-      "league": "NBL",
-      "home_team": "Perth Wildcats",
-      "away_team": "Cairns Taipans",
-      "home_team_id": "7",
-      "away_team_id": "3",
-      "date": "2026-08-22",
-      "time_utc": "2026-08-22T04:00Z",
-      "status": "STATUS_IN_PROGRESS",
-      "home_score": null,
-      "away_score": null,
-      "venue": ""
-    },
-    {
-      "source": "espn_nbl",
-      "league": "NBL",
-      "home_team": "South East Melbourne Phoenix",
-      "away_team": "Melbourne United",
-      "home_team_id": "8",
-      "away_team_id": "5",
-      "date": "2026-08-22",
-      "time_utc": "2026-08-22T09:00Z",
-      "status": "STATUS_SCHEDULED",
-      "home_score": null,
-      "away_score": null,
-      "venue": ""
     }
   ],
   "source_errors": [
+    "ESPN TimeoutError \u2014 https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboar",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-22",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-23",
     "Sofascore HTTP 403 \u2014 https://www.sofascore.com/api/v1/sport/basketball/scheduled-events/2026-08-21",
